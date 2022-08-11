@@ -1,0 +1,53 @@
+$forestgreen: hsla(121, 41%, 34%, 0.263);
+$outdoorsgreen: rgb(39, 131, 70);
+$info: $forestgreen;
+$warning: $outdoorsgreen;
+
+
+@import '~bulma/bulma.sass';
+@import 'bulma';
+
+
+Body
+html,
+body {
+  overflow-x: hidden;
+}
+
+// Navbar
+.navbar {
+  height: 15vh;
+}
+
+// Hero
+
+.hero {
+    min-height: 70vh;
+}
+
+.hero.is-success .title {
+  color: black
+}
+
+
+.columns .button {
+  justify-content: baseline;
+}
+
+// Footer
+
+.footer {
+  height: 15vh;
+  background-color: $outdoorsgreen;
+}
+
+
+
+
+.hero-background {
+  background-image: url(../assets/images/familyBackgroundImage.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
