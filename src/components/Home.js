@@ -3,7 +3,10 @@ import React from 'react';
 const Home = () => {
   return (
     <section className="hero is-success hero-background full-height">
-      <div className="columns has-text-centered">
+      <div
+        className="columns
+ has-text-centered"
+      >
         <div className="column">
           <button className="button is-success">Why choose Mediation?</button>
         </div>

@@ -22,6 +22,10 @@ body {
 // Hero
 
 .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  
     min-height: 70vh;
 }
 
@@ -31,7 +35,10 @@ body {
 
 
 .columns .button {
-  justify-content: baseline;
+  margin-bottom: 5vh;
+  height: 8vw;
+  width: auto ;
+  padding: 40px
 }
 
 // Footer
