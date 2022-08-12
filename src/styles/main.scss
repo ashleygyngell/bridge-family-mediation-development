@@ -3,20 +3,24 @@ $outdoorsgreen: rgb(39, 131, 70);
 $info: $forestgreen;
 $warning: $outdoorsgreen;
 
-
 @import '~bulma/bulma.sass';
 @import 'bulma';
 
 
-Body
+
 html,
 body {
   overflow-x: hidden;
 }
 
+// page content fills 100vh minus the footer and navbar
+.full-height-content {
+  min-height: calc(100vh - 8vh - 5vh);
+}
+
 // Navbar
 .navbar {
-  height: 15vh;
+  height: 8vh;
 }
 
 // Hero
@@ -26,13 +30,19 @@ body {
   flex-direction: column;
   justify-content: end;
   
-    min-height: 70vh;
+    min-height: 80vh;
 }
 
 .hero.is-success .title {
   color: black
 }
 
+.hero-background {
+  background-image: url(../assets/images/familyBackgroundImage.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .columns .button {
   margin-bottom: 5vh;
@@ -44,17 +54,64 @@ body {
 // Footer
 
 .footer {
-  height: 15vh;
+  height: 5vh;
   background-color: $outdoorsgreen;
+  
+}
+
+.footer .level-item {
+  display: flex;
+background-color: blue;
+
 }
 
 
 
 
-.hero-background {
-  background-image: url(../assets/images/familyBackgroundImage.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+
+
+.column  .is-narrow {
+  height: 100%; 
+  width: 1px; 
+  border-left: 2px solid #3665F3
 }
 
+// FAQ's
+
+.accordion {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+
+  details:first-child {
+    border-top: 1px solid grey;
+  }
+
+  details {
+    border-bottom: 1px solid grey;
+    padding: 10px 0;
+
+    summary {
+      padding: 7px 0 4px 0;
+      cursor: pointer;
+      font-weight: bold;
+
+      span {
+        margin-left: 8px;
+      }
+    }
+
+    summary::marker {
+      margin-right: 20px !important;
+      left: -20px;
+    }
+
+    .answer {
+      padding: 20px 0 0 0;
+
+      p:last-child {
+        padding-bottom: 6px;
+      }
+    }
+  }
+}
