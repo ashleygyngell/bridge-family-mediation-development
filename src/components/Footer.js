@@ -5,7 +5,7 @@ import fmcLogo from '../assets/logos/fmcLogo.jpg';
 const Footer = () => {
   return (
     <footer className="footer level has-text-centered ">
-      <div className="level-left column pt-5 ">
+      <div className="level-left column is-1">
         <div className="level-item">
           <a href="https://thefma.co.uk/" target="_blank" rel="noreferrer">
             <img src={fmaLogo} alt="FMA Logo" />
@@ -28,7 +28,7 @@ const Footer = () => {
       </div>
 
       <div className="level-right">
-        <div className="level-item">
+        <div className="level-item ">
           <a href="#top" className="level-item is-size-6 has-text-black">
             <span>Return to top </span>
             <span className="icon">

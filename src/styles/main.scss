@@ -1,5 +1,5 @@
-$forestgreen: hsla(121, 41%, 34%, 0.263);
-$outdoorsgreen: rgb(39, 131, 70);
+$forestgreen: #567D04;
+$outdoorsgreen: rgb(88, 189, 122);
 $info: $forestgreen;
 $warning: $outdoorsgreen;
 
@@ -7,30 +7,82 @@ $warning: $outdoorsgreen;
 @import 'bulma';
 
 
-
 html,
-body {
-  overflow-x: hidden;
+body, button {
+font-family: 'Jost', sans-serif;
 }
 
-// page content fills 100vh minus the footer and navbar
-.full-height-content {
-  min-height: calc(100vh - 8vh - 5vh);
-}
+
 
 // Navbar
 .navbar {
-  height: 8vh;
+  height: 10vh;
+  background-color: $outdoorsgreen;
+  color: white 
 }
 
+#navbar-item:hover {
+  color:black
+}
+
+#navbar-item:focus  {
+  color: black
+}
+
+.navbar-item {
+  color: white
+}
+
+.navbar-item img {
+  display: flex;
+  padding-top: 0px;
+  max-height: fit-content;
+  height: 60px
+}
+
+// Title 
+.title {
+  text-align: center;
+  color: white;
+  height: 10vh;
+  background-color: $outdoorsgreen;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-weight: 300;
+  padding-top: 10px;
+  margin-bottom: -24px;
+  font-size: 5vh;
+}
+
+.title span {
+  color: black
+}
 // Hero
+
+// to fix hero navbar section
+.tabs:not(:last-child),
+.pagination:not(:last-child),
+.message:not(:last-child),
+.level:not(:last-child),
+.breadcrumb:not(:last-child),
+.block:not(:last-child),
+.title:not(:last-child),
+.subtitle:not(:last-child),
+.table-container:not(:last-child),
+.table:not(:last-child),
+.progress:not(:last-child),
+.notification:not(:last-child),
+.content:not(:last-child),
+.box:not(:last-child) {
+  margin-bottom: 0rem;
+}
 
 .hero {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  
-    min-height: 80vh;
+  min-height: 70vh;
 }
 
 .hero.is-success .title {
@@ -38,39 +90,43 @@ body {
 }
 
 .hero-background {
-  background-image: url(../assets/images/familyBackgroundImage.png);
+  background-image: url(../assets/images/familyBackgroundImage.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .columns .button {
+  margin-top: 20px;
   margin-bottom: 5vh;
   height: 8vw;
   width: auto ;
-  padding: 40px
+  padding: 40px;
+  // border: 2px solid black;
 }
 
 // Footer
 
 .footer {
-  height: 5vh;
-  background-color: $outdoorsgreen;
-  
-}
-
-.footer .level-item {
   display: flex;
-background-color: blue;
+  flex-direction: row;
+  height: 8vh;
+  background-color: $outdoorsgreen;
+    font-size: .8em;
+      padding: 10px;
+      overflow: inherit;
+}
+
+.footer img {
+max-height: fit-content;
+height: 40px;
 
 }
 
 
 
 
-
-
-.column  .is-narrow {
+.column .is-narrow {
   height: 100%; 
   width: 1px; 
   border-left: 2px solid #3665F3
@@ -113,5 +169,22 @@ background-color: blue;
         padding-bottom: 6px;
       }
     }
+  }
+}
+
+.fadeInOnLoad {
+  animation: fadeIn 1s ease backwards;
+  animation-delay: .5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: translate(0px, 0px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0px, 0);
+    opacity: 1;
   }
 }
