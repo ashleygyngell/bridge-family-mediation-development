@@ -3,6 +3,11 @@ import { Link } from 'react-router-dom';
 import bfmLogo2 from '../assets/logos/bfmLogo2.png';
 
 const Navbar = () => {
+  const [openBurger, setOpenBurger] = React.useState(false);
+
+  const toggleBurgerMenu = () => {
+    setOpenBurger(!openBurger);
+  };
   return (
     <nav className="navbar is-transparent">
       <div className="navbar-brand">
@@ -14,33 +19,41 @@ const Navbar = () => {
           />
           <span className="ml-1"> </span>
         </Link>
-      </div>
-
-      <div className="navbar-end">
-        <Link to={'/referralform'} className="navbar-item">
-          <button className="button is-info">
-            <p className=""> Referral Form</p>
-          </button>
-        </Link>
-        <Link to={'/faqs'} className="navbar-item" id="navbar-item">
-          FAQs
-        </Link>
-        <Link to={'/about'} className="navbar-item" id="navbar-item">
-          About Us
-        </Link>
-
-        <Link to={'/contact'} className="navbar-item" id="navbar-item">
-          Contact Us
-        </Link>
+        <a
+          role="button"
+          className="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBurgerOpen"
+          onClick={toggleBurgerMenu}
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
       </div>
 
       <div
-        className="navbar-burger burger"
-        data-target="navbarExampleTransparentExample"
+        id="navbarBurgerOpen"
+        className={openBurger ? 'navbar-menu is-active' : 'navbar-menu'}
       >
-        <span></span>
-        <span></span>
-        <span></span>
+        <div className="navbar-end">
+          <Link to={'/referralform'} className="navbar-item">
+            <button className="button is-info">
+              <p className=""> Referral Form</p>
+            </button>
+          </Link>
+          <Link to={'/faqs'} className="navbar-item " id="navbar-item">
+            FAQs
+          </Link>
+          <Link to={'/about'} className="navbar-item" id="navbar-item">
+            About Us
+          </Link>
+
+          <Link to={'/contact'} className="navbar-item" id="navbar-item">
+            Contact Us
+          </Link>
+        </div>
       </div>
     </nav>
   );

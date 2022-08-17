@@ -12,11 +12,18 @@ body, button {
 font-family: 'Jost', sans-serif;
 }
 
+body {
+  display: flex;
+  min-height: 82vh;
+  flex-direction: column;
+}
+
+
 // 
 
 // Navbar
 .navbar {
-  height: 11vh;
+  height: 10vh;
   background-color: $outdoorsgreen;
   color: white 
 }
@@ -90,7 +97,7 @@ font-family: 'Jost', sans-serif;
 }
 
 .hero-background {
-  background-image: url(../assets/images/familyBackgroundImage.jpg);
+  background-image: url(../assets/images/talkingBackground.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -105,12 +112,15 @@ font-family: 'Jost', sans-serif;
   // border: 2px solid black;
 }
 
+// About
+
+
 // Footer
 
 .footer {
   display: flex;
   flex-direction: row;
-  height: 8vh;
+  height: 10vh;
   background-color: $outdoorsgreen;
     font-size: .8em;
       padding: 10px;
