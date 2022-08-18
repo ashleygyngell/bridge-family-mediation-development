@@ -2,11 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const About = () => {
+  // After meeting today, the plan is for there to be a block of all mediators and then once you have clicked through you are taken to the individual page with a full breakdown of the mediator. Phone link and email neccesary. Need a bigger return button.
   return (
     <>
       <body>
         <div className="columns ml-5 mr-5 pt-6">
-          {/* Person 1 */}
+          {/* Mediator 1 */}
           <div className="column">
             <div className="card">
               <div className="card-image">
@@ -20,11 +21,11 @@ const About = () => {
                 </Link>
               </div>
 
-              <div className="card-content">
+              <div className="card-content mb-6">
                 <Link to={'/katebrown'}>
                   <div className="media">
                     <div className="media-content has-text-centered">
-                      <p className="title is-4">Kate Brown</p>
+                      <p className="title is-5">Kate Brown</p>
                       <p className="subtitle is-6">
                         Balham | Barnes | Battersea{' '}
                       </p>
@@ -45,114 +46,110 @@ const About = () => {
             </div>
           </div>
 
-          {/* Person 2 */}
+          {/* Mediator 2 */}
           <div className="column">
             <div className="card">
               <div className="card-image">
-                <figure className="image is-2by2">
-                  <img
-                    src="https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png"
-                    alt="Placeholder image"
-                  />
-                </figure>
+                <Link to={'/kathleenstraub'}>
+                  <figure className="image is-2by2">
+                    <img
+                      src="https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png"
+                      alt="Placeholder image"
+                    />
+                  </figure>
+                </Link>
               </div>
-              <div className="card-content">
-                <div className="media">
-                  <div className="media-content has-text-centered">
-                    <p className="title is-4">Kathleen Straub</p>
-                    <p className="subtitle is-6">
-                      Balham | Barnes | Battersea{' '}
-                    </p>
+              <div className="card-content mb-6">
+                <Link to={'/kathleenstraub'}>
+                  <div className="media">
+                    <div className="media-content has-text-centered">
+                      <p className="title is-5">Kathleen Straub</p>
+                      <p className="subtitle is-6">
+                        Balham | Barnes | Battersea{' '}
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div className="content">
+                </Link>
+                <div className="content pt-5">
                   <p>
                     I trained as a Family Mediator with the Family
                     Mediators&#39; Association in 2013 and hold full Family
                     Mediation Council accreditation. I am also a qualified
                     Professional Practice Consultant, supervising other family
-                    mediators in their professional development. I have wide
-                    experience and knowledge of family law, having worked for 20
-                    years as a family solicitor. I now work full time in
-                    mediation, covering all issues, and have particular
-                    experience of dealing with complex cases involving sensitive
-                    issues. I am also qualified to see children within the
-                    mediation process. My approach is to listen, guide and
-                    explore options in a calm and balanced environment.
+                    mediators in their professional development.
                   </p>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Person 3 */}
+          {/* Mediator 3 */}
           <div className="column">
             <div className="card">
               <div className="card-image">
-                <figure className="image is-2by2">
-                  <img
-                    src="https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png"
-                    alt="Placeholder image"
-                  />
-                </figure>
+                <Link to={'/juleswaring'}>
+                  <figure className="image is-2by2">
+                    <img
+                      src="https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png"
+                      alt="Placeholder image"
+                    />
+                  </figure>
+                </Link>
               </div>
-              <div className="card-content">
-                <div className="media">
-                  <div className="media-content has-text-centered">
-                    <p className="title is-4">Jules Waring</p>
-                    <p className="subtitle is-6">
-                      Balham | Barnes | Battersea{' '}
-                    </p>
+              <div className="card-content mb-6">
+                <Link to={'/juleswaring'}>
+                  <div className="media">
+                    <div className="media-content has-text-centered">
+                      <p className="title is-5">Jules Waring</p>
+                      <p className="subtitle is-6">
+                        Balham | Barnes | Battersea{' '}
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div className="content">
+                </Link>
+                <div className="content pt-5">
                   <p>
                     I qualified as a Family Mediator with the Family
                     Mediators&#39; Association in 2017 and feel passionate about
                     helping people solve their family disputes at one of the
-                    most emotionally difficult time of their lives. Like Kate, I
-                    had a career in media for over 30 years before deciding to
-                    train as a family mediator. I&#39;ve been responsible for
-                    running a team and recruiting people, nurturing them through
-                    a pressurised career path and being their support and
-                    mentor. I feel these skills make me a highly empathetic and
-                    successful mediator, where I can draw on my experience to
-                    help families reach amicable and long-lasting solutions.
+                    most emotionally difficult time of their lives.
                   </p>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Person 4 */}
+          {/* Mediator 4 */}
           <div className="column">
             <div className="card">
               <div className="card-image">
-                <figure className="is-2by2">
-                  <img
-                    src="https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png"
-                    alt="Placeholder image"
-                  />
-                </figure>
+                <Link to={'/carolinedunne'}>
+                  <figure className="image is-2by2">
+                    <img
+                      src="https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png"
+                      alt="Placeholder image"
+                    />
+                  </figure>
+                </Link>
               </div>
-              <div className="card-content">
-                <div className="media">
-                  <div className="media-content has-text-centered">
-                    <p className="title is-4">Caroline Dunne</p>
-                    <p className="subtitle is-6">
-                      Balham | Barnes | Battersea{' '}
-                    </p>
+              <div className="card-content mb-6">
+                <Link to={'/carolinedunne'}>
+                  <div className="media">
+                    <div className="media-content has-text-centered">
+                      <p className="title is-5">Caroline Dunne</p>
+                      <p className="subtitle is-6">
+                        Balham | Barnes | Battersea{' '}
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div className="content">
+                </Link>
+                <div className="content pt-5">
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Obcaecati distinctio quam maiores excepturi corrupti
-                    recusandae, quaerat, eligendi non doloremque sint, corporis
-                    commodi sunt ad maxime vero! Accusantium, saepe! Perferendis
-                    architecto modi necessitatibus nisi adipisci provident in
-                    magnam deleniti distinctio eligendi ex itaque consectetur,
-                    maxime atque veniam accusantium, debitis ad. Aut!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Facilis blanditiis ducimus nam quaerat sit deleniti,
+                    nesciunt animi obcaecati. Exercitationem nam, rem minima
+                    enim, unde, harum possimus eos similique eveniet eligendi
+                    dicta! Nulla rerum.
                   </p>
                 </div>
               </div>

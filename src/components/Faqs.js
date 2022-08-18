@@ -1,5 +1,10 @@
 import React from 'react';
 
+// const navbar = document.getElementById('navbar-title');
+// navbar.style.display = 'block';
+
+// Faqs need to be themed blocks that then take you through to the answers. Diffrent photos on each.
+
 const Faqs = () => {
   return (
     <>

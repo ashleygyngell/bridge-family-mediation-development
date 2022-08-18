@@ -33,7 +33,12 @@ body {
 }
 
 #navbar-item:focus  {
-  color: black
+  color: black;
+ 
+}
+
+.navbar button:focus-visible {
+  background-color: transparent;
 }
 
 .navbar-item {
@@ -46,6 +51,23 @@ body {
   max-height: fit-content;
   height: 60px
 }
+
+#navbar-title {
+  display: none;
+      text-align: center;
+      color: white;
+      height: 10vh;
+      background-color: $outdoorsgreen;
+      margin-bottom: 0px;
+      text-transform: uppercase;
+      letter-spacing: 8px;
+      font-weight: 300;
+      padding-top: 20px;
+      margin-bottom: -24px;
+      font-size: 3vh;
+    } span {
+          color: black
+        }
 
 // Title 
 .title {
@@ -114,6 +136,30 @@ body {
 
 // About
 
+// Mediator
+.mediator-text {
+  font-size:larger ;
+}
+
+.mediator-back-button {
+  color: grey;
+ font-size: larger;
+ padding-left: 6px;
+ padding-top: 3px
+}
+
+#mediator-image {
+  margin-top: 15px;
+  margin-left: 10px;
+  // background-color: $outdoorsgreen;
+  
+} 
+
+.mediator-image {
+  
+  height: 50vh
+}
+
 
 // Footer
 
@@ -127,11 +173,7 @@ body {
       overflow: inherit;
 }
 
-.footer img {
-max-height: fit-content;
-height: 40px;
 
-}
 
 
 

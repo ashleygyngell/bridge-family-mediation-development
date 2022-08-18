@@ -8,6 +8,7 @@ const Navbar = () => {
   const toggleBurgerMenu = () => {
     setOpenBurger(!openBurger);
   };
+
   return (
     <nav className="navbar is-transparent">
       <div className="navbar-brand">
@@ -33,13 +34,19 @@ const Navbar = () => {
         </a>
       </div>
 
+      <Link to={'/'}>
+        <p id="navbar-title">
+          <span>Bridge</span> Family Mediation
+        </p>
+      </Link>
+
       <div
         id="navbarBurgerOpen"
         className={openBurger ? 'navbar-menu is-active' : 'navbar-menu'}
       >
         <div className="navbar-end">
           <Link to={'/referralform'} className="navbar-item">
-            <button className="button is-info">
+            <button className="button is-info navbar-item">
               <p className=""> Referral Form</p>
             </button>
           </Link>

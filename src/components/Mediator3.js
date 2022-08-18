@@ -28,7 +28,7 @@ const Mediator1 = () => {
             <div className="card-content has-text-centered">
               <div className="media ">
                 <div className="media-content">
-                  <p className="title is-1 ">Kate Brown</p>
+                  <p className="title is-1 ">Jules Brown</p>
                 </div>
               </div>
 
@@ -36,21 +36,21 @@ const Mediator1 = () => {
             </div>
             <div className="mediator-text p-5 ">
               <p>
-                I have a special interest in child development and working with
-                families to prioritise the emotional wellbeing of their
-                children. After a long first career in the media, managing a
-                team of creative people, much of my professional experience has
-                been about helping people work together, resolve conflict and
-                fulfil their potential.{' '}
+                I qualified as a Family Mediator with the Family Mediators’
+                Association in 2017 and feel passionate about helping people
+                solve their family disputes at one of the most emotionally
+                difficult time of their lives. Like Kate, I had a career in
+                media for over 30 years before deciding to train as a family
+                mediator.
               </p>{' '}
               <br></br>
               <p>
-                Since qualifying as a family mediator, I have been able to use
-                these skills to guide people through separation and divorce, to
-                try and minimise the distress of this challenging time and reach
-                fair and lasting agreements. I am committed to helping families,
-                however complex their situation, resolve matters sensitively,
-                swiftly and affordably.
+                I&#39;ve been responsible for running a team and recruiting
+                people, nurturing them through a pressurised career path and
+                being their support and mentor. I feel these skills make me a
+                highly empathetic and successful mediator, where I can draw on
+                my experience to help families reach amicable and long-lasting
+                solutions.
               </p>
             </div>
           </div>

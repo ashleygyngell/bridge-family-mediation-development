@@ -58,7 +58,7 @@ const Contact = () => {
                 id="message"
                 rows="5"
                 className="textarea is-medium"
-                placeholder="Message"
+                placeholder="Please leave a brief message and your location"
               ></textarea>
             </div>
             <button type="submit" className="button is-success is-size-5">

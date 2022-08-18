@@ -1,6 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+// const navbar = document.getElementById('navbar-title');
+// navbar.style.display = 'none';
+
+// Homepage needs new photo background and liscenced.
 const Home = () => {
   return (
     <>

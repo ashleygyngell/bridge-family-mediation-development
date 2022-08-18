@@ -28,7 +28,7 @@ const Mediator1 = () => {
             <div className="card-content has-text-centered">
               <div className="media ">
                 <div className="media-content">
-                  <p className="title is-1 ">Kate Brown</p>
+                  <p className="title is-1 ">Kathleen Straub</p>
                 </div>
               </div>
 
@@ -36,21 +36,21 @@ const Mediator1 = () => {
             </div>
             <div className="mediator-text p-5 ">
               <p>
-                I have a special interest in child development and working with
-                families to prioritise the emotional wellbeing of their
-                children. After a long first career in the media, managing a
-                team of creative people, much of my professional experience has
-                been about helping people work together, resolve conflict and
-                fulfil their potential.{' '}
+                I trained as a Family Mediator with the Family Mediators’
+                Association in 2013 and hold full Family Mediation Council
+                accreditation. I am also a qualified Professional Practice
+                Consultant, supervising other family mediators in their
+                professional development.
               </p>{' '}
               <br></br>
               <p>
-                Since qualifying as a family mediator, I have been able to use
-                these skills to guide people through separation and divorce, to
-                try and minimise the distress of this challenging time and reach
-                fair and lasting agreements. I am committed to helping families,
-                however complex their situation, resolve matters sensitively,
-                swiftly and affordably.
+                I have wide experience and knowledge of family law, having
+                worked for 20 years as a family solicitor. I now work full time
+                in mediation, covering all issues, and have particular
+                experience of dealing with complex cases involving sensitive
+                issues. I am also qualified to see children within the mediation
+                process. My approach is to listen, guide and explore options in
+                a calm and balanced environment.
               </p>
             </div>
           </div>
