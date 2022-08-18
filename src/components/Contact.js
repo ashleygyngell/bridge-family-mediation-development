@@ -1,5 +1,5 @@
 import React from 'react';
-
+// Doesnt need postcode as the text simply needs to be email, telephone number, and content
 const Contact = () => {
   return (
     <>

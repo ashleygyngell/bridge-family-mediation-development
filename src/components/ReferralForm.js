@@ -1,6 +1,7 @@
 import React from 'react';
 
 const ReferralForm = () => {
+  // Remove referral form not neccesary
   return (
     <>
       <body>
