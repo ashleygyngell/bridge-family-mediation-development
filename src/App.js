@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Faqs from './components/Faqs';
+import FaqGrid from './components/FaqGrid';
 import About from './components/About';
 import Contact from './components/Contact';
 import ReferralForm from './components/ReferralForm';
@@ -19,7 +20,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/faqs" element={<Faqs />} />
+        <Route path="/faqsbreakdown" element={<Faqs />} />
+        <Route path="/faqs" element={<FaqGrid />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/referralform" element={<ReferralForm />} />
