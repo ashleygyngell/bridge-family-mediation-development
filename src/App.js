@@ -8,11 +8,11 @@ import Faqs from './components/Faqs';
 import FaqGrid from './components/FaqGrid';
 import About from './components/About';
 import Contact from './components/Contact';
-import ReferralForm from './components/ReferralForm';
 import Mediator1 from './components/Mediator1';
 import Mediator2 from './components/Mediator2';
 import Mediator3 from './components/Mediator3';
 import Mediator4 from './components/Mediator4';
+import UsefulLinks from './components/UsefulLinks';
 
 function App() {
   return (
@@ -24,11 +24,11 @@ function App() {
         <Route path="/faqs" element={<FaqGrid />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/referralform" element={<ReferralForm />} />
         <Route path="/katebrown" element={<Mediator1 />} />
         <Route path="/kathleenstraub" element={<Mediator2 />} />
         <Route path="/juleswaring" element={<Mediator3 />} />
         <Route path="/carolinedunne" element={<Mediator4 />} />
+        <Route path="/usefullinks" element={<UsefulLinks />} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -13,11 +13,7 @@ const Navbar = () => {
     <nav className="navbar is-transparent">
       <div className="navbar-brand">
         <Link to={'/'} className="navbar-item">
-          <img
-            src={bfmLogo2}
-            alt="Bulma: a modern CSS framework based on Flexbox"
-            width="auto"
-          />
+          <img src={bfmLogo2} alt="Bridge Family Mediation Logo" width="auto" />
           <span className="ml-1"> </span>
         </Link>
         <a
@@ -45,10 +41,8 @@ const Navbar = () => {
         className={openBurger ? 'navbar-menu is-active' : 'navbar-menu'}
       >
         <div className="navbar-end">
-          <Link to={'/referralform'} className="navbar-item">
-            <button className="button is-info navbar-item">
-              <p className=""> Referral Form</p>
-            </button>
+          <Link to={'/'} className="navbar-item" id="navbar-item">
+            Home
           </Link>
           <Link to={'/faqs'} className="navbar-item " id="navbar-item">
             FAQs
@@ -56,7 +50,6 @@ const Navbar = () => {
           <Link to={'/about'} className="navbar-item" id="navbar-item">
             About Us
           </Link>
-
           <Link to={'/contact'} className="navbar-item" id="navbar-item">
             Contact Us
           </Link>

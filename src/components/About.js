@@ -1,11 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const About = () => {
+  const navigate = useNavigate();
   // After meeting today, the plan is for there to be a block of all mediators and then once you have clicked through you are taken to the individual page with a full breakdown of the mediator. Phone link and email neccesary. Need a bigger return button.
   return (
     <>
       <body>
+        <button onClick={() => navigate(-1)}>
+          <i className="fa-solid fa-arrow-left"></i> Back
+        </button>
         <div className="columns ml-5 mr-5 pt-6">
           {/* Mediator 1 */}
           <div className="column">

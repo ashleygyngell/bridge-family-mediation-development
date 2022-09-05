@@ -1,17 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Mediator1 = () => {
+  const navigate = useNavigate();
   return (
     <>
       <body>
         <div className="columns">
           <div className="column">
-            <Link to={'/about'}>
-              <p className="mediator-back-button">
-                <i className="fa-solid fa-arrow-left"></i> Back
-              </p>
-            </Link>
+            <button onClick={() => navigate(-1)}>
+              <i className="fa-solid fa-arrow-left"></i> Back
+            </button>
             <div className="card" id="mediator-image">
               <div className="card-content ">
                 <figure className="image-left">

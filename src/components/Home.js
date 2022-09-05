@@ -15,17 +15,25 @@ const Home = () => {
       </section>
 
       <section className="hero is-success hero-background full-height">
+        <div className="hero-text-over-photo fadeInOnLoad2">
+          <span>Are you going through a divorce or separation? </span> Let us
+          help.
+        </div>
         <div className="columns has-text-centered">
           <div className="column">
             <Link to={'/faqs'}>
-              <button className="button is-info">Why choose Mediation?</button>
+              <button className="button is-info">What is Mediation?</button>
             </Link>
           </div>
           <div className="column">
-            <button className="button is-info">See how we can help</button>
+            <Link to={'/howitworks'}>
+              <button className="button is-info">How it works</button>
+            </Link>
           </div>
           <div className="column">
-            <button className="button is-info">What is mediation?</button>
+            <Link to={'/about'}>
+              <button className="button is-info">About us</button>
+            </Link>
           </div>
         </div>
       </section>
