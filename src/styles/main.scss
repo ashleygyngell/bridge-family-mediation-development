@@ -1,12 +1,24 @@
 $forestgreen: #567D04;
-$outdoorsgreen: rgb(88, 189, 122);
+$outdoorsgreen: rgb(126,
+151,
+87);
 $info: $forestgreen;
 $warning: $outdoorsgreen;
 
 @import '~bulma/bulma.sass';
 @import 'bulma';
 
+@font-face {
+  font-family: rift-soft;
+  src: url("/assets/fonts/rift/Rift Soft Light.otf") format("opentype"),
+}
 
+@font-face {
+  font-family: effra;
+  src: url("/assets/fonts/effra/Effra Regular.ttf") format("truetype"),
+    
+}
+// General 
 html,
 body, button {
 font-family: 'Jost', sans-serif;
@@ -18,17 +30,34 @@ body {
   flex-direction: column;
 }
 
+.back-button {
+  position: absolute;
+  font-size: 22px;
+  padding-left: 6px;
+  padding-top: 3px;
+  border: none;
+  background: none;
+}
+
+.back-button :hover {
+  cursor: pointer;
+}
+
+
+
+
 
 // 
 
 // Navbar
 .navbar {
-  height: 10vh;
+  min-height: 10vh;
   background-color: $outdoorsgreen;
   color: white 
 }
 
 #navbar-item:hover {
+  transition: all 0.3s;
   color:black
 }
 
@@ -56,37 +85,32 @@ body {
   display: none;
       text-align: center;
       color: white;
-      height: 10vh;
+      max-height: 10vh;
       background-color: $outdoorsgreen;
-      margin-bottom: 0px;
       text-transform: uppercase;
-      letter-spacing: 8px;
-      font-weight: 300;
-      padding-top: 20px;
+      letter-spacing: 20px;
+      font-weight: 100;
+        font-size: 50px;
+        font-family: rift-soft;
       margin-bottom: -24px;
-      font-size: 3vh;
     } span {
           color: black
         }
 
-// Title 
-.title {
+// Title-hero
+.title-hero {
+  min-height: 7vh;
   text-align: center;
   color: white;
-  height: 10vh;
   background-color: $outdoorsgreen;
-  margin-bottom: 0px;
   text-transform: uppercase;
-  letter-spacing: 8px;
-  font-weight: 300;
-  padding-top: 10px;
-  margin-bottom: -24px;
-  font-size: 5vh;
-}
+  letter-spacing: 20px;
+  font-weight: 100;
+  font-size: 50px;
+  font-family: rift-soft;
+} 
 
-.title span {
-  color: black
-}
+
 // Hero
 
 // to fix hero navbar section
@@ -111,7 +135,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  min-height: 70vh;
+  min-height: 73vh;
 }
 
 .hero.is-success .title {
@@ -119,8 +143,8 @@ body {
 }
 
 .hero-background {
-  background-image: url(../assets/images/demo.png);
-  background-position: center;
+  background-image: url(../assets/images/demo2.jpeg);
+  background-position: 0px -170px ;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -132,28 +156,58 @@ body {
   width: 25vw ;
   padding: 40px;
   font-size: 25px;
+  // border: 2px solid darkgreen;
 }
 
 .hero-text-over-photo {
   display: flex;
   flex-direction: column;
-  align-content: flex-start;
+
   text-align: center;
+  padding-top: 10px;
   padding-bottom: 28vh;
-  font-size: 32px
+  font-size: 32px;
+  color: $outdoorsgreen
 }
 // About
 
-// Mediator
-.mediator-text {
-  font-size:larger ;
+.title {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-color: $outdoorsgreen;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 3vh;
+  border-radius: 0.25rem;
 }
 
-.mediator-back-button {
+#read-more {
+  color: rgb(74, 74, 74);
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 10px;
+}
+
+#read-more:hover {
+  transition: all 0.3s;
   color: grey;
- font-size: larger;
- padding-left: 6px;
- padding-top: 3px
+}
+
+#mediator-card {
+  min-height: 82vh
+}
+
+// #mediator-card:hover {
+//   transform: scale(0.995);
+//   transition: all .1s ease-in-out;
+// }
+
+// Mediator
+
+.mediator-text {
+  font-size:larger ;
+  
 }
 
 #mediator-image {
@@ -161,38 +215,82 @@ body {
   margin-left: 10px;
   // background-color: $outdoorsgreen;
   
-} 
+}
 
 .mediator-image {
-  
   height: 50vh
 }
 
-
 // Footer
 
-.footer {
-  display: flex;
-  flex-direction: row;
-  height: 10vh;
-  background-color: $outdoorsgreen;
-    font-size: .8em;
-      padding: 10px;
-      overflow: inherit;
+// .footer {
+//   color: white;
+//   min-height: 10vh;
+//   background-color: $outdoorsgreen;
+// } 
+
+// #footer-links-container {
+//   display: flex;
+//   flex-direction: column;
+//   // flex-wrap: nowrap;
+//   justify-content: flex-start;
+//   color: white
+// }
+
+.footer-group {
+
+  a {
+    
+    color: #808591;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+
+    &:hover {
+      color: $primary;
+    }
+  }
 }
 
+.footer-img {
+  margin: 20px auto 18px;
+  height: 140px;
+  width: 100%;
+  max-width: 640px;
 
-
-
-
-
-.column .is-narrow {
-  height: 100%; 
-  width: 1px; 
-  border-left: 2px solid #3665F3
+  img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+  }
 }
+
+.copyright {
+  span {
+   
+    color: #808591;
+    font-size: 0.9rem;
+  }
+}
+
+// 
+
 
 // FAQ's
+
+#faq-card {
+  min-height: 25vh;
+  
+}
+
+#faq-card button {
+  height: 25vh;
+  
+}
+
+#faq-tile {
+  padding: 20px;
+  height:200px;
+}
 
 .accordion {
   max-width: 900px;
@@ -231,6 +329,8 @@ body {
     }
   }
 }
+
+// Animations
 
 .fadeInOnLoad {
   animation: fadeIn 1s ease backwards;

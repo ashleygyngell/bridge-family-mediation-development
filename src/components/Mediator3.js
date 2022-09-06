@@ -6,36 +6,32 @@ const Mediator3 = () => {
   return (
     <>
       <body>
-        <div className="columns">
-          <div className="column">
-            <button onClick={() => navigate(-1)}>
-              <i className="fa-solid fa-arrow-left"></i> Back
-            </button>
-            <div className="card" id="mediator-image">
-              <div className="card-content ">
-                <figure className="image-left">
-                  <img
-                    src="https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png"
-                    alt="Placeholder image"
-                    className="mediator-image"
-                  />
-                </figure>
-              </div>
-            </div>
+        <button className="back-button pl-4 pt-2 " onClick={() => navigate(-1)}>
+          <span>
+            <i className="fa-solid fa-arrow-left "></i> Back
+          </span>
+        </button>
+        <div className="columns pt-6">
+          <div className="column is-4 pl-6 pt-6">
+            <img
+              src="https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png"
+              alt="Placeholder image"
+              className="mediator-image"
+            />
           </div>
-          <div className="column">
-            <div className="card-content has-text-centered">
-              <div className="media ">
-                <div className="media-content">
-                  <p className="title is-1 ">Jules Brown</p>
+          <div className="column is-8 pr-6 ">
+            <div className=" has-text-centered ">
+              <div className="media">
+                <div className="media-content ">
+                  <p className="title is-1 ">Jules Waring</p>
                 </div>
               </div>
 
-              <p className="subtitle is-5 pt-6">Balham | Barnes | Battersea</p>
+              <p className="subtitle is-5 pt-5">Balham | Barnes | Battersea</p>
             </div>
             <div className="mediator-text p-5 ">
               <p>
-                I qualified as a Family Mediator with the Family Mediators’
+                I qualified as a Family Mediator with the Family Mediators&#39;
                 Association in 2017 and feel passionate about helping people
                 solve their family disputes at one of the most emotionally
                 difficult time of their lives. Like Kate, I had a career in

@@ -1,38 +1,37 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-// const navbar = document.getElementById('navbar-title');
-// navbar.style.display = 'none';
-
 // Homepage needs new photo background and liscenced.
 const Home = () => {
+  // const navbar = document.getElementById('navbar-title');
+  // navbar.style.display = 'none';
   return (
     <>
-      <section className="title">
+      <section className="title-hero">
         <p className="fadeInOnLoad">
           <span>Bridge</span> Family Mediation
         </p>
       </section>
 
-      <section className="hero is-success hero-background full-height">
+      <section className="hero  hero-background full-height">
         <div className="hero-text-over-photo fadeInOnLoad2">
-          <span>Are you going through a divorce or separation? </span> Let us
-          help.
+          <p>Are you going through a divorce or separation? </p>
+          <p>Let us help.</p>
         </div>
         <div className="columns has-text-centered">
           <div className="column">
             <Link to={'/faqs'}>
-              <button className="button is-info">What is Mediation?</button>
+              <button className="button is-warning">What is Mediation?</button>
             </Link>
           </div>
           <div className="column">
             <Link to={'/howitworks'}>
-              <button className="button is-info">How it works</button>
+              <button className="button is-warning">How it works</button>
             </Link>
           </div>
           <div className="column">
             <Link to={'/about'}>
-              <button className="button is-info">About us</button>
+              <button className="button is-warning">About us</button>
             </Link>
           </div>
         </div>
