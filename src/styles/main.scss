@@ -1,7 +1,5 @@
 $forestgreen: #567D04;
-$outdoorsgreen: rgb(126,
-151,
-87);
+$outdoorsgreen: #7E9757;
 $info: $forestgreen;
 $warning: $outdoorsgreen;
 
@@ -54,6 +52,24 @@ body {
   color: black
 }
 
+.video-responsive {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+  /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
 
 
 
@@ -65,6 +81,18 @@ body {
   background-color: $outdoorsgreen;
   color: white 
 }
+
+.navbar-menu {
+  background-color: $outdoorsgreen;
+  color: blue;
+}
+
+.navbar-menu :hover {
+  
+  text-decoration: none;
+}
+
+
 
 #navbar-item:hover {
   transition: all 0.1s;
@@ -96,7 +124,6 @@ body {
 }
 
 #navbar-title {
-  padding-top: 14px;
   display: block;
       text-align: center;
       color: white;
@@ -105,12 +132,13 @@ body {
       text-transform: uppercase;
       letter-spacing: 12px;
       font-weight: 100;
-        font-size: 32px;
+        font-size: 24px;
         font-family: rift-soft;
-      margin-bottom: -24px;
+      
     } span {
           color: black
         }
+
 
 // Title-hero
 .title-hero {
@@ -156,7 +184,7 @@ body {
 .hero.is-success .title {
   color: black
 }
-img
+
 .hero-background {
   background-image: url(../assets/images/demo2.jpeg);
   background-position: 0px -170px ;
@@ -308,7 +336,7 @@ img
 // FAQ's
 
 #faq-card {
-  min-height: 25vh;
+  height: 35vh;
   
 }
 
@@ -317,47 +345,15 @@ img
   
 }
 
-#faq-tile {
-  padding: 20px;
-  height:200px;
+#faq-title {
+  overflow: hidden;
+    white-space: nowrap;
 }
 
-.accordion {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 0 20px;
+#youtube-div {
+  height: 20vh;
+  width: auto
 
-  details:first-child {
-    border-top: 1px solid grey;
-  }
-
-  details {
-    border-bottom: 1px solid grey;
-    padding: 10px 0;
-
-    summary {
-      padding: 7px 0 4px 0;
-      cursor: pointer;
-      font-weight: bold;
-
-      span {
-        margin-left: 8px;
-      }
-    }
-
-    summary::marker {
-      margin-right: 20px !important;
-      left: -20px;
-    }
-
-    .answer {
-      padding: 20px 0 0 0;
-
-      p:last-child {
-        padding-bottom: 6px;
-      }
-    }
-  }
 }
 
 // Animations

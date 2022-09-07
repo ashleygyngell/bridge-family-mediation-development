@@ -14,7 +14,7 @@ const Mediator1 = () => {
       </button>
       <body className="pl-6 pr-6">
         <div className="columns pt-6 pl-6 ">
-          <div className="column is-4 about-image ">
+          <div className="column is-4 about-image has-text-centered ">
             <img
               src="https://www.hagopsphotography.com/wp-content/uploads/2021/10/Female-LinkedIn-portrait.jpg"
               alt="Placeholder image"
@@ -23,23 +23,23 @@ const Mediator1 = () => {
             <div>
               <p id="fontawesome-styling" className="subtitle is-5 pt-5 pb-2">
                 <i className="fa-solid fa-phone is-black"></i>
-                <a href="tel:0733378901">
+                <a href="tel:07930366661">
                   {' '}
-                  <span id="mediator-contact-info">07333 123456</span>
+                  <span id="mediator-contact-info">07930 366661</span>
                 </a>
               </p>
 
               <a
                 id="fontawesome-styling"
                 className="subtitle "
-                href="mailto:kate@bridgefamilymediation.co.uk"
+                href="mailto:katebrown@bridgefamilymediation.co.uk"
                 target="_blank"
                 rel="noreferrer"
               >
                 <i className="fa-solid fa-envelope"></i>
                 <span id="mediator-contact-info">
                   {' '}
-                  kate@bridgefamilymediation.co.uk
+                  katebrown@bridgefamilymediation.co.uk
                 </span>
               </a>
             </div>

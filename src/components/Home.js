@@ -13,21 +13,21 @@ const Home = () => {
         </p>
       </section>
 
-      <section className="hero  hero-background full-height">
+      <section className="hero hero-background full-height">
         <div className="hero-text-over-photo fadeInOnLoad2">
           <p>Are you going through a divorce or separation? </p>
           <p>Let us help.</p>
         </div>
         <div className="columns has-text-centered">
           <div className="column">
-            <Link to={'/faqs'}>
+            <Link to={'/whatismediation'}>
               <button id="button" className="button is-warning">
                 What is Mediation?
               </button>
             </Link>
           </div>
           <div className="column">
-            <Link to={'/howitworks'}>
+            <Link to={'/howdoesitwork'}>
               <button id="button" className="button is-warning">
                 How it works
               </button>

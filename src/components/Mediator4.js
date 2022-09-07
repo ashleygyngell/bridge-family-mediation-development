@@ -23,23 +23,23 @@ const Mediator4 = () => {
             <div>
               <p id="fontawesome-styling" className="subtitle is-5 pt-5 pb-2">
                 <i className="fa-solid fa-phone is-black"></i>
-                <a href="tel:0733378901">
+                <a href="tel:00000 00000">
                   {' '}
-                  <span id="mediator-contact-info">07333 123456</span>
+                  <span id="mediator-contact-info">00000 00000</span>
                 </a>
               </p>
 
               <a
                 id="fontawesome-styling"
                 className="subtitle "
-                href="mailto:kate@bridgefamilymediation.co.uk"
+                href="mailto:caroline@bridgefamilymediation.co.uk"
                 target="_blank"
                 rel="noreferrer"
               >
                 <i className="fa-solid fa-envelope"></i>
                 <span id="mediator-contact-info">
                   {' '}
-                  caroline@bridgefamilymediation.co.uk
+                  carolinedunne@bridgefamilymediation.co.uk
                 </span>
               </a>
             </div>

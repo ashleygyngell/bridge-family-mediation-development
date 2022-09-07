@@ -12,32 +12,30 @@ const Navbar = () => {
   // const navbar = document.querySelector('navbar-title');
 
   return (
-    <nav className="navbar is-transparent">
-      <div className="navbar-brand">
-        <Link to={'/'} className="navbar-item">
+    <nav className="navbar is-transparent level ">
+      <div className="navbar-brand ">
+        <Link to={'/'} className="navbar-item level-item">
           <img src={bfmLogo2} alt="Bridge Family Mediation Logo" width="auto" />
           <span className="ml-1"> </span>
         </Link>
-        <a
-          role="button"
-          className="navbar-burger"
-          aria-label="menu"
-          aria-expanded="false"
-          data-target="navbarBurgerOpen"
-          onClick={toggleBurgerMenu}
-        >
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
+        <Link to={'/'}>
+          <p id="navbar-title" className="level-item">
+            <span>Bridge</span> Family Mediation
+          </p>
+        </Link>
       </div>
-
-      <Link to={'/'}>
-        <p id="navbar-title">
-          <span>Bridge</span> Family Mediation
-        </p>
-      </Link>
-
+      <a
+        role="button"
+        className="navbar-burger navbar-end"
+        aria-label="menu"
+        aria-expanded="false"
+        data-target="navbarBurgerOpen"
+        onClick={toggleBurgerMenu}
+      >
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
       <div
         id="navbarBurgerOpen"
         className={openBurger ? 'navbar-menu is-active' : 'navbar-menu'}
