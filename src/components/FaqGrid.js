@@ -33,7 +33,7 @@ const FaqGrid = () => {
         <div className="columns has-text-centered pt-6  ">
           <div id="faq-card" className="column  ">
             <Link to={'/faqs'}>
-              <button className="button is-warning">
+              <button id="button" className="button is-warning">
                 <div>
                   <i className="fa-solid fa-scale-balanced"></i>{' '}
                 </div>
@@ -44,7 +44,7 @@ const FaqGrid = () => {
           </div>
           <div id="faq-card" className="column  ">
             <Link to={'/howitworks'}>
-              <button className="button is-warning">
+              <button id="button" className="button is-warning">
                 <div>
                   <i className="fa-regular fa-circle-question"></i>{' '}
                 </div>
@@ -57,7 +57,7 @@ const FaqGrid = () => {
         <div className="columns has-text-centered">
           <div id="faq-card" className="column ">
             <Link to={'/faqs'}>
-              <button className="button is-warning">
+              <button id="button" className="button is-warning">
                 <div>
                   <i className="fa-solid fa-scale-balanced"></i>{' '}
                 </div>
@@ -68,7 +68,7 @@ const FaqGrid = () => {
           </div>
           <div id="faq-card" className="column ">
             <Link to={'/howitworks'}>
-              <button className="button is-warning">
+              <button id="button" className="button is-warning">
                 <div>
                   <i className="fa-regular fa-circle-question"></i>{' '}
                 </div>

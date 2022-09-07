@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <>
       <body>
-        <div className="container my-5 mt-5 mx-5 px-5">
+        <div className="container my-6 mx-6 px-6">
           <h2 className="title is-2 is-capitalized">Contact Us</h2>
           <form
             action="mailto:admin@bridgefamilymediation.co.uk"
@@ -61,7 +61,11 @@ const Contact = () => {
                 placeholder="Please leave a brief message and your location"
               ></textarea>
             </div>
-            <button type="submit" className="button is-success is-size-5">
+            <button
+              id="button"
+              type="submit"
+              className="button is-warning is-size-5"
+            >
               Submit
             </button>
           </form>

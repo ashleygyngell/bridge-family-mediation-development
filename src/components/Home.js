@@ -21,17 +21,23 @@ const Home = () => {
         <div className="columns has-text-centered">
           <div className="column">
             <Link to={'/faqs'}>
-              <button className="button is-warning">What is Mediation?</button>
+              <button id="button" className="button is-warning">
+                What is Mediation?
+              </button>
             </Link>
           </div>
           <div className="column">
             <Link to={'/howitworks'}>
-              <button className="button is-warning">How it works</button>
+              <button id="button" className="button is-warning">
+                How it works
+              </button>
             </Link>
           </div>
           <div className="column">
             <Link to={'/about'}>
-              <button className="button is-warning">About us</button>
+              <button id="button" className="button is-warning">
+                About us
+              </button>
             </Link>
           </div>
         </div>

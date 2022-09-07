@@ -6,7 +6,7 @@ const About = () => {
   return (
     <>
       <body>
-        <div className="columns ml-5 mr-5 pt-5 pb-5">
+        <div className="columns ml-5 mr-5 pt-6 pb-4 pr-6 pl-6">
           {/* Mediator 1 */}
           <div className="column">
             <div id="mediator-card" className="card">
@@ -14,7 +14,7 @@ const About = () => {
                 <Link to={'/katebrown'}>
                   <figure className="image is-2by2">
                     <img
-                      src="https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png"
+                      src="https://www.hagopsphotography.com/wp-content/uploads/2021/10/Female-LinkedIn-portrait.jpg"
                       alt="Placeholder image"
                     />
                   </figure>
@@ -58,7 +58,7 @@ const About = () => {
                 <Link to={'/kathleenstraub'}>
                   <figure className="image is-2by2">
                     <img
-                      src="https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png"
+                      src="https://www.hagopsphotography.com/wp-content/uploads/2021/10/Female-LinkedIn-Headshot.jpg"
                       alt="Placeholder image"
                     />
                   </figure>
@@ -100,7 +100,7 @@ const About = () => {
                 <Link to={'/juleswaring'}>
                   <figure className="image is-2by2">
                     <img
-                      src="https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png"
+                      src="https://www.hagopsphotography.com/wp-content/uploads/2021/10/LinkedIn-head-shot.jpg"
                       alt="Placeholder image"
                     />
                   </figure>
@@ -141,7 +141,7 @@ const About = () => {
                 <Link to={'/carolinedunne'}>
                   <figure className="image is-2by2">
                     <img
-                      src="https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png"
+                      src="https://www.hagopsphotography.com/wp-content/uploads/2021/10/Company-linkedIn-photo.jpg"
                       alt="Placeholder image"
                     />
                   </figure>

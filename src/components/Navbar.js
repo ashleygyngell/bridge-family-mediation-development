@@ -9,6 +9,8 @@ const Navbar = () => {
     setOpenBurger(!openBurger);
   };
 
+  // const navbar = document.querySelector('navbar-title');
+
   return (
     <nav className="navbar is-transparent">
       <div className="navbar-brand">
@@ -47,6 +49,7 @@ const Navbar = () => {
           <Link to={'/faqs'} className="navbar-item " id="navbar-item">
             FAQs
           </Link>
+
           <Link to={'/about'} className="navbar-item" id="navbar-item">
             About Us
           </Link>

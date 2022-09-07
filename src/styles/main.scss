@@ -41,8 +41,18 @@ body {
 
 .back-button :hover {
   cursor: pointer;
+  transition: all 0.1s;
+    color: grey;
 }
 
+#button:hover {
+  transition: all 0.1s;
+  color: black;
+}
+
+#fontawesome-styling {
+  color: black
+}
 
 
 
@@ -57,13 +67,17 @@ body {
 }
 
 #navbar-item:hover {
-  transition: all 0.3s;
+  transition: all 0.1s;
   color:black
 }
 
 #navbar-item:focus  {
   color: black;
  
+}
+
+#navbar-item:active {
+  color: black;
 }
 
 .navbar button:focus-visible {
@@ -82,15 +96,16 @@ body {
 }
 
 #navbar-title {
-  display: none;
+  padding-top: 14px;
+  display: block;
       text-align: center;
       color: white;
       max-height: 10vh;
       background-color: $outdoorsgreen;
       text-transform: uppercase;
-      letter-spacing: 20px;
+      letter-spacing: 12px;
       font-weight: 100;
-        font-size: 50px;
+        font-size: 32px;
         font-family: rift-soft;
       margin-bottom: -24px;
     } span {
@@ -104,7 +119,7 @@ body {
   color: white;
   background-color: $outdoorsgreen;
   text-transform: uppercase;
-  letter-spacing: 20px;
+  letter-spacing: 18px;
   font-weight: 100;
   font-size: 50px;
   font-family: rift-soft;
@@ -141,7 +156,7 @@ body {
 .hero.is-success .title {
   color: black
 }
-
+img
 .hero-background {
   background-image: url(../assets/images/demo2.jpeg);
   background-position: 0px -170px ;
@@ -190,7 +205,7 @@ body {
 }
 
 #read-more:hover {
-  transition: all 0.3s;
+  transition: all 0.1s;
   color: grey;
 }
 
@@ -201,13 +216,21 @@ body {
 // #mediator-card:hover {
 //   transform: scale(0.995);
 //   transition: all .1s ease-in-out;
-// }
+// }fontawesome-styling
 
 // Mediator
 
+#mediator-contact-info {
+  text-decoration: none;
+  
+}
+
+#mediator-contact-info:hover {
+  color: #0000EE (blue)
+}
+
 .mediator-text {
   font-size:larger ;
-  
 }
 
 #mediator-image {
@@ -218,41 +241,48 @@ body {
 }
 
 .mediator-image {
-  height: 50vh
+  height: 50vh;
+  border-radius: 0.25rem;
+}
+
+.mediator-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 140px;
+    width: 100%;
+  
+    img {
+      display: block;
+      max-width: 100%;
+      margin: 0 10;
+      padding: 0 10px 0 10px
+    }
+  
 }
 
 // Footer
 
-// .footer {
-//   color: white;
-//   min-height: 10vh;
-//   background-color: $outdoorsgreen;
-// } 
+.footer {
+  color: white;
+  min-height: 10vh;
+  background-color: $outdoorsgreen;
+} 
 
-// #footer-links-container {
-//   display: flex;
-//   flex-direction: column;
-//   // flex-wrap: nowrap;
-//   justify-content: flex-start;
-//   color: white
-// }
+
 
 .footer-group {
-
+ 
   a {
-    
-    color: #808591;
-    font-size: 0.9rem;
-    transition: all 0.3s;
+    color: white;
 
     &:hover {
-      color: $primary;
+      text-decoration: underline;
     }
   }
 }
 
-.footer-img {
-  margin: 20px auto 18px;
+.footer-image-1 {
   height: 140px;
   width: 100%;
   max-width: 640px;
