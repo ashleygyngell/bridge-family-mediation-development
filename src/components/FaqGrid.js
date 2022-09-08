@@ -69,7 +69,7 @@ const FaqGrid = () => {
           <div className="column">
             <div id="faq-card" className="card">
               <div className="card-content ">
-                <Link to={'/whatismediation'}>
+                <Link to={'/whodowehelp'}>
                   <div className="media">
                     <div className="media-content has-text-centered">
                       <p className="title ">Who do we help?</p>
@@ -88,7 +88,7 @@ const FaqGrid = () => {
                   </p>
                   <p>Children who are struggling to...</p>
 
-                  <Link to={'/whatismediation'}>
+                  <Link to={'/whodowehelp'}>
                     <div id="read-more">
                       Read More <i className="fa-solid fa-arrow-right"></i>
                     </div>
@@ -102,7 +102,7 @@ const FaqGrid = () => {
           <div className="column">
             <div id="faq-card" className="card">
               <div className="card-content ">
-                <Link to={'/whatismediation'}>
+                <Link to={'/whatmaybediscussed'}>
                   <div className="media">
                     <div className="media-content has-text-centered">
                       <p className="title ">What may be discussed?</p>
@@ -119,7 +119,7 @@ const FaqGrid = () => {
                   <p>Where the children will live when parents seperate</p>
                   <p>How the children will share their time between...</p>
 
-                  <Link to={'/whatismediation'}>
+                  <Link to={'/whatmaybediscussed'}>
                     <div id="read-more">
                       Read More <i className="fa-solid fa-arrow-right"></i>
                     </div>

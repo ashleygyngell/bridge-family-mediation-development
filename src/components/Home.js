@@ -34,7 +34,7 @@ const Home = () => {
             </Link>
           </div>
           <div className="column">
-            <Link to={'/about'}>
+            <Link to={'/aboutus'}>
               <button id="button" className="button is-warning">
                 About us
               </button>
