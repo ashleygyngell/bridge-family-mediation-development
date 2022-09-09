@@ -3,13 +3,6 @@ import { Link } from 'react-router-dom';
 import fmaLogo from '../assets/logos/fmaLogo.png';
 
 const Footer = () => {
-  // const navbar = document.getElementById('navbar-title');
-
-  // if (location.pathname !== '/') {
-  //   navbar.style.display = 'block';
-  // } else {
-  //   navbar.style.display = 'none';
-  // }
   // Need to add poscasts and contact email to the bottom, aswell as important resources.
   return (
     <>
@@ -131,7 +124,7 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="container copyright">
+            <div className="container copyright ">
               <div className="has-text-centered">
                 <p>© 2022 Bridge Family Mediation</p>
               </div>

@@ -14,7 +14,10 @@ const Home = () => {
       </section>
 
       <section className="hero hero-background full-height">
-        <div className="hero-text-over-photo fadeInOnLoad2">
+        <div
+          id="has-text-over-photo"
+          className="hero-text-over-photo fadeInOnLoad2"
+        >
           <p>Are you going through a divorce or separation? </p>
           <p>Let us help.</p>
         </div>

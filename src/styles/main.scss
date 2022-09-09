@@ -2,6 +2,7 @@ $forestgreen: #567D04;
 $outdoorsgreen: #7E9757;
 $info: $forestgreen;
 $warning: $outdoorsgreen;
+$footer-padding: 2rem 0 2rem 0;
 
 @import '~bulma/bulma.sass';
 @import 'bulma';
@@ -29,9 +30,7 @@ body {
   flex-direction: column;
 }
 
-p {
-  color: black
-}
+
 
 
 @media only screen and (min-width: 1301px) {
@@ -104,7 +103,7 @@ p {
 
 // Navbar
 .navbar {
-  min-height: 10vh;
+  height: 8vh;
   background-color: $outdoorsgreen;
   color: white 
 }
@@ -147,14 +146,14 @@ p {
   display: flex;
   padding-top: 0px;
   max-height: fit-content;
-  height: 60px
+  height: 50px
 }
 
 #navbar-title {
-  display: block;
+  display: 'none';
       text-align: center;
       color: white;
-      max-height: 10vh;
+      max-height: fit-content;
       background-color: $outdoorsgreen;
       text-transform: uppercase;
       letter-spacing: 12px;
@@ -205,7 +204,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  min-height: 73vh;
+  min-height: 92vh;
 }
 
 .hero.is-success .title {
@@ -213,15 +212,17 @@ p {
 }
 
 .hero-background {
-  background-image: url(../assets/images/demo2.jpeg);
+  background-image: url(../assets/images/demo3.png);
   background-position: 0px -170px ;
   background-size: cover;
   background-repeat: no-repeat;
+
 }
 
+
 .columns .button {
-  margin-top: 20px;
-  margin-bottom: 5vh;
+  margin-top: 80px;
+  margin-bottom: 20vh;
   height: 6vw;
   width: 25vw ;
   padding: 40px;
@@ -229,15 +230,18 @@ p {
   // border: 2px solid darkgreen;
 }
 
+#has-text-over-photo {
+  color: #6c8249
+}
+
 .hero-text-over-photo {
   display: flex;
   flex-direction: column;
-
   text-align: center;
-  padding-top: 10px;
+  padding-top: 2px;
   padding-bottom: 28vh;
   font-size: 32px;
-  color: $outdoorsgreen
+  color: #607341
 }
 // About
 
@@ -282,6 +286,7 @@ p {
 
 #mediator-contact-info {
   text-decoration: none;
+
 }
 
 
@@ -327,17 +332,13 @@ p {
 
 .footer {
   color: white;
-  min-height: 10vh;
-  background-color: $outdoorsgreen;
+  min-height: 8vh;
+  background-color: $outdoorsgreen;  
 } 
 
-
-
 .footer-group {
- 
   a {
     color: white;
-
     &:hover {
       text-decoration: underline;
     }
@@ -345,7 +346,7 @@ p {
 }
 
 .footer-image-1 {
-  height: 140px;
+  height: 100px;
   width: 100%;
   max-width: 640px;
 
@@ -357,8 +358,8 @@ p {
 }
 
 .copyright {
+  padding-top: 1rem;
   span {
-   
     color: #808591;
     font-size: 0.9rem;
   }

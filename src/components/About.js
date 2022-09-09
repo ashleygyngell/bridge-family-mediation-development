@@ -8,7 +8,7 @@ const About = () => {
         <div className="content  ">
           <div className="columns ">
             {/* Mediator 1 */}
-            <div className="column">
+            <div className="column ">
               <div id="mediator-card" className="card pt-2">
                 <div className="card-image pt-5 ">
                   <Link to={'/katebrown'}>
@@ -22,7 +22,7 @@ const About = () => {
                   </Link>
                 </div>
 
-                <div className="card-content  ">
+                <div className="card-content  has-text-black ">
                   <Link to={'/katebrown'}>
                     <div className="media">
                       <div className="media-content has-text-centered">
@@ -66,7 +66,7 @@ const About = () => {
                     </figure>
                   </Link>
                 </div>
-                <div className="card-content ">
+                <div className="card-content  has-text-black ">
                   <Link to={'/kathleenstraub'}>
                     <div className="media">
                       <div className="media-content has-text-centered">
@@ -109,7 +109,7 @@ const About = () => {
                     </figure>
                   </Link>
                 </div>
-                <div className="card-content">
+                <div className="card-content  has-text-black">
                   <Link to={'/juleswaring'}>
                     <div className="media">
                       <div className="media-content has-text-centered">
@@ -151,7 +151,7 @@ const About = () => {
                     </figure>
                   </Link>
                 </div>
-                <div className="card-content">
+                <div className="card-content  has-text-black">
                   <Link to={'/carolinedunne'}>
                     <div className="media">
                       <div className="media-content has-text-centered">

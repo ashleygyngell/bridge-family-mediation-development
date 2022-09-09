@@ -104,19 +104,19 @@ const UsefulLinks = () => {
               </a>
             </p>
             <p>
-              <strong>CHILD ARRANGEMENTS</strong>FORM C100 (for an application
-              for a court order to resolve child arrangements)
+              <strong>CHILD ARRANGEMENTS</strong>
+              <br />
+              FORM C100 (for an application for a court order to resolve child
+              arrangements):{' '}
               <a
                 href="https://www.gov.uk/government/publications/form-c100-application-under-the-children-act-1989-for-a-child-arrangements-prohibited-steps-specific-issue-section-8-order-or-to-vary-or-discharge"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://www.gov.uk/government/publications/form-c100-application-under-the-children-act-1989-for-a-child-arrangements-prohibited-steps-specific-issue-section-8-order-or-to-vary-or-discharge
+                https://www.gov.uk/government/publications/form-c100-application
               </a>
-            </p>
-            <p>
-              CAFCASS: Children and&nbsp;Family Court&nbsp;Advisory and Support
-              Service”.{' '}
+              <br />
+              CAFCASS: Children and Family Court Advisory and Support Service:{' '}
               <a
                 href="https://www.cafcass.gov.uk/"
                 target="_blank"
@@ -124,14 +124,16 @@ const UsefulLinks = () => {
               >
                 https://www.cafcass.gov.uk/
               </a>
-            </p>
-            <p>
+              <br />
               Kids in the Middle:{' '}
-              <a href="http://www.voicesinthemiddle.org.uk">
+              <a
+                href="http://www.voicesinthemiddle.org.uk"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 www.voicesinthemiddle.org.uk
               </a>
-            </p>
-            <p>
+              <br />
               The Parenting Plan:{' '}
               <a
                 href="http://www.cafcass.gov.uk/grown-ups/parenting-plan.aspx"
@@ -140,8 +142,7 @@ const UsefulLinks = () => {
               >
                 www.cafcass.gov.uk/grown-ups/parenting-plan.aspx
               </a>
-            </p>
-            <p>
+              <br />
               Sorting out Separation:{' '}
               <a
                 href="https://www.gov.uk/separation-divorce"
@@ -150,9 +151,8 @@ const UsefulLinks = () => {
               >
                 https://www.gov.uk/separation-divorce
               </a>
-            </p>
-            <p>
-              A young person’s guide to mediation – “What About Me?”
+              <br />A young person&#39;s guide to mediation &#8212; “What About
+              Me?”:{' '}
               <a
                 href="https://thefma.co.uk/wp-content/uploads/2016/11/Interactive-Guide_family-mediation.pdf"
                 target="_blank"
@@ -160,10 +160,9 @@ const UsefulLinks = () => {
               >
                 https://thefma.co.uk/wp-content/uploads/2016/11/Interactive-Guide_family-mediation.pdf
               </a>
-            </p>
-            <p>
-              The Handover Book – written for separated families to help
-              communication
+              <br />
+              The Handover Book &#8212; written for separated families to help
+              communication:{' '}
               <a
                 href="https://www.thehandoverbook.co.uk/"
                 target="_blank"
@@ -171,9 +170,8 @@ const UsefulLinks = () => {
               >
                 https://www.thehandoverbook.co.uk/
               </a>
-            </p>
-            <p>
-              OurFamilyWizard – co-parenting app:{' '}
+              <br />
+              OurFamilyWizard &#8212; co-parenting app:{' '}
               <a
                 href="http://www.ourfamilywizard.co.uk"
                 target="_blank"
@@ -181,9 +179,8 @@ const UsefulLinks = () => {
               >
                 www.ourfamilywizard.co.uk
               </a>
-            </p>
-            <p>
-              Children’s Wellness Centre, Chiswick:{' '}
+              <br />
+              Children&#39; s Wellness Centre, Chiswick:{' '}
               <a
                 href="http://www.childrenswellnesscentre.co.uk"
                 target="_blank"
@@ -193,8 +190,9 @@ const UsefulLinks = () => {
               </a>
             </p>
             <p>
-              <strong>FINANCES</strong>The Money Advice Service (including
-              Divorce and Money Calculator):
+              <strong>FINANCES</strong>
+              <br />
+              The Money Advice Service (including Divorce and Money Calculator):{' '}
               <a
                 href="https://www.moneyadviceservice.org.uk/en/articles/divorce-and-money-calculator"
                 target="_blank"
@@ -202,18 +200,16 @@ const UsefulLinks = () => {
               >
                 https://www.moneyadviceservice.org.uk/en/articles/divorce-and-money-calculator
               </a>
-            </p>
-            <p>
+              <br />
               Form A (for an application for a financial order):
               <a
                 href="https://www.gov.uk/government/publications/form-a-notice-of-intention-to-proceed-with-an-application-for-a-financial-order"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://www.gov.uk/government/publications/form-a-notice-of-intention-to-proceed-with-an-application-for-a-financial-order
+                https://www.gov.uk/government/publications/form-a
               </a>
-            </p>
-            <p>
+              <br />
               Pensions and divorce:{' '}
               <a
                 href="https://www.pensionwise.gov.uk/en/divorce"
@@ -224,7 +220,9 @@ const UsefulLinks = () => {
               </a>
             </p>
             <p>
-              <strong>RELATIONSHIP ADVICE &amp; COUNSELLING</strong>Relate:{' '}
+              <strong>RELATIONSHIP ADVICE &amp; COUNSELLING</strong>
+              <br />
+              Relate:{' '}
               <a
                 href="http://www.relate.org.uk"
                 target="_blank"
@@ -232,8 +230,7 @@ const UsefulLinks = () => {
               >
                 www.relate.org.uk
               </a>
-            </p>
-            <p>
+              <br />
               British Association for Counselling and Psychotherapy:{' '}
               <a
                 href="http://www.bacp.co.uk"
@@ -244,7 +241,9 @@ const UsefulLinks = () => {
               </a>
             </p>
             <p>
-              <strong>OTHER SUPPORT</strong>Citizens Advice Bureau:{' '}
+              <strong>OTHER SUPPORT</strong>
+              <br />
+              Citizens Advice Bureau:{' '}
               <a
                 href="http://www.citizensadvice.org.uk"
                 target="_blank"
@@ -252,8 +251,7 @@ const UsefulLinks = () => {
               >
                 www.citizensadvice.org.uk
               </a>
-            </p>
-            <p>
+              <br />
               National Domestic Violence Helpline:{' '}
               <a
                 href="http://www.nationaldomesticviolencehelpline.org.uk"
@@ -262,8 +260,7 @@ const UsefulLinks = () => {
               >
                 www.nationaldomesticviolencehelpline.org.uk
               </a>
-            </p>
-            <p>
+              <br />
               Wikivorce:{' '}
               <a
                 href=" https://divorce.wikivorce.com/"
@@ -272,15 +269,11 @@ const UsefulLinks = () => {
               >
                 https://divorce.wikivorce.com{' '}
               </a>{' '}
-            </p>
-            <p>
-              Helpline: 01202 805 020 Email:{' '}
+              Helpline:<a href="tel:07930366661"> 01202 805 020 </a> Email:{' '}
               <span id="cloakae37f47913430251ad22290311bc2c01">
                 <a href="mailto:support@wikivorce.com">support@wikivorce.com</a>
               </span>
-            </p>
-
-            <p>
+              <br />
               Advice Now:{' '}
               <a
                 href="http://www.advicenow.org.uk"
@@ -289,8 +282,7 @@ const UsefulLinks = () => {
               >
                 www.advicenow.org.uk
               </a>
-            </p>
-            <p>
+              <br />
               Divorce Aid:{' '}
               <a
                 href="http://www.divorceaid.co.uk"
