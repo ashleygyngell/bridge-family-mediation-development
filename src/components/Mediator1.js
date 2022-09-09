@@ -13,8 +13,8 @@ const Mediator1 = () => {
         </span>
       </button>
       <div className="content  ">
-        <body className="pl-6 pr-6">
-          <div className="columns pt-6 pl-6 ">
+        <body className="">
+          <div className="columns pt-6 ">
             <div className="column is-4 about-image has-text-centered ">
               <img
                 src="https://www.hagopsphotography.com/wp-content/uploads/2021/10/Female-LinkedIn-portrait.jpg"
@@ -23,10 +23,12 @@ const Mediator1 = () => {
               />
               <div>
                 <p id="fontawesome-styling" className="subtitle is-5 pt-5 pb-2">
-                  <i className="fa-solid fa-phone is-black"></i>
                   <a href="tel:07930366661">
                     {' '}
-                    <span id="mediator-contact-info">07930 366661</span>
+                    <span id="mediator-contact-info">
+                      <i className="fa-solid fa-phone is-black"></i> 07930
+                      366661
+                    </span>
                   </a>
                 </p>
 
@@ -47,7 +49,7 @@ const Mediator1 = () => {
             </div>
             <div className="column is-8 pr-6 ">
               <div className="">
-                <div className="media">
+                <div className="media ">
                   <div className="media-content ">
                     <p className="title is-1 ">Kate Brown</p>
                   </div>
@@ -66,7 +68,6 @@ const Mediator1 = () => {
                   has been about helping people work together, resolve conflict
                   and fulfil their potential.{' '}
                 </p>{' '}
-                <br></br>
                 <p>
                   Since qualifying as a family mediator, I have been able to use
                   these skills to guide people through separation and divorce,

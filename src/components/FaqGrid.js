@@ -18,7 +18,7 @@ const FaqGrid = () => {
                   </div>
                 </Link>
 
-                <div className="content pt-4 pb-2 is-hidden-mobile ">
+                <div className="pt-4 pb-2 is-hidden-mobile ">
                   <p>
                     Family Mediation is a voluntary process, where separating or
                     divorcing couples come together to have a discussion &#8212;
@@ -47,7 +47,7 @@ const FaqGrid = () => {
                   </div>
                 </Link>
 
-                <div className="content pt-4 pb-2 is-hidden-mobile">
+                <div className=" pt-4 pb-2 is-hidden-mobile">
                   <p>
                     Family Mediation is a voluntary process, where separating or
                     divorcing couples come together to have a discussion &#8212;
@@ -77,7 +77,7 @@ const FaqGrid = () => {
                   </div>
                 </Link>
 
-                <div className="content pt-4 pb-2 is-hidden-mobile">
+                <div className="pt-4 pb-2 is-hidden-mobile">
                   <p>
                     Seperating couples, with or without children - married or
                     unmarried.
@@ -110,7 +110,7 @@ const FaqGrid = () => {
                   </div>
                 </Link>
 
-                <div className="content pt-4 pb-2 is-hidden-mobile">
+                <div className=" pt-4 pb-2 is-hidden-mobile">
                   <p>
                     How property, pensions, other financial assets and debts are
                     to be divided up and where both parties will live following

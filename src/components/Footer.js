@@ -74,7 +74,7 @@ const Footer = () => {
 
         <div className="container footer-inner ">
           <div className="columns is-multiline is-flex-tablet is-flex-mobile level">
-            <div className="column is-3-desktop is-6-tablet is-12-mobile">
+            <div className="column is-3-desktop is-12-tablet is-12-mobile">
               <div className="footer-group level-item ">
                 <div className="footer-image-1 ">
                   <a
@@ -87,7 +87,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="column is-6-desktop is-6-tablet is-12-mobile">
+            <div className="column is-6-desktop is-12-tablet is-12-mobile">
               <div className="footer-group  level-item has-text-centered">
                 <div className="">
                   Balham | Barnes | Battersea | Chiswick | Clapham | Kew{' '}

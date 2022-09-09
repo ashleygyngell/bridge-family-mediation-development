@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const About = () => {
-  // After meeting today, the plan is for there to be a block of all mediators and then once you have clicked through you are taken to the individual page with a full breakdown of the mediator. Phone link and email neccesary. Need a bigger return button.
   return (
     <>
       <body>
@@ -23,7 +22,7 @@ const About = () => {
                   </Link>
                 </div>
 
-                <div className="card-content ">
+                <div className="card-content  ">
                   <Link to={'/katebrown'}>
                     <div className="media">
                       <div className="media-content has-text-centered">
@@ -35,7 +34,7 @@ const About = () => {
                     Balham | Barnes | Battersea{' '}
                   </p>
 
-                  <div className="content pt-4 ">
+                  <div className=" pt-4 pb-2  ">
                     <p>
                       I completed my mediation training with the Family
                       Mediators&#39; Association in 2015 and I am fully
@@ -78,7 +77,7 @@ const About = () => {
                   <p className="subtitle is-6 has-text-centered pt-2 ">
                     Putney | Southfields | Wandsworth{' '}
                   </p>
-                  <div className="content pt-4">
+                  <div className="pt-4 pb-2">
                     <p>
                       I trained as a Family Mediator with the Family
                       Mediators&#39; Association in 2013 and hold full Family
@@ -121,7 +120,7 @@ const About = () => {
                   <p className="subtitle is-6 has-text-centered pt-2 ">
                     Clapham | Balham | Streatham{' '}
                   </p>
-                  <div className="content pt-4">
+                  <div className="pt-4 pb-2">
                     <p>
                       I qualified as a Family Mediator with the Family
                       Mediators&#39; Association in 2017 and feel passionate
@@ -163,7 +162,7 @@ const About = () => {
                   <p className="subtitle is-6 has-text-centered pt-2 ">
                     Battersea | Richmond | Wimbledon{' '}
                   </p>
-                  <div className="content pt-4">
+                  <div className="pt-4 pb-2">
                     <p>
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                       Facilis blanditiis ducimus nam quaerat sit deleniti,
