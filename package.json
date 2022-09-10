@@ -1,5 +1,6 @@
 {
-  "name": "demo-app",
+  "homepage": "http://ashleygyngell.github.io/bridge-family-mediation",
+  "name": "bridge-family-mediation",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,7 +14,6 @@
     "react-scripts": "^5.0.0",
     "sass": "^1.49.9"
   },
-  "homepage": "http://ashleygyngell.github.io/bridge-family-mediation",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
