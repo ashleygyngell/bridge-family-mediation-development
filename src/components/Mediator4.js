@@ -15,35 +15,39 @@ const Mediator4 = () => {
       <div className="content  ">
         <body className="">
           <div className="columns pt-6 ">
-            <div className="column is-4 about-image has-text-centered ">
+            <div className="column is-4 about-image has-text-centered pr-5 ">
               <img
-                src="https://www.hagopsphotography.com/wp-content/uploads/2021/10/Company-linkedIn-photo.jpg"
+                src="https://www.hagopsphotography.com/wp-content/uploads/2021/10/Female-LinkedIn-portrait.jpg"
                 alt="Placeholder image"
                 className="mediator-image has-text-centered"
               />
-              <div>
-                <p id="fontawesome-styling" className="subtitle is-5 pt-5 pb-2">
+              <div className="subtitle">
+                <p id="fontawesome-styling" className=" pt-4  ">
                   <a href="tel:00000 00000">
                     {' '}
+                    <span id="mediator-contact-info">00000 00000</span>
+                  </a>
+
+                  <a
+                    id="fontawesome-styling"
+                    className="subtitle "
+                    href="mailto:caroline@bridgefamilymediation.co.uk"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <span id="mediator-contact-info">
-                      <i className="fa-solid fa-phone is-black"></i> 00000 00000
+                      {' '}
+                      carolinedunne@bridgefamilymediation.co.uk
                     </span>
                   </a>
                 </p>
-
-                <a
-                  id="fontawesome-styling"
-                  className="subtitle "
-                  href="mailto:caroline@bridgefamilymediation.co.uk"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <i className="fa-solid fa-envelope"></i>
-                  <span id="mediator-contact-info">
-                    {' '}
-                    carolinedunne@bridgefamilymediation.co.uk
-                  </span>
-                </a>
+                <div className="mediator-logos pt-5 ">
+                  <img src={fmcLogo} alt="FMC Logo" />
+                  {/* <img
+                  src={fmcLogoChildInclusive}
+                  alt="FMC Child Mediation Logo"
+                /> */}
+                </div>
               </div>
             </div>
             <div className="column is-8 pr-6 ">
@@ -65,7 +69,6 @@ const Mediator4 = () => {
                   doloribus odio reprehenderit qui, fuga quae saepe nulla
                   debitis, deleniti sunt modi.
                 </p>{' '}
-                <br></br>
                 <p>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Reiciendis aliquam obcaecati aperiam qui nisi dolorum dolore
@@ -73,13 +76,6 @@ const Mediator4 = () => {
                   porro molestiae architecto aliquid voluptatum animi est. Natus
                   sapiente rem ullam saepe. Quas, ducimus ratione.
                 </p>
-                <div className="mediator-logos pt-4 ">
-                  <img src={fmcLogo} alt="FMC Logo" />
-                  {/* <img
-                  src={fmcLogoChildInclusive}
-                  alt="FMC Child Mediation Logo"
-                /> */}
-                </div>
               </div>
             </div>
           </div>

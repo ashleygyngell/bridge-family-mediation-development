@@ -3,9 +3,9 @@ import React from 'react';
 const Contact = () => {
   return (
     <>
-      <body>
-        <div className="container my-6 mx-6 px-6">
-          <h2 className="title is-2 is-capitalized">Contact Us</h2>
+      <body className="pt-6 pr-6 pl-6">
+        <div className="content ">
+          <p className="title is-1 is-1">Contact Us</p>
           <form
             action="mailto:admin@bridgefamilymediation.co.uk"
             method="post"

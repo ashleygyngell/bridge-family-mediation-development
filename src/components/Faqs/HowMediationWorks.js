@@ -1,21 +1,25 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import YoutubeEmbed from '../YoutubeEmbed.js';
+import { useEffect } from 'react';
 
 const HowMediationWorks = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
-      <button className="back-button pl-4 pt-1  ">
+      <button className="back-button pl-4 pt-1   ">
         <Link to={'/faqs'}>
           <span>
-            <i className="fa-solid fa-arrow-left "></i> Back
+            <i className="fa-solid fa-arrow-left "></i> FAQs
           </span>
         </Link>
       </button>
 
-      <body className=" columns is-mobile is-tablet pl-6 pr-6 pb-6 ">
+      <body className=" columns is-mobile is-tablet pl-6 pr-6 pb-6 pt-1 ">
         <div className="title mt-6 mr-6 ml-6">How does it work?</div>
-        <div className="columns pt-5 ">
+        <div className="columns pt-5 pr-6 pl-4 ">
           <div className="column pt-0 pl-6 pr-6 pb-6 is-6-desktop is-12-tablet is-12-mobile mediator-text">
             <p>
               Family Mediation is a voluntary process, where separating or
@@ -52,12 +56,12 @@ const HowMediationWorks = () => {
         </div>
         <div className="faq-buttons-div columns is-mobile">
           <button className="faq-button column is-6-mobile ">
-            <Link to={'/howmuchdoesitcost'}>
+            <Link to={'/whatdoesitcost'}>
               <span>
                 <i className="fa-solid fa-arrow-left  "></i> Previous
               </span>
 
-              <p className="faq-button-subtitle">How much does it cost? </p>
+              <p className="faq-button-subtitle">What does it cost? </p>
             </Link>
           </button>
 

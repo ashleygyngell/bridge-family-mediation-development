@@ -1,17 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
 const WhatIsMediation = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <button className="back-button pl-4 pt-1 ">
         <Link to={'/faqs'}>
           <span>
-            <i className="fa-solid fa-arrow-left "></i> Back
+            <i className="fa-solid fa-arrow-left "></i> FAQs
           </span>
         </Link>
       </button>
-      <body className="columns is-mobile is-tablet pl-6 pr-6 pb-6">
+      <body className="columns is-mobile is-tablet pl-6 pr-6 pb-6 pt-1">
         <div className="title mt-6 mr-6 ml-6">What is mediation?</div>
         <div className="column pt-5 pl-6 pr-6 pb-6 is-12-desktop is-12-tablet is-12-mobile mediator-text ">
           <p>

@@ -118,7 +118,13 @@ body {
   text-decoration: none;
 }
 
+.navbar-brand:focus {
+  background-color: transparent;;
+}
 
+.navbar-brand:active {
+  background-color: transparent;;
+}
 
 #navbar-item:hover {
   transition: all 0.1s;
@@ -165,6 +171,12 @@ body {
           color: black
         }
 
+                #navbar-title:active {
+                  background-color: transparent;;
+                }
+                                 #navbar-title:focus {
+                                   background-color: transparent;;
+                                 }
 
 // Title-hero
 .title-hero {
@@ -213,10 +225,10 @@ body {
 
 .hero-background {
   background-image: url(../assets/images/demo3.png);
-  background-position: 0px -170px ;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-
+  position: relative
 }
 
 
@@ -231,19 +243,24 @@ body {
 }
 
 #has-text-over-photo {
-  color: #6c8249
+  color: #6c8249;
+  
 }
 
 .hero-text-over-photo {
+position: absolute;
+ top: 14%;
+left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-direction: column;
-  text-align: center;
-  padding-top: 2px;
-  padding-bottom: 28vh;
   font-size: 32px;
-  color: #607341
+  color: black
 }
 // About
+
 
 .title {
   padding: 10px;
@@ -269,7 +286,8 @@ body {
 }
 
 #mediator-card {
-  min-height: 82vh
+  min-height: 83vh;
+  
 }
 
 // #mediator-card:hover {
@@ -280,13 +298,14 @@ body {
 
 #about-image {
   border-radius: 0.25rem;
+ 
 }
 
 // Mediator
 
 #mediator-contact-info {
   text-decoration: none;
-
+font-size: 1.1rem;
 }
 
 

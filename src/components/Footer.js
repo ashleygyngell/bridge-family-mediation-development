@@ -93,7 +93,7 @@ const Footer = () => {
             <div className="column is-3-desktop is-12-tablet is-12-mobile">
               <div id="footer links" className="footer-group level-item">
                 <ul>
-                  <Link to={'/podcasts'}>
+                  <Link to={''}>
                     {/* <i className="fa-solid fa-microphone"></i>  */}
                     Podcast
                   </Link>
@@ -105,7 +105,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to={'/privacypolicy'}>
+                    <Link to={'/'}>
                       {/* <i className="fa-solid fa-lock"></i> */}
                       Privacy Policy
                     </Link>

@@ -15,39 +15,42 @@ const Mediator1 = () => {
       <div className="content  ">
         <body className="">
           <div className="columns pt-6 ">
-            <div className="column is-4 about-image has-text-centered ">
+            <div className="column is-4  has-text-centered   ">
               <img
                 src="https://www.hagopsphotography.com/wp-content/uploads/2021/10/Female-LinkedIn-portrait.jpg"
                 alt="Placeholder image"
-                className="mediator-image has-text-centered"
+                className="mediator-image has-text-centered about-image "
               />
-              <div>
-                <p id="fontawesome-styling" className="subtitle is-5 pt-5 pb-2">
+              <div className="subtitle">
+                <p id="fontawesome-styling" className=" pt-4  ">
                   <a href="tel:07930366661">
                     {' '}
+                    <span id="mediator-contact-info">07930 366661</span>
+                  </a>
+
+                  <a
+                    id="fontawesome-styling"
+                    className=""
+                    href="mailto:katebrown@bridgefamilymediation.co.uk"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <span id="mediator-contact-info">
-                      <i className="fa-solid fa-phone is-black"></i> 07930
-                      366661
+                      {' '}
+                      katebrown@bridgefamilymediation.co.uk
                     </span>
                   </a>
                 </p>
-
-                <a
-                  id="fontawesome-styling"
-                  className="subtitle "
-                  href="mailto:katebrown@bridgefamilymediation.co.uk"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <i className="fa-solid fa-envelope"></i>
-                  <span id="mediator-contact-info">
-                    {' '}
-                    katebrown@bridgefamilymediation.co.uk
-                  </span>
-                </a>
+                <div className="mediator-logos pt-5 ">
+                  <img href="" src={fmcLogo} alt="FMC Logo" />
+                  <img
+                    src={fmcLogoChildInclusive}
+                    alt="FMC Child Mediation Logo"
+                  />
+                </div>
               </div>
             </div>
-            <div className="column is-8 pr-6 ">
+            <div className="column is-8 pr-6 pl-5 ">
               <div className="">
                 <div className="media ">
                   <div className="media-content ">
@@ -60,6 +63,13 @@ const Mediator1 = () => {
                 </p>
               </div>
               <div className="mediator-text pt-5 pb-5 ">
+                <p>
+                  I completed my mediation training with the Family
+                  Mediators&#39; Association in 2015 and I am fully accredited
+                  by the Family Mediation Council. I am also qualified in Child
+                  Inclusive Mediation and can see children aged 10 and over
+                  within the mediation process.
+                </p>
                 <p>
                   I have a special interest in child development and working
                   with families to prioritise the emotional wellbeing of their
@@ -76,13 +86,6 @@ const Mediator1 = () => {
                   families, however complex their situation, resolve matters
                   sensitively, swiftly and affordably.
                 </p>
-                <div className="mediator-logos pt-4 ">
-                  <img href="" src={fmcLogo} alt="FMC Logo" />
-                  <img
-                    src={fmcLogoChildInclusive}
-                    alt="FMC Child Mediation Logo"
-                  />
-                </div>
               </div>
             </div>
           </div>

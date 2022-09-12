@@ -2,6 +2,7 @@ import { React } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // General
+import PageNotFound from './components/PageNotFound';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -28,6 +29,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
+        <Route path="*" component={PageNotFound} />
         <Route path="/" element={<Home />} />
         <Route path="/faqs" element={<FaqGrid />} />
         <Route path="/aboutus" element={<About />} />
