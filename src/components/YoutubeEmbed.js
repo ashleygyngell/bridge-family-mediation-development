@@ -9,6 +9,7 @@ const YoutubeEmbed = () => (
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
       title="How Mediation Works"
+      arl="How Mediation Works"
     />
   </div>
 );

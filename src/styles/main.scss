@@ -1,11 +1,12 @@
-$forestgreen: #567D04;
-$outdoorsgreen: #7E9757;
+$forestgreen: #659206;
+$outdoorsgreen: #76a15b;
 $info: $forestgreen;
 $warning: $outdoorsgreen;
 $footer-padding: 2rem 0 2rem 0;
 
 @import '~bulma/bulma.sass';
 @import 'bulma';
+// @import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 @font-face {
   font-family: rift-soft;
@@ -15,12 +16,14 @@ $footer-padding: 2rem 0 2rem 0;
 @font-face {
   font-family: effra;
   src: url("/assets/fonts/effra/Effra Regular.ttf") format("truetype"),
-    
+
 }
+
 // General 
 html,
-body, button {
-font-family: 'Jost', sans-serif;
+body,
+button {
+  font-family: 'Jost', sans-serif;
 }
 
 
@@ -31,13 +34,27 @@ body {
 }
 
 
+#carousel {
+  position: absolute;
+  opacity: .7;
+  width: 100vw;
+  z-index: -1;
+}
 
+#carousel img {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  top: -140px
+}
 
 @media only screen and (min-width: 1301px) {
-.content {
-  padding: 2% 10% 2% 10%;
+  .content {
+    padding: 2% 10% 2% 10%;
 
-}}
+  }
+}
 
 @media only screen and (max-width: 1300px) {
   .content {
@@ -58,18 +75,20 @@ body {
 .back-button :hover {
   cursor: pointer;
   transition: all 0.1s;
-    color: grey;
+  color: grey;
 }
 
 .back-button-subtitle {
   color: grey;
-    font-size:small;
-    margin-top: -5px;
+  font-size: small;
+  margin-top: -5px;
 }
 
 #button:hover {
   transition: all 0.1s;
   color: black;
+  background-color: $outdoorsgreen;
+
 }
 
 #fontawesome-styling {
@@ -96,6 +115,16 @@ body {
 }
 
 
+@media screen and (min-width: 1024px) {
+  .navbar-item.is-hoverable:hover .navbar-dropdown {
+    display: block !important;
+  }
+
+  .navbar-item.is-hoverable:focus-within .navbar-dropdown {
+    display: none;
+  }
+}
+
 
 
 
@@ -105,35 +134,40 @@ body {
 .navbar {
   height: 8vh;
   background-color: $outdoorsgreen;
-  color: white 
+  color: white;
+  font-size: 1.15em;
 }
 
 .navbar-menu {
   background-color: $outdoorsgreen;
-  color: blue;
 }
 
 .navbar-menu :hover {
-  
+
   text-decoration: none;
 }
 
+#navbar-brand {
+  display: flex
+}
+
 .navbar-brand:focus {
-  background-color: transparent;;
+  background: black
 }
 
 .navbar-brand:active {
-  background-color: transparent;;
+  background: $outdoorsgreen;
+  ;
 }
 
 #navbar-item:hover {
   transition: all 0.1s;
-  color:black
+  color: black
 }
 
-#navbar-item:focus  {
+#navbar-item:focus {
   color: black;
- 
+
 }
 
 #navbar-item:active {
@@ -141,7 +175,7 @@ body {
 }
 
 .navbar button:focus-visible {
-  background-color: transparent;
+  background: transparent;
 }
 
 .navbar-item {
@@ -150,33 +184,65 @@ body {
 
 .navbar-item img {
   display: flex;
-  padding-top: 0px;
   max-height: fit-content;
   height: 50px
 }
 
 #navbar-title {
   display: 'none';
-      text-align: center;
-      color: white;
-      max-height: fit-content;
-      background-color: $outdoorsgreen;
-      text-transform: uppercase;
-      letter-spacing: 12px;
-      font-weight: 100;
-        font-size: 24px;
-        font-family: rift-soft;
-      
-    } span {
-          color: black
-        }
+  flex-direction: column;
+    justify-content: center;
+  text-align: center;
+  color: white;
+  max-height: fit-content;
+  background-color: $outdoorsgreen;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  font-weight: 100;
+  font-size: 28px;
+  font-family: rift-soft;
+}
 
-                #navbar-title:active {
-                  background-color: transparent;;
-                }
-                                 #navbar-title:focus {
-                                   background-color: transparent;;
-                                 }
+span {
+  color: black
+}
+
+#navbar-text-control-background {
+  background-color: $outdoorsgreen;
+  max-height: 52px;
+}
+
+#navbar-title-text {
+  color: white
+}
+
+
+
+#navbar-item:active {
+  color: black;
+}
+
+#navbar-image:active:focus {
+  background: transparent;
+}
+
+.navbar :focus {
+  background: $outdoorsgreen;
+}
+
+.navbar-dropdown.is-boxed {
+  background-color: $outdoorsgreen;
+  color: black;
+  font-size: 1em;
+}
+
+#navbar-dropdown-right {
+left: calc(100% + (-135px));
+}
+
+#navbar-dropdown {
+  left: calc(100% + (-115px));
+}
 
 // Title-hero
 .title-hero {
@@ -187,12 +253,25 @@ body {
   text-transform: uppercase;
   letter-spacing: 18px;
   font-weight: 100;
-  font-size: 50px;
+  font-size: 70px;
   font-family: rift-soft;
-} 
+  margin-top: -20px;
+  padding-top: 3px
+}
 
 
 // Hero
+
+.logo-home-container {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+
+.logo-home {
+  height: 70px;
+}
 
 // to fix hero navbar section
 .tabs:not(:last-child),
@@ -224,7 +303,7 @@ body {
 }
 
 .hero-background {
-  background-image: url(../assets/images/demo3.png);
+  background-image: url(../assets/images/backgroundfull.jpeg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -233,10 +312,10 @@ body {
 
 
 .columns .button {
-  margin-top: 80px;
+  margin-top: 65vh;
   margin-bottom: 20vh;
   height: 6vw;
-  width: 25vw ;
+  width: 25vw;
   padding: 40px;
   font-size: 25px;
   // border: 2px solid darkgreen;
@@ -244,13 +323,13 @@ body {
 
 #has-text-over-photo {
   color: #6c8249;
-  
+
 }
 
 .hero-text-over-photo {
-position: absolute;
- top: 14%;
-left: 0;
+  position: absolute;
+  top: 14%;
+  left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
@@ -259,6 +338,7 @@ left: 0;
   font-size: 32px;
   color: black
 }
+
 // About
 
 
@@ -287,7 +367,7 @@ left: 0;
 
 #mediator-card {
   min-height: 83vh;
-  
+  margin-top: -1rem;
 }
 
 // #mediator-card:hover {
@@ -298,14 +378,14 @@ left: 0;
 
 #about-image {
   border-radius: 0.25rem;
- 
+
 }
 
 // Mediator
 
 #mediator-contact-info {
   text-decoration: none;
-font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 
@@ -315,7 +395,7 @@ font-size: 1.1rem;
 }
 
 .mediator-text {
-  font-size:1.25rem ;
+  font-size: 1.25rem;
   color: black
 }
 
@@ -323,11 +403,11 @@ font-size: 1.1rem;
   margin-top: 15px;
   margin-left: 10px;
   // background-color: $outdoorsgreen;
-  
+
 }
 
 .mediator-image {
-  
+
   border-radius: 0.25rem;
 }
 
@@ -336,28 +416,29 @@ font-size: 1.1rem;
   flex-direction: row;
   justify-content: center;
   height: 140px;
-    width: 100%;
-  
-    img {
-      display: block;
-      max-width: 100%;
-      margin: 0 10;
-      padding: 0 10px 0 10px
-    }
-  
+  width: 100%;
+
+  img {
+    display: block;
+    max-width: 100%;
+    margin: 0 10;
+    padding: 0 10px 0 10px
+  }
 }
 
 // Footer
 
 .footer {
+  font-size: 1.15em;
   color: white;
   min-height: 8vh;
-  background-color: $outdoorsgreen;  
-} 
+  background-color: $outdoorsgreen;
+}
 
 .footer-group {
   a {
     color: white;
+
     &:hover {
       text-decoration: underline;
     }
@@ -378,6 +459,7 @@ font-size: 1.1rem;
 
 .copyright {
   padding-top: 1rem;
+
   span {
     color: #808591;
     font-size: 0.9rem;
@@ -390,23 +472,23 @@ font-size: 1.1rem;
 // FAQ's
 
 #faq-card {
-  height: 35vh;
-  
+  min-height: 280px;
+
 }
 
 #faq-card button {
   height: 25vh;
-  
+
 }
 
 #faq-title {
   overflow: hidden;
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 #youtube-div {
   height: 20vh;
-  width: auto
+  width: auto;
 
 }
 
@@ -429,17 +511,26 @@ font-size: 1.1rem;
   font-size: smaller;
 }
 
+//Mediation 
+
+#mediation-breakdown-image {
+border-radius: 0.25rem;
+height: auto;
+max-height: 500px
+};
+
 // Useful Links
 
 #links-text {
   font-size: 1.25rem;
   color: black
 }
+
 // Animations
 
 .fadeInOnLoad {
-  animation: fadeIn 1s ease backwards;
-  animation-delay: .5s;
+  animation: fadeIn 1.2s ease backwards;
+  animation-delay: 0.4s;
 }
 
 @keyframes fadeIn {
@@ -455,7 +546,7 @@ font-size: 1.1rem;
 }
 
 .fadeInOnLoad2 {
-  animation: fadeIn2 1.5s ease backwards;
+  animation: fadeIn2 2s ease backwards;
   animation-delay: .8s;
 }
 

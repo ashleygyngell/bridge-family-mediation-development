@@ -9,7 +9,7 @@ const Mediator4 = () => {
     <>
       <button className="back-button pl-4 pt-1 " onClick={() => navigate(-1)}>
         <span>
-          <i className="fa-solid fa-arrow-left "></i> Back
+          <i className="fa-solid fa-arrow-left "></i> {''}Our Mediators
         </span>
       </button>
       <div className="content  ">

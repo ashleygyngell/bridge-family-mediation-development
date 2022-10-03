@@ -8,15 +8,15 @@ const WhatIsMediation = () => {
   }, []);
   return (
     <>
-      <button className="back-button pl-4 pt-1 ">
-        <Link to={'/faqs'}>
+      {/* <button className="back-button pl-4 pt-1 ">
+        <Link to={'/'}>
           <span>
-            <i className="fa-solid fa-arrow-left "></i> FAQs
+            <i className="fa-solid fa-arrow-left "></i> Home
           </span>
         </Link>
-      </button>
+      </button> */}
       <body className="columns is-mobile is-tablet pl-6 pr-6 pb-6 pt-1">
-        <div className="title mt-6 mr-6 ml-6">What is mediation?</div>
+        <div className="title mt-6 mr-6 ml-6">What Is Mediation?</div>
         <div className="column pt-5 pl-6 pr-6 pb-6 is-12-desktop is-12-tablet is-12-mobile mediator-text ">
           <p>
             I have a special interest in child development and working with
@@ -34,27 +34,6 @@ const WhatIsMediation = () => {
             complex their situation, resolve matters sensitively, swiftly and
             affordably.
           </p>
-        </div>
-        <div className="faq-buttons-div columns is-mobile">
-          <button className="faq-button column is-6-mobile ">
-            <Link to={'/howdoesitwork'}>
-              <span>
-                <i className="fa-solid fa-arrow-left  "></i> Previous
-              </span>
-
-              <p className="faq-button-subtitle">How does it work? </p>
-            </Link>
-          </button>
-
-          <button className="faq-button column is-6-mobile ">
-            <Link to={'/whodowehelp'}>
-              <span>
-                Next <i className="fa-solid fa-arrow-right "></i>{' '}
-              </span>
-
-              <p className="faq-button-subtitle">Who do we help? </p>
-            </Link>
-          </button>
         </div>
       </body>
     </>

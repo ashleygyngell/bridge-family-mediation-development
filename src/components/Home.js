@@ -1,52 +1,74 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import bfmLogo2 from '../assets/logos/withwhitelogo.png';
+// import BackgroundSlider from 'react-background-slider';
+
+import aa from '../assets/images/test1.png';
+import aa2 from '../assets/images/test2.png';
+import aa3 from '../assets/images/test3.png';
 
 // Homepage needs new photo background and liscenced.
-const Home = () => {
-  // const navbar = document.getElementById('navbar-title');
-  // navbar.style.display = 'none';
-  return (
-    <>
-      <section className="title-hero">
-        <p className="fadeInOnLoad">
-          <span>Bridge</span> Family Mediation
-        </p>
-      </section>
+export default class Home extends Component {
+  render() {
+    return (
+      <>
+        {' '}
+        <section className="title-hero  ">
+          {/* <div className="logo-home-container ">
+            {' '} */}
 
-      <section className="hero hero-background full-height is-tablet">
-        <div
-          id="has-text-over-photo"
-          className="hero-text-over-photo has-text-centered fadeInOnLoad2 "
-        >
-          <p>Are you going through a divorce or separation? </p>
-          <p>Let us help.</p>
-        </div>
-        <div className="columns has-text-centered">
-          <div className="column">
-            <Link to={'/whatismediation'}>
-              <button id="button" className="button is-warning">
-                What is Mediation?
-              </button>
-            </Link>
+          {/* </div> */}
+          <div className="logo-home-container  fadeInOnLoad has-text-centered">
+            <img
+              className="logo-home fadeInOnLoad pr-5 "
+              src={bfmLogo2}
+              alt="Bridge Family Mediation Logo "
+              width="auto"
+            />{' '}
+            <p>
+              <span className="pr-5">Bridge</span>Family Mediation
+            </p>
           </div>
-          <div className="column">
-            <Link to={'/howdoesitwork'}>
-              <button id="button" className="button is-warning">
-                How it works
-              </button>
-            </Link>
+        </section>
+        {/* <BackgroundSlider
+          images={[aa, aa2, aa3]}
+          duration={10}
+          transition={2}
+        /> */}
+        <section className="hero hero-background full-height is-tablet">
+          <div
+            id="has-text-over-photo"
+            className="hero-text-over-photo has-text-centered fadeInOnLoad2 "
+          >
+            <p>Are you going through a divorce or separation? </p>
+            <p>Let us help.</p>
           </div>
-          <div className="column">
-            <Link to={'/aboutus'}>
-              <button id="button" className="button is-warning">
-                About us
-              </button>
-            </Link>
+          <div className="columns has-text-centered">
+            <div className="column">
+              <Link to={'/whatismediation'}>
+                <button id="button" className="button is-warning">
+                  What is Mediation
+                </button>
+              </Link>
+            </div>
+            <div className="column">
+              <Link to={'/ourmediators'}>
+                <button id="button" className="button is-warning">
+                  About Us
+                </button>
+              </Link>
+            </div>
+            <div className="column">
+              <Link to={'/ourfees'}>
+                <button id="button" className="button is-warning">
+                  What It Costs
+                </button>
+              </Link>
+            </div>
           </div>
-        </div>
-      </section>
-    </>
-  );
-};
-
-export default Home;
+        </section>
+      </>
+    );
+  }
+}

@@ -7,32 +7,34 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import FaqGrid from './components/FaqGrid';
-import About from './components/About';
+import OurMediators from './components/OurMediators';
 import Contact from './components/Contact';
 import Mediator1 from './components/Mediator1';
 import Mediator2 from './components/Mediator2';
 import Mediator3 from './components/Mediator3';
 import Mediator4 from './components/Mediator4';
 import UsefulLinks from './components/UsefulLinks';
+import TheVoucherScheme from './components/TheVoucherScheme';
 
-// FAQ's
-import WhatIsMediation from './components/Faqs/WhatIsMediation';
-import HowMediationWorks from './components/Faqs/HowMediationWorks';
-import WhoDoWeHelp from './components/Faqs/WhoDoWeHelp';
-import WhatMayBeDiscussed from './components/Faqs/WhatMayBeDiscussed';
-import IsMediationLegallyBinding from './components/Faqs/IsMediationLegallyBinding';
-import WhyChooseUs from './components/Faqs/WhyChooseUs';
-import WhatDoesItCost from './components/Faqs/WhatDoesItCost';
+// Mediation
+import TheMediationAgreement from './components//TheMediationAgreement';
+import WhatIsMediation from './components//WhatIsMediation';
+import HowItWorks from './components/HowItWorks';
+import WhoWeHelp from './components//WhoWeHelp';
+import WhatWeDiscuss from './components//WhatWeDiscuss';
+import WhyChooseUs from './components//WhyChooseUs';
+import OurFees from './components/OurFees';
+import ChildrenInMediation from './components/ChildrenInMediation';
 
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="*" component={PageNotFound} />
+        <Route path="*" component={<PageNotFound />} />
         <Route path="/" element={<Home />} />
         <Route path="/faqs" element={<FaqGrid />} />
-        <Route path="/aboutus" element={<About />} />
+        <Route path="/ourmediators" element={<OurMediators />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/katebrown" element={<Mediator1 />} />
         <Route path="/kathleenstraub" element={<Mediator2 />} />
@@ -41,15 +43,17 @@ function App() {
         <Route path="/usefullinks" element={<UsefulLinks />} />
         {/* FAQS */}
         <Route path="/whatismediation" element={<WhatIsMediation />} />
-        <Route path="/howdoesitwork" element={<HowMediationWorks />} />
-        <Route path="/whodowehelp" element={<WhoDoWeHelp />} />
-        <Route path="/whatmaybediscussed" element={<WhatMayBeDiscussed />} />
+        <Route path="/childreninmediation" element={<ChildrenInMediation />} />
         <Route
-          path="/ismediationlegallybinding"
-          element={<IsMediationLegallyBinding />}
+          path="/themediationagreement"
+          element={<TheMediationAgreement />}
         />
+        <Route path="/howitworks" element={<HowItWorks />} />
+        <Route path="/whowehelp" element={<WhoWeHelp />} />
+        <Route path="/whatwediscuss" element={<WhatWeDiscuss />} />
         <Route path="/whychooseus" element={<WhyChooseUs />} />
-        <Route path="/whatdoesitcost" element={<WhatDoesItCost />} />
+        <Route path="/ourfees" element={<OurFees />} />
+        <Route path="/thevoucherscheme" element={<TheVoucherScheme />} />
       </Routes>
       <Footer />
     </BrowserRouter>

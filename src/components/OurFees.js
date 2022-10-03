@@ -2,21 +2,21 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 
-const WhatDoesItCost = () => {
+const OurFees = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   return (
     <>
-      <button className="back-button pl-4 pt-1 ">
-        <Link to={'/faqs'}>
+      {/* <button className="back-button pl-4 pt-1 ">
+        <Link to={'/'}>
           <span>
-            <i className="fa-solid fa-arrow-left "></i> FAQs
+            <i className="fa-solid fa-arrow-left "></i> Home
           </span>
         </Link>
-      </button>
+      </button> */}
       <body className="columns is-mobile is-tablet pl-6 pr-6 pb-6 pt-1">
-        <div className="title mt-6 mr-6 ml-6">What does it cost?</div>
+        <div className="title mt-6 mr-6 ml-6">What Does It Cost</div>
         <div className="column pt-5 pl-6 pr-6 pb-6 is-12-desktop is-12-tablet is-12-mobile mediator-text  ">
           <p>
             At Bridge Mediation, we are committed to offering value for money.
@@ -68,30 +68,9 @@ const WhatDoesItCost = () => {
             practice with a Legal Aid franchise.
           </p>
         </div>
-        <div className="faq-buttons-div columns is-mobile">
-          <button className="faq-button column is-6-mobile ">
-            <Link to={'/whychooseus'}>
-              <span>
-                <i className="fa-solid fa-arrow-left"></i> Previous
-              </span>
-
-              <p className="faq-button-subtitle">Why Choose Us? </p>
-            </Link>
-          </button>
-
-          <button className="faq-button column is-6-mobile">
-            <Link to={'/howdoesitwork'}>
-              <span>
-                Next <i className="fa-solid fa-arrow-right"></i>{' '}
-              </span>
-
-              <p className="faq-button-subtitle">How does it work? </p>
-            </Link>
-          </button>
-        </div>
       </body>
     </>
   );
 };
 
-export default WhatDoesItCost;
+export default OurFees;
