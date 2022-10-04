@@ -15,8 +15,8 @@ const OurFees = () => {
           </span>
         </Link>
       </button> */}
-      <body className="columns is-mobile is-tablet pl-6 pr-6 pb-6 pt-1">
-        <div className="title mt-6 mr-6 ml-6">What Does It Cost</div>
+      <div className="content ">
+        <div className="title is-3 mt-4 mr-6 ml-6">Our Fees</div>
         <div className="column pt-5 pl-6 pr-6 pb-6 is-12-desktop is-12-tablet is-12-mobile mediator-text  ">
           <p>
             At Bridge Mediation, we are committed to offering value for money.
@@ -26,49 +26,59 @@ const OurFees = () => {
             end. We are happy to discuss individual circumstances based on your
             ability to pay.{' '}
           </p>
-          <br />
-          <p>
-            <strong>Fees </strong>
-          </p>
+
+          <strong>
+            <u>Fees</u>{' '}
+          </strong>
           <bl>
-            <li>MIAM/Intake Meeting (60 minutes): £120 per person.</li>
-            <li>Joint Mediation Session (90 minutes): £180 per person.</li>
-            <li>
+            <li className="ml-4">
+              MIAM/Intake Meeting (60 minutes): £120 per person.
+            </li>
+            <li className="ml-4">
+              Joint Mediation Session (90 minutes): £180 per person.
+            </li>
+            <li className="ml-4">
               We listen to you &#8212; and take great care to make you feel safe
               and comfortable.
             </li>
-            <li>
+            <li className="ml-4">
               Memorandum of Understanding or Summary of Proposals: £120 per hour
               per person (normally in the region of 1.5 hours work).
             </li>
-            <li>
+            <li className="ml-4">
               Financial Statement: £120 per hour per person (normally in the
               region of 1.5 hours work).
             </li>
           </bl>
           <br />
-          <p>
-            <strong>Offered free of charge </strong>
-          </p>
+
+          <strong>
+            <u>Offered free of charge</u>{' '}
+          </strong>
+
           <bl>
-            <li>
+            <li className="ml-4">
               Introductory phone call (20 minutes) to discuss your case and
               suitablity for mediation.
             </li>
-            <li>Letters, emails, telephone calls, where kept to a minimum.</li>
-            <li>Meeting preparation and session summaries.</li>
+            <li className="ml-4">
+              Letters, emails, telephone calls, where kept to a minimum.
+            </li>
+            <li className="ml-4">Meeting preparation and session summaries.</li>
           </bl>
-          <p>
-            <br />
-            <strong>Legal Aid</strong>
-          </p>
+
+          <br />
+          <strong>
+            <u>Legal Aid</u>
+          </strong>
+
           <p>
             Depending on your income, your mediation costs may be covered by
             Legal Aid. We do not currently offer this but we can refer you to a
             practice with a Legal Aid franchise.
           </p>
         </div>
-      </body>
+      </div>
     </>
   );
 };

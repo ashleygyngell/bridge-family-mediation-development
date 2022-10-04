@@ -17,8 +17,8 @@ const ChildrenInMediation = () => {
         </Link>
       </button> */}
 
-      <body className=" columns is-mobile is-tablet pl-6 pr-6 pb-6 pt-1 ">
-        <div className="title mt-6 mr-6 ml-6">Children In Mediation</div>
+      <div className="content  ">
+        <div className="title is-3 mt-4 mr-6 ml-6">Children In Mediation</div>
         <div className="columns pt-5 pr-6 pl-4 ">
           <div className="column pt-0 pl-6 pr-6 pb-6 is-12-desktop is-12-tablet is-12-mobile mediator-text">
             <p>
@@ -52,7 +52,7 @@ const ChildrenInMediation = () => {
             https://www.dreamstime.com/back-view-father-son-holding-hands-walking-bridge-park-image127765196
           </p>
         </div>
-      </body>
+      </div>
     </>
   );
 };

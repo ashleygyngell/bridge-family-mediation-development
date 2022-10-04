@@ -3,13 +3,15 @@ import React from 'react';
 const Contact = () => {
   return (
     <>
-      <body className="pt-6 pr-6 pl-6">
+      <div className="content ">
+        <div className="title is-3 mt-4 mr-6 ml-6">Contact us</div>
+
         <div className="content ">
-          <p className="title is-1 is-1">Contact Us</p>
           <form
             action="mailto:admin@bridgefamilymediation.co.uk"
             method="post"
             name="EmailForm"
+            className=""
           >
             <div className="field">
               <label
@@ -70,7 +72,7 @@ const Contact = () => {
             </button>
           </form>
         </div>
-      </body>
+      </div>
     </>
   );
 };

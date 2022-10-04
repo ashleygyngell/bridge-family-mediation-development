@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 
-const TheMediationAgreement = () => {
+const PrivacyPolicy = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -17,7 +17,7 @@ const TheMediationAgreement = () => {
       </button> */}
 
       <div className="content ">
-        <div className="title is-3 mt-4 mr-6 ml-6">The Mediation Agreement</div>
+        <div className="title is-3 mt-4 mr-6 ml-6">Privacy Policy</div>
         <div className="columns pt-5 pr-6 pl-4 ">
           <div className="column pt-0 pl-6 pr-6 pb-6 is-12-desktop is-12-tablet is-12-mobile mediator-text">
             <p>
@@ -53,4 +53,4 @@ const TheMediationAgreement = () => {
   );
 };
 
-export default TheMediationAgreement;
+export default PrivacyPolicy;

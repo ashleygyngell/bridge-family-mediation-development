@@ -76,9 +76,9 @@ const Navbar = () => {
             className="navbar-item has-dropdown is-hoverable "
             id="navbar-item-test"
           >
-            <Link to={'/'} className="navbar-item  " id="navbar-item">
+            <a className="navbar-item  " id="navbar-item">
               Mediation
-            </Link>
+            </a>
             <div className="navbar-dropdown is-boxed " id="navbar-dropdown">
               <Link
                 to={'/whatismediation'}
@@ -118,9 +118,9 @@ const Navbar = () => {
             </div>
           </div>
           <div className="navbar-item has-dropdown is-hoverable">
-            <Link to={'/'} className="navbar-item " id="navbar-item">
+            <a className="navbar-item " id="navbar-item">
               About Us
-            </Link>
+            </a>
             <div className="navbar-dropdown is-boxed" id="navbar-dropdown">
               <Link
                 to={'/ourmediators'}
@@ -139,9 +139,9 @@ const Navbar = () => {
             </div>
           </div>
           <div className="navbar-item has-dropdown is-hoverable">
-            <Link to={'/'} className="navbar-item " id="navbar-item">
+            <a className="navbar-item " id="navbar-item">
               Costs
-            </Link>
+            </a>
             <div
               className="navbar-dropdown is-boxed"
               id="navbar-dropdown-right"
