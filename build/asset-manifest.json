@@ -1,11 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.520876c2.css",
-    "main.js": "/static/js/main.f5149b97.js",
+    "main.js": "/static/js/main.5ce61bb8.js",
     "static/media/childwithfather.png": "/static/media/childwithfather.251d9c37db2001dc49f5.png",
-    "static/media/test2.png": "/static/media/test2.4fe86e951d918416bd74.png",
-    "static/media/test3.png": "/static/media/test3.d055b15376aa709bbb7c.png",
-    "static/media/test1.png": "/static/media/test1.8a5f473a99450b3a50fd.png",
     "static/media/backgroundfull.jpeg": "/static/media/backgroundfull.7454491d505d97a42c44.jpeg",
     "static/media/Effra Regular.ttf": "/static/media/Effra Regular.16903bd59c24db0af49c.ttf",
     "static/media/fmcLogoChildInclusive.jpg": "/static/media/fmcLogoChildInclusive.89cfb26f1133959a5f6d.jpg",
@@ -15,10 +12,10 @@
     "static/media/Rift Soft Light.otf": "/static/media/Rift Soft Light.32772be48cc1d17e2647.otf",
     "index.html": "/index.html",
     "main.520876c2.css.map": "/static/css/main.520876c2.css.map",
-    "main.f5149b97.js.map": "/static/js/main.f5149b97.js.map"
+    "main.5ce61bb8.js.map": "/static/js/main.5ce61bb8.js.map"
   },
   "entrypoints": [
     "static/css/main.520876c2.css",
-    "static/js/main.f5149b97.js"
+    "static/js/main.5ce61bb8.js"
   ]
 }

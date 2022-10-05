@@ -36,7 +36,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="*" component={<PageNotFound />} />
+        <Route path="/pagenotfound" component={<PageNotFound />} />
         <Route path="/" element={<Home />} />
         <Route path="/faqs" element={<Faqs />} />
         <Route path="/ourmediators" element={<OurMediators />} />

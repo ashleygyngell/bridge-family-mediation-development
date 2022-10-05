@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { useState, useEffect } from 'react';
+// import { useState, useEffect } from 'react';
 import bfmLogo2 from '../assets/logos/withwhitelogo.png';
 // import BackgroundSlider from 'react-background-slider';
 
-import aa from '../assets/images/test1.png';
-import aa2 from '../assets/images/test2.png';
-import aa3 from '../assets/images/test3.png';
+// import aa from '../assets/images/test1.png';
+// import aa2 from '../assets/images/test2.png';
+// import aa3 from '../assets/images/test3.png';
 
 // Homepage needs new photo background and liscenced.
 export default class Home extends Component {

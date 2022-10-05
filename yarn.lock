@@ -1069,13 +1069,6 @@
   "resolved" "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz"
   "version" "0.2.3"
 
-"@creativebulma/bulma-collapsible@^1.0.4":
-  "integrity" "sha512-aNqSwyuJxshoIc4oD3wJ3eRqOANRweYfpzqmef/fj5tf0Yn7UVx99yh8ovY6vhB8Il31bFcc7f/eRfJvEMNUPw=="
-  "resolved" "https://registry.npmjs.org/@creativebulma/bulma-collapsible/-/bulma-collapsible-1.0.4.tgz"
-  "version" "1.0.4"
-  dependencies:
-    "bulma" "latest"
-
 "@csstools/normalize.css@*":
   "integrity" "sha512-M0qqxAcwCsIVfpFQSlGN5XjXWu8l5JDZN+fPt1LeW5SZexQTgnaEvgXAY+CeygRw0EeppWHi12JxESWiWrB0Sg=="
   "resolved" "https://registry.npmjs.org/@csstools/normalize.css/-/normalize.css-12.0.0.tgz"
@@ -2766,7 +2759,7 @@
   "resolved" "https://registry.npmjs.org/builtin-modules/-/builtin-modules-3.2.0.tgz"
   "version" "3.2.0"
 
-"bulma@^0.9.3", "bulma@latest":
+"bulma@^0.9.3":
   "integrity" "sha512-0d7GNW1PY4ud8TWxdNcP6Cc8Bu7MxcntD/RRLGWuiw/s0a9P+XlH/6QoOIrmbj6o8WWJzJYhytiu9nFjTszk1g=="
   "resolved" "https://registry.npmjs.org/bulma/-/bulma-0.9.3.tgz"
   "version" "0.9.3"
@@ -2861,9 +2854,9 @@
     "lodash.uniq" "^4.5.0"
 
 "caniuse-lite@^1.0.0", "caniuse-lite@^1.0.30001297", "caniuse-lite@^1.0.30001313":
-  "integrity" "sha512-rI1UN0koZUiKINjysQDuRi2VeSCce3bYJNmDcj3PIKREiAmjakugBul1QSkg/fPrlULYl6oWfGg3PbgOSY9X4Q=="
-  "resolved" "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001313.tgz"
-  "version" "1.0.30001313"
+  "integrity" "sha512-06wzzdAkCPZO+Qm4e/eNghZBDfVNDsCgw33T27OwBH9unE9S478OYw//Q2L7Npf/zBzs7rjZOszIFQkwQKAEqA=="
+  "resolved" "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001416.tgz"
+  "version" "1.0.30001416"
 
 "case-sensitive-paths-webpack-plugin@^2.4.0":
   "integrity" "sha512-roIFONhcxog0JSSWbvVAh3OocukmSgpqOH6YpMkCvav/ySIV3JKg4Dc8vYtQjYi/UxpNE36r/9v+VqTQqgkYmw=="

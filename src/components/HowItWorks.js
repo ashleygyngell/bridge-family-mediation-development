@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import YoutubeEmbed from './YoutubeEmbed.js';
+// import { Link } from 'react-router-dom';
+// import YoutubeEmbed from './YoutubeEmbed.js';
 import { useEffect } from 'react';
 
 const HowItWorks = () => {
