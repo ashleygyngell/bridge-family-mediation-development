@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <div className="content ">
-        <div className="title is-3 mt-4 mr-6 ml-6">Our mediators</div>
+        <div className="title is-4 mt-4 mr-6 ml-6">Our mediators</div>
 
         <div className="columns pt-6 pr-6 pl-6 ">
           {/* Mediator 1 */}

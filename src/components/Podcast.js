@@ -17,7 +17,7 @@ const Podcast = () => {
       </button> */}
 
       <div className="content ">
-        <div className="title is-3 mt-4 mr-6 ml-6">Podcast</div>
+        <div className="title is-4 mt-4 mr-6 ml-6">Podcast</div>
         <div className="columns pt-5 pr-6 pl-4 ">
           <div className=" column mt-4 pl-6 pr-6 pb-6 is-6-desktop is-12-tablet is-12-mobile">
             <img

@@ -19,9 +19,9 @@ const WhatWeDiscuss = () => {
       </button> */}
 
       <div className="content  ">
-        <div className="title is-3 mt-4 mr-6 ml-6 ">What may be discussed?</div>
-        <div className="columns pt-5 pr-6 pl-4 ">
-          <div className="column pt-5 pl-6 pr-6 pb-6  is-6-desktop is-12-tablet is-12-mobile mediator-text">
+        <div className="title is-4 mt-4 mr-6 ml-6 ">What may be discussed?</div>
+        <div className="columns pt-0 pr-6 pl-4 ">
+          <div className="column mt-5 pl-6 pr-6 pb-6  is-6-desktop is-12-tablet is-12-mobile mediator-text">
             <bl>
               <li className="ml-4">
                 How property, pensions, other financial assets and debts are to
@@ -48,8 +48,9 @@ const WhatWeDiscuss = () => {
               </li>
             </bl>
           </div>
-          <div className=" column mt-4 pl-6 pr-6 pb-6 is-6-desktop is-12-tablet is-12-mobile">
+          <div className=" column mt-5 pl-6 pr-6 pb-6 is-6-desktop is-12-tablet is-12-mobile">
             <img
+              id="mediation-breakdown-image"
               src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1663000714/istockphoto-960613824-1024x1024-transformed_ayyh9v.jpg"
               alt="FMC Child Mediation Logo"
             />

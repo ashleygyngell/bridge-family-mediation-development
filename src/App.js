@@ -25,6 +25,7 @@ import TheMediationAgreement from './components//TheMediationAgreement';
 import WhatIsMediation from './components//WhatIsMediation';
 import HowItWorks from './components/HowItWorks';
 import WhoWeHelp from './components//WhoWeHelp';
+import DivorceAndMediation from './components/DivorceAndMediation';
 import WhatWeDiscuss from './components//WhatWeDiscuss';
 import WhyChooseUs from './components//WhyChooseUs';
 import OurFees from './components/OurFees';
@@ -54,6 +55,7 @@ function App() {
         />
         <Route path="/howitworks" element={<HowItWorks />} />
         <Route path="/whowehelp" element={<WhoWeHelp />} />
+        <Route path="/divorceandmediation" element={<DivorceAndMediation />} />
         <Route path="/whatwediscuss" element={<WhatWeDiscuss />} />
         <Route path="/whychooseus" element={<WhyChooseUs />} />
         <Route path="/ourfees" element={<OurFees />} />

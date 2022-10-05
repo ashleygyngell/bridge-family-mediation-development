@@ -42,7 +42,7 @@ export default class Home extends Component {
             className="hero-text-over-photo has-text-centered fadeInOnLoad2 "
           >
             <p>Are you going through a divorce or separation? </p>
-            <p>Let us help.</p>
+            <p>We can help.</p>
           </div>
           <div className="columns has-text-centered">
             <div className="column">

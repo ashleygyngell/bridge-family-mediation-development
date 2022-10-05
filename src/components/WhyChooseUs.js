@@ -16,8 +16,8 @@ const WhyChooseUs = () => {
         </Link>
       </button> */}
       <div className="content ">
-        <div className="title is-3 mt-4 mr-6 ml-6">Why Choose Us</div>
-        <div className="column ml-5 mr-6 pt-5 pl-6 pr-6 pb-6 is-12-desktop is-12-tablet is-12-mobile mediator-text  ">
+        <div className="title is-4 mt-4 mr-6 ml-6">Why Choose Us</div>
+        <div className="column ml-5 mr-6 pt-5 pl-6 pr-6 pb-5 is-12-desktop is-12-tablet is-12-mobile mediator-text  ">
           <bl c>
             <li>
               We are a dedicated family mediation practice and wholeheartedly
@@ -52,6 +52,7 @@ const WhyChooseUs = () => {
         </div>
         <div className="column is-12-desktop is-12-tablet is-12-mobile  pt-0 pl-6 pr-6 pb-6 has-text-centered">
           <img
+            id="mediation-breakdown-image"
             src="https://thumbs.dreamstime.com/b/happy-confident-diverse-old-young-business-people-stand-together-office-smiling-multiethnic-professional-colleagues-staff-161595812.jpg"
             alt="Group Photo"
           />

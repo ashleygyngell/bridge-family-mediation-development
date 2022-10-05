@@ -33,7 +33,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar is-transparent level ">
-      <div id="navbar-title" className="navbar-brand ">
+      <div id="navbar-title" className="navbar-brand is-size-5-mobile">
         <Link
           to={'/'}
           className="navbar-item level-item"
@@ -44,7 +44,7 @@ const Navbar = () => {
           <Link to={'/'}>
             <div
               id="navbar-title-text"
-              className="navbar-title level-item pl-3"
+              className="navbar-title level-item pl-3 "
             >
               <span>Bridge</span>
               <p className="pl-3"> Family Mediation{''}</p>
@@ -89,6 +89,13 @@ const Navbar = () => {
               </Link>
               <Link to={'/howitworks'} className="navbar-item" id="navbar-item">
                 How It Works
+              </Link>
+              <Link
+                to={'/divorceandmediation'}
+                className="navbar-item"
+                id="navbar-item"
+              >
+                Divorce &amp; Mediation
               </Link>
               <Link to={'/whowehelp'} className="navbar-item" id="navbar-item">
                 Who We Help

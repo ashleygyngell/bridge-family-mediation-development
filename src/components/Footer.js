@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import fmaLogo from '../assets/logos/fmaLogo.png';
+import fmcLogo from '../assets/logos/fmcLogo.jpg';
 
 function topFunction() {
   window.scrollTo({ top: 0 });
@@ -14,8 +15,17 @@ const Footer = () => {
         <div className="container footer-inner  ">
           <div className="columns is-multiline is-flex-tablet is-flex-mobile level">
             <div className="column is-3-desktop is-12-tablet is-12-mobile">
-              <div className="footer-group level-item ">
-                <div className="footer-image-1 ">
+              <div className="footer-group level-item " id="footer-images">
+                <div className="footer-image-2 mr-2">
+                  <a
+                    href="https://www.familymediationcouncil.org.uk/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={fmcLogo} alt="FMC Logo" />
+                  </a>
+                </div>
+                <div className="footer-image-1  ">
                   <a
                     href="https://thefma.co.uk/"
                     target="_blank"
@@ -34,7 +44,7 @@ const Footer = () => {
                   Putney | Richmond | Streatham | Wandsworth | Wimbledon
                 </div>
               </div> */}
-              <div className="footer-group level-item has-text-centered pr-5">
+              <div className="footer-group level-item has-text-centered ">
                 <p>
                   Accepting clients from all geographical areas. <br></br>
                   Based in South West London.
@@ -58,7 +68,7 @@ const Footer = () => {
               </div> */}
             </div>
 
-            <div className="column is-3-desktop is-12-tablet is-12-mobile ">
+            <div className="column is-3-desktop is-12-tablet is-12-mobile pt-5  ">
               <div id="footer links" className="footer-group level-item">
                 <ul>
                   <li>
@@ -102,11 +112,10 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-
-            <div className="container copyright ">
-              <div className="has-text-centered">
-                <p>© 2022 Bridge Family Mediation</p>
-              </div>
+          </div>
+          <div className="container copyright pt-0 ">
+            <div className="has-text-centered">
+              <p>© 2022 Bridge Family Mediation</p>
             </div>
           </div>
         </div>

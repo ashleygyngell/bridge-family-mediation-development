@@ -17,7 +17,7 @@ const TheVoucherScheme = () => {
       </button> */}
 
       <div className="content ">
-        <div className="title is-3 mt-4 mr-6 ml-6">The Voucher Scheme</div>
+        <div className="title is-4 mt-4 mr-6 ml-6">The Voucher Scheme</div>
         <div className="column pt-5 pl-6 pr-6 pb-0 is-12-desktop is-12-tablet is-12-mobile mediator-text">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laborum
@@ -25,7 +25,7 @@ const TheVoucherScheme = () => {
             nam, a amet rerum, consequuntur ipsam atque voluptatibus doloremque
             ex blanditiis iusto excepturi repellat ad!
           </p>
-          <br />
+          {/* <br /> */}
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
             enim quod deserunt rerum nesciunt exercitationem, sit animi
@@ -36,7 +36,7 @@ const TheVoucherScheme = () => {
             impedit sint doloremque soluta corporis, eius numquam esse culpa
             omnis veritatis quas explicabo?
           </p>
-          <br />
+          {/* <br /> */}
         </div>
       </div>
       <div className=" column is-12-desktop is-12-tablet is-12-mobile pt-0 pl-6 pr-6 pb-6 has-text-centered ">

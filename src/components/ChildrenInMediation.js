@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import childiwthfather from '../assets/images/childwithfather.png';
+import childwithfather from '../assets/images/childwithfather.png';
 import { useEffect } from 'react';
 
 const ChildrenInMediation = () => {
@@ -18,9 +18,9 @@ const ChildrenInMediation = () => {
       </button> */}
 
       <div className="content  ">
-        <div className="title is-3 mt-4 mr-6 ml-6">Children In Mediation</div>
-        <div className="columns pt-5 pr-6 pl-4 ">
-          <div className="column pt-0 pl-6 pr-6 pb-6 is-12-desktop is-12-tablet is-12-mobile mediator-text">
+        <div className="title is-4 mt-4 mr-6 ml-6">Children In Mediation</div>
+        <div className="columns pt-0 pr-6 pl-4 ">
+          <div className="column mt-5 pl-6 pr-6 pb-3 is-12-desktop is-12-tablet is-12-mobile mediator-text">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
               laborum quam dolores nostrum, explicabo consectetur omnis libero
@@ -31,7 +31,7 @@ const ChildrenInMediation = () => {
               soluta corporis, eius numquam esse culpa omnis veritatis quas
               explicabo?
             </p>
-            <br />
+            {/* <br /> */}
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
               enim quod deserunt rerum nesciunt exercitationem, sit animi
@@ -44,7 +44,7 @@ const ChildrenInMediation = () => {
         <div className=" column is-12-desktop is-12-tablet is-12-mobile  pt-0 pl-6 pr-6 pb-6 has-text-centered ">
           <img
             id="mediation-breakdown-image"
-            src={childiwthfather}
+            src={childwithfather}
             alt="Child With Father"
             width="auto"
           />{' '}

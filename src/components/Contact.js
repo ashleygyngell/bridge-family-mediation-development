@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <>
       <div className="content ">
-        <div className="title is-3 mt-4 mr-6 ml-6">Contact us</div>
+        <div className="title is-4 mt-4 mr-6 ml-6">Contact us</div>
 
         <div className="content ">
           <form
@@ -66,7 +66,7 @@ const Contact = () => {
             <button
               id="button"
               type="submit"
-              className="button is-warning is-size-5"
+              className="button is-info is-size-5"
             >
               Submit
             </button>
