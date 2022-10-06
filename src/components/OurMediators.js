@@ -35,7 +35,7 @@ const About = () => {
                   Balham | Barnes | Battersea{' '}
                 </p>
 
-                <div className=" pt-4 pb-2  ">
+                <div className="   ">
                   <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Facilis blanditiis ducimus nam quaerat sit deleniti,
@@ -78,7 +78,7 @@ const About = () => {
                 <p className="subtitle is-6 has-text-centered pt-2 ">
                   Balham | Barnes | Battersea{' '}
                 </p>
-                <div className="pt-4 pb-2">
+                <div className="">
                   <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Facilis blanditiis ducimus nam quaerat sit deleniti,
@@ -121,7 +121,7 @@ const About = () => {
                 <p className="subtitle is-6 has-text-centered pt-2 ">
                   Balham | Barnes | Battersea{' '}
                 </p>
-                <div className="pt-4 pb-2">
+                <div className="">
                   <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Facilis blanditiis ducimus nam quaerat sit deleniti,
@@ -164,7 +164,7 @@ const About = () => {
                 <p className="subtitle is-6 has-text-centered pt-2 ">
                   Balham | Barnes | Battersea{' '}
                 </p>
-                <div className="pt-4 pb-2">
+                <div className="">
                   <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Facilis blanditiis ducimus nam quaerat sit deleniti,

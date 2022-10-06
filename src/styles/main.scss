@@ -369,8 +369,18 @@ justify-content: center;
 }
 
 #mediator-card {
-  min-height: 83vh;
+  min-height: 72vh;
   margin-top: -1rem;
+}
+
+// #mediator-card:hover {
+// transition: all 0.1s;
+// scale: 1.01;
+// box-shadow: 0 0 6px rgba(0, 0, 0, .6)
+// }
+
+.card-image {
+  margin: -10px
 }
 
 // #mediator-card:hover {

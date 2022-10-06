@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.520876c2.css",
-    "main.js": "/static/js/main.5ce61bb8.js",
+    "main.css": "/static/css/main.b3a9f5d3.css",
+    "main.js": "/static/js/main.d25b2f11.js",
     "static/media/childwithfather.png": "/static/media/childwithfather.251d9c37db2001dc49f5.png",
     "static/media/backgroundfull.jpeg": "/static/media/backgroundfull.7454491d505d97a42c44.jpeg",
     "static/media/Effra Regular.ttf": "/static/media/Effra Regular.16903bd59c24db0af49c.ttf",
@@ -11,11 +11,11 @@
     "static/media/fmaLogo.png": "/static/media/fmaLogo.f0fe3b26a72196a7d087.png",
     "static/media/Rift Soft Light.otf": "/static/media/Rift Soft Light.32772be48cc1d17e2647.otf",
     "index.html": "/index.html",
-    "main.520876c2.css.map": "/static/css/main.520876c2.css.map",
-    "main.5ce61bb8.js.map": "/static/js/main.5ce61bb8.js.map"
+    "main.b3a9f5d3.css.map": "/static/css/main.b3a9f5d3.css.map",
+    "main.d25b2f11.js.map": "/static/js/main.d25b2f11.js.map"
   },
   "entrypoints": [
-    "static/css/main.520876c2.css",
-    "static/js/main.5ce61bb8.js"
+    "static/css/main.b3a9f5d3.css",
+    "static/js/main.d25b2f11.js"
   ]
 }

@@ -6,9 +6,6 @@ import { useEffect } from 'react';
 const DivorceAndMediation = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
-
-  document.addEventListener('DOMContentLoaded', () => {
     // Functions to open and close a modal
     function openModal($el) {
       $el.classList.add('is-active');
@@ -58,7 +55,7 @@ const DivorceAndMediation = () => {
         closeAllModals();
       }
     });
-  });
+  }, []);
 
   return (
     <>
