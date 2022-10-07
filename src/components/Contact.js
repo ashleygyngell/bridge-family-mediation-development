@@ -1,10 +1,10 @@
 import React from 'react';
-// Doesnt need postcode as the text simply needs to be email, telephone number, and content
+import { Link } from 'react-router-dom';
 const Contact = () => {
   return (
     <>
       <div className="content ">
-        <div className="title is-4 mt-4 mr-6 ml-6">Contact us</div>
+        <div className="title is-4 mt-2 mr-6 ml-6">Contact us</div>
 
         <div className="content ">
           <form
@@ -71,6 +71,27 @@ const Contact = () => {
               Submit
             </button>
           </form>
+          <br />
+          <p className="mediator-text ">
+            <strong>Email: </strong>
+            <a
+              id="fontawesome-styling"
+              className=""
+              href="mailto:info@bridgefamilymediation.co.uk"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span id="mediator-contact-info">
+                {' '}
+                <a>info@bridgefamilymediation.co.uk</a>
+              </span>
+            </a>
+          </p>
+          <Link to={'/ourmediators'}>
+            <p className="mediator-text ">
+              <strong>Phone:</strong> <a>Our Mediators</a>
+            </p>
+          </Link>
         </div>
       </div>
     </>

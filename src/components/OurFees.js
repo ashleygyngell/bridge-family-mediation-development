@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 
 const OurFees = () => {
@@ -16,7 +16,7 @@ const OurFees = () => {
         </Link>
       </button> */}
       <div className="content ">
-        <div className="title is-4 mt-4 mr-6 ml-6">Our Fees</div>
+        <div className="title is-4 mt-2 mr-6 ml-6">Our Fees</div>
         <div className="column pt-5 pl-6 pr-6 pb-6 is-12-desktop is-12-tablet is-12-mobile mediator-text  ">
           <p>
             At Bridge Mediation, we are committed to offering value for money.
@@ -78,6 +78,27 @@ const OurFees = () => {
             practice with a Legal Aid franchise.
           </p>
         </div>
+      </div>
+      <div className="faq-buttons-div columns is-mobile">
+        <button className="faq-button column is-6-mobile ">
+          {/* <Link to={'/whatismediation'}>
+            <span>
+              <i className="fa-solid fa-arrow-left  "></i> Previous
+            </span>
+
+            <p className="faq-button-subtitle">What Is Mediation? </p>
+          </Link> */}
+        </button>
+
+        <button className="faq-button column is-6-mobile ">
+          <Link to={'/thevoucherscheme'}>
+            <span>
+              Next <i className="fa-solid fa-arrow-right "></i>{' '}
+            </span>
+
+            <p className="faq-button-subtitle">The Voucher Scheme </p>
+          </Link>
+        </button>
       </div>
     </>
   );

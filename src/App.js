@@ -39,6 +39,7 @@ function App() {
         <Route path="/pagenotfound" component={<PageNotFound />} />
         <Route path="/" element={<Home />} />
         <Route path="/faqs" element={<Faqs />} />
+
         <Route path="/ourmediators" element={<OurMediators />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/katebrown" element={<Mediator1 />} />

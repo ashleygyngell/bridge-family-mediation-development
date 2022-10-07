@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 // import YoutubeEmbed from './YoutubeEmbed.js';
 import { useEffect } from 'react';
 
@@ -18,7 +18,7 @@ const HowItWorks = () => {
       </button> */}
 
       <div className="content ">
-        <div className="title is-4 mt-4 mr-6 ml-6">How does it work?</div>
+        <div className="title is-4 mt-2 mr-6 ml-6">How it works</div>
         <div className="columns pt-5 pr-6 pl-4 ">
           <div className="column pt-5 pl-6 pr-6 is-6-desktop is-12-tablet is-12-mobile mediator-text">
             <strong>
@@ -50,7 +50,17 @@ const HowItWorks = () => {
               future legal proceedings.
             </p>
             <br />
+            <strong>
+              <u>Call us</u>
+            </strong>
+            <p className="pb-4">
+              In order to decide if mediation is suitable for you, we offer a
+              20-minute call at no charge, so that you can tell us about the
+              issues you wish to resolve and we can explain how we might be able
+              to help.
+            </p>
           </div>
+
           <div className=" column  is-6-desktop is-12-tablet is-12-mobile pt-5 pr-6 pl-6  ">
             <div className="video-responsive">
               <iframe
@@ -62,6 +72,7 @@ const HowItWorks = () => {
                 frameBorder="1"
               ></iframe>
             </div>
+
             <div className="mediator-text">
               <br />
               <strong>
@@ -84,14 +95,27 @@ const HowItWorks = () => {
             </div>
           </div>
         </div>
-        <p className="mediator-text pr-6 pl-6 pb-6">
-          <strong>
-            <u>Call us</u>
-          </strong>
-          <p></p>In order to decide if mediation is suitable for you, we offer a
-          20-minute call at no charge, so that you can tell us about the issues
-          you wish to resolve and we can explain how we might be able to help.
-        </p>
+      </div>
+      <div className="faq-buttons-div columns is-mobile">
+        <button className="faq-button column is-6-mobile ">
+          <Link to={'/whatismediation'}>
+            <span>
+              <i className="fa-solid fa-arrow-left  "></i> Previous
+            </span>
+
+            <p className="faq-button-subtitle">What Is Mediation? </p>
+          </Link>
+        </button>
+
+        <button className="faq-button column is-6-mobile ">
+          <Link to={'/divorceandmediation'}>
+            <span>
+              Next <i className="fa-solid fa-arrow-right "></i>{' '}
+            </span>
+
+            <p className="faq-button-subtitle">Divorce &amp; Mediation </p>
+          </Link>
+        </button>
       </div>
     </>
   );

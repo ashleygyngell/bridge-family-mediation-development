@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 
 const WhatIsMediation = () => {
@@ -16,7 +16,7 @@ const WhatIsMediation = () => {
         </Link>
       </button> */}
       <div className="content  ">
-        <div className="title is-4 mt-4 mr-6 ml-6">What is mediation?</div>
+        <div className="title is-4 mt-2 mr-6 ml-6">What is mediation?</div>
         <div className="columns pt-5 pr-6 pl-4 ">
           <div className="column pt-5 pl-6 pr-6 pb-6 is-6-desktop is-12-tablet is-12-mobile mediator-text ">
             <p>
@@ -41,6 +41,27 @@ const WhatIsMediation = () => {
               alt="FMC Child Mediation Logo"
             />
           </div>
+        </div>
+        <div className="faq-buttons-div columns is-mobile">
+          <button className="faq-button column is-6-mobile ">
+            {/* <Link to={'/whatdoesitcost'}>
+              <span>
+                <i className="fa-solid fa-arrow-left  "></i> Previous
+              </span>
+
+              <p className="faq-button-subtitle">What does it cost? </p>
+            </Link> */}
+          </button>
+
+          <button className="faq-button column is-6-mobile ">
+            <Link to={'/howitworks'}>
+              <span>
+                Next <i className="fa-solid fa-arrow-right "></i>{' '}
+              </span>
+
+              <p className="faq-button-subtitle">How it works </p>
+            </Link>
+          </button>
         </div>
       </div>
     </>

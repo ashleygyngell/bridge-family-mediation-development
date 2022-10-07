@@ -1,263 +1,80 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import childwithfather from '../assets/images/childwithfather.png';
+import { useEffect } from 'react';
 
-const FaqGrid = () => {
+const ChildrenInMediation = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
-      <body className="pr-5 pl-5">
-        <div className="columns ml-5 mr-5 pt-5 pr-6 pl-6">
-          {/* Question 1 */}
-          <div className="column">
-            <div id="faq-card" className="card">
-              <div className="card-content ">
-                <Link to={'/howdoesitwork'}>
-                  <div className="media">
-                    <div className="media-content has-text-centered">
-                      <p className="title is-3">How does it work?</p>
-                    </div>
-                  </div>
-                </Link>
+      {/* <button className="back-button pl-4 pt-1   ">
+        <Link to={'/'}>
+          <span>
+            <i className="fa-solid fa-arrow-left "></i> Home
+          </span>
+        </Link>
+      </button> */}
+      <div className="faq-buttons-div-demo  ">
+        <button className="faq-button ">
+          <Link to={'/demo2'}>
+            <span>
+              <i className="fa-solid fa-arrow-left  "></i> Previous
+            </span>
 
-                <div className="pt-4 pb-2 is-hidden-mobile ">
-                  <p>
-                    Family Mediation is a voluntary process, where separating or
-                    divorcing couples come together to have a discussion &#8212;
-                    not an argument &#8212; about their future arrangements, in
-                    a safe, well-ordered and professional environment.
-                  </p>
-                  <Link to={'/howdoesitwork'}>
-                    <div id="read-more">
-                      Read More <i className="fa-solid fa-arrow-right"></i>
-                    </div>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
+            <p className="faq-button-subtitle">How It Works </p>
+          </Link>
+        </button>
 
-          {/* Question 2 */}
-          <div className="column">
-            <div id="faq-card" className="card">
-              <div className="card-content ">
-                <Link to={'/whatismediation'}>
-                  <div className="media">
-                    <div className="media-content has-text-centered">
-                      <p className="title is-3 ">What is mediation?</p>
-                    </div>
-                  </div>
-                </Link>
+        <button className="faq-button  ">
+          <Link to={'/demo2'}>
+            <span>
+              Next <i className="fa-solid fa-arrow-right "></i>{' '}
+            </span>
 
-                <div className=" pt-4 pb-2 is-hidden-mobile">
-                  <p>
-                    Family Mediation is a voluntary process, where separating or
-                    divorcing couples come together to have a discussion &#8212;
-                    not an argument &#8212; about their future arrangements, in
-                    a safe, well-ordered and professional environment.
-                  </p>
-                  <Link to={'/whatismediation'}>
-                    <div id="read-more">
-                      Read More <i className="fa-solid fa-arrow-right"></i>
-                    </div>
-                  </Link>
-                </div>
-              </div>
-            </div>
+            <p className="faq-button-subtitle">How It Works </p>
+          </Link>
+        </button>
+      </div>
+      <div className="content  ">
+        <div className="title is-4 mt-2 mr-6 ml-6">Children In Mediation</div>
+        <div className="columns pt-0 pr-6 pl-4 ">
+          <div className="column mt-5 pl-6 pr-6 pb-3 is-12-desktop is-12-tablet is-12-mobile mediator-text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+              laborum quam dolores nostrum, explicabo consectetur omnis libero
+              accusantium nam, a amet rerum, consequuntur ipsam atque
+              voluptatibus doloremque ex blanditiis iusto excepturi repellat ad!
+              Velit optio repudiandae reprehenderit expedita, asperiores,
+              quibusdam exercitationem itaque reiciendis impedit sint doloremque
+              soluta corporis, eius numquam esse culpa omnis veritatis quas
+              explicabo?
+            </p>
+            {/* <br /> */}
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              enim quod deserunt rerum nesciunt exercitationem, sit animi
+              laudantium modi! Culpa dolorum minus explicabo mollitia iste et,
+              consequuntur ratione a, quisquam cupiditate esse aut sequi? Aut
+              magni quas optio velit esse!
+            </p>
           </div>
         </div>
-
-        <div className="columns ml-5 mr-5   pr-6 pl-6">
-          {/* Question 3 */}
-          <div className="column">
-            <div id="faq-card" className="card">
-              <div className="card-content ">
-                <Link to={'/whodowehelp'}>
-                  <div className="media">
-                    <div className="media-content has-text-centered">
-                      <p className="title is-3 ">Who do we help?</p>
-                    </div>
-                  </div>
-                </Link>
-
-                <div className="pt-4 pb-2 is-hidden-mobile">
-                  <p>
-                    Seperating couples, with or without children - married or
-                    unmarried.
-                  </p>
-                  <p>
-                    Same-sex couples, whether or not in a marriage or civil
-                    partnership.
-                  </p>
-                  <p>Children who are struggling to...</p>
-
-                  <Link to={'/whodowehelp'}>
-                    <div id="read-more">
-                      Read More <i className="fa-solid fa-arrow-right"></i>
-                    </div>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Question 4 */}
-          <div className="column">
-            <div id="faq-card" className="card">
-              <div className="card-content ">
-                <Link to={'/whatmaybediscussed'}>
-                  <div className="media">
-                    <div className="media-content has-text-centered">
-                      <p className="title is-3 ">What may be discussed?</p>
-                    </div>
-                  </div>
-                </Link>
-
-                <div className=" pt-4 pb-2 is-hidden-mobile">
-                  <p>
-                    How property, pensions, other financial assets and debts are
-                    to be divided up and where both parties will live following
-                    divorce.
-                  </p>
-                  <p>Where the children will live when parents seperate</p>
-                  <p>How the children will share their time between...</p>
-
-                  <Link to={'/whatmaybediscussed'}>
-                    <div id="read-more">
-                      Read More <i className="fa-solid fa-arrow-right"></i>
-                    </div>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div className=" column is-12-desktop is-12-tablet is-12-mobile  pt-0 pl-6 pr-6 pb-0 has-text-centered ">
+          <img
+            id="mediation-breakdown-image"
+            src={childwithfather}
+            alt="Child With Father"
+            width="auto"
+          />{' '}
+          <p>
+            https://www.dreamstime.com/back-view-father-son-holding-hands-walking-bridge-park-image127765196
+          </p>
         </div>
-
-        <div className="columns ml-5 mr-5  pr-6 pl-6">
-          {/* Question 5 */}
-          <div className="column">
-            <div id="faq-card" className="card">
-              <div className="card-content ">
-                <Link to={'/ismediationlegallybinding'}>
-                  <div className="media">
-                    <div className="media-content has-text-centered">
-                      <p className="title is-3">
-                        Is mediation legally binding?{' '}
-                      </p>
-                    </div>
-                  </div>
-                </Link>
-
-                <div className="pt-4 pb-2 is-hidden-mobile">
-                  <p>The mediation agreement is not legally binding.</p>
-
-                  <Link to={'/ismediationlegallybinding'}>
-                    <div id="read-more">
-                      Read More <i className="fa-solid fa-arrow-right"></i>
-                    </div>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Question 6 */}
-          <div className="column">
-            <div id="faq-card" className="card">
-              <div className="card-content ">
-                <Link to={'/whychoooseus'}>
-                  <div className="media">
-                    <div className="media-content has-text-centered">
-                      <p className="title is-3 ">Why choose us?</p>
-                    </div>
-                  </div>
-                </Link>
-
-                <div className=" pt-4 pb-2 is-hidden-mobile">
-                  <p>
-                    We are a dedicated family mediation practice and
-                    wholeheartedly believe that mediation, not legal
-                    proceedings, is the best way to resolve disputes arising out
-                    of relationship breakdown.
-                  </p>
-
-                  <Link to={'/whychooseus'}>
-                    <div id="read-more">
-                      Read More <i className="fa-solid fa-arrow-right"></i>
-                    </div>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="columns ml-5 mr-5  pb-5 pr-6 pl-6">
-          {/* Question 7 */}
-          <div className="column is-6-desktop is-12-tablet is-12-mobile ">
-            <div id="faq-card" className="card">
-              <div className="card-content ">
-                <Link to={'/whatdoesitcost'}>
-                  <div className="media">
-                    <div className="media-content has-text-centered">
-                      <p className="title is-3">What does it cost? </p>
-                    </div>
-                  </div>
-                </Link>
-
-                <div className="pt-4 pb-2 is-hidden-mobile">
-                  <p>
-                    At Bridge Mediation, we are committed to offering value for
-                    money. Costs are made clear at the outset and clients are
-                    asked to pay by bank transfer in advance of meetings. We do
-                    not request funds on account and will not present you with a
-                    large unexpected bill at the end. We are happy to discuss
-                    individual circumstances based on your ability to pay.
-                  </p>
-
-                  <Link to={'/whatdoesitcost'}>
-                    <div id="read-more">
-                      Read More <i className="fa-solid fa-arrow-right"></i>
-                    </div>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Question 8 */}
-          {/* <div className="column">
-            <div id="faq-card" className="card">
-              <div className="card-content ">
-                <Link to={'/whychoooseus'}>
-                  <div className="media">
-                    <div className="media-content has-text-centered">
-                      <p className="title ">Why choose us?</p>
-                    </div>
-                  </div>
-                </Link>
-
-                <div className=" pt-4 pb-2 is-hidden-mobile">
-                  <p>
-                    We are a dedicated family mediation practice and
-                    wholeheartedly believe that mediation, not legal
-                    proceedings, is the best way to resolve disputes arising out
-                    of relationship breakdown.
-                  </p>
-
-                  <Link to={'/whychooseus'}>
-                    <div id="read-more">
-                      Read More <i className="fa-solid fa-arrow-right"></i>
-                    </div>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div> */}
-
-          {/* Bottom */}
-        </div>
-      </body>
+      </div>
     </>
   );
 };
 
-export default FaqGrid;
+export default ChildrenInMediation;

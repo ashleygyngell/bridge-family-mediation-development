@@ -76,7 +76,10 @@ const Navbar = () => {
             className="navbar-item has-dropdown is-hoverable "
             id="navbar-item-test"
           >
-            <a className="navbar-item  " id="navbar-item">
+            <a
+              className="navbar-item navbar-dropbown-cursor  "
+              id="navbar-item"
+            >
               Mediation
             </a>
             <div className="navbar-dropdown is-boxed " id="navbar-dropdown">

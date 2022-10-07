@@ -46,10 +46,9 @@ const Footer = () => {
               </div> */}
               <div className="footer-group level-item has-text-centered ">
                 <p>
-                  Accepting clients from all geographical areas. <br></br>
-                  Based in South West London.
-                  <br></br>
-                  <br></br> In-person and online.
+                  Based in South West London <br></br>
+                  Accepting clients from all geographical areas
+                  <br></br> <br></br> In-person / Online
                 </p>
               </div>
 
@@ -115,7 +114,10 @@ const Footer = () => {
           </div>
           <div className="container copyright pt-0 ">
             <div className="has-text-centered">
-              <p>© 2022 Bridge Family Mediation</p>
+              <p>
+                © 2022 Bridge Family Mediation 85 Great Portland Street, London,
+                W1W 7LT. All Rights Reserved.
+              </p>
             </div>
           </div>
         </div>

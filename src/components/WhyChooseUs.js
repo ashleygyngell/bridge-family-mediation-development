@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 
 const WhyChooseUs = () => {
@@ -16,7 +16,7 @@ const WhyChooseUs = () => {
         </Link>
       </button> */}
       <div className="content ">
-        <div className="title is-4 mt-4 mr-6 ml-6">Why Choose Us</div>
+        <div className="title is-4 mt-2 mr-6 ml-6">Why Choose Us</div>
         <div className="column ml-5 mr-6 pt-5 pl-6 pr-6 pb-5 is-12-desktop is-12-tablet is-12-mobile mediator-text  ">
           <bl c>
             <li>
@@ -50,13 +50,34 @@ const WhyChooseUs = () => {
             </li>
           </bl>
         </div>
-        <div className="column is-12-desktop is-12-tablet is-12-mobile  pt-0 pl-6 pr-6 pb-6 has-text-centered">
+        <div className="column is-12-desktop is-12-tablet is-12-mobile  pt-0 pl-6 pr-6 pb-0 has-text-centered">
           <img
             id="mediation-breakdown-image"
             src="https://thumbs.dreamstime.com/b/happy-confident-diverse-old-young-business-people-stand-together-office-smiling-multiethnic-professional-colleagues-staff-161595812.jpg"
             alt="Group Photo"
           />
         </div>
+      </div>
+      <div className="faq-buttons-div columns is-mobile">
+        <button className="faq-button column is-6-mobile ">
+          <Link to={'/ourmediators'}>
+            <span>
+              <i className="fa-solid fa-arrow-left  "></i> Previous
+            </span>
+
+            <p className="faq-button-subtitle">Our Mediators</p>
+          </Link>
+        </button>
+
+        <button className="faq-button column is-6-mobile ">
+          {/* <Link to={'/whychooseus'}>
+            <span>
+              Next <i className="fa-solid fa-arrow-right "></i>{' '}
+            </span>
+
+            <p className="faq-button-subtitle">Why Choose Us </p>
+          </Link> */}
+        </button>
       </div>
     </>
   );

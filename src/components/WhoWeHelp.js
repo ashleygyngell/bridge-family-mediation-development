@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 
 const WhoDoWeHelp = () => {
@@ -16,7 +16,7 @@ const WhoDoWeHelp = () => {
         </Link>
       </button> */}
       <div className="content  ">
-        <div className="title is-4 mt-4 mr-6 ml-6">Who do we help?</div>
+        <div className="title is-4 mt-2 mr-6 ml-6">Who do we help?</div>
         <div className="columns pt-5 pr-6 pl-4 ">
           <div className=" column mt-4 pl-6 pr-6 pb-6  is-6-desktop is-12-tablet is-12-mobile">
             <img
@@ -51,6 +51,27 @@ const WhoDoWeHelp = () => {
             </bl>
           </div>
         </div>
+      </div>
+      <div className="faq-buttons-div columns is-mobile">
+        <button className="faq-button column is-6-mobile ">
+          <Link to={'/divorceandmediation'}>
+            <span>
+              <i className="fa-solid fa-arrow-left  "></i> Previous
+            </span>
+
+            <p className="faq-button-subtitle">Divorce &amp; Mediation </p>
+          </Link>
+        </button>
+
+        <button className="faq-button column is-6-mobile ">
+          <Link to={'/whatwediscuss'}>
+            <span>
+              Next <i className="fa-solid fa-arrow-right "></i>{' '}
+            </span>
+
+            <p className="faq-button-subtitle">What We Discuss</p>
+          </Link>
+        </button>
       </div>
     </>
   );

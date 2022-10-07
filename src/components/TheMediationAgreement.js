@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 
 const TheMediationAgreement = () => {
@@ -17,7 +17,7 @@ const TheMediationAgreement = () => {
       </button> */}
 
       <div className="content ">
-        <div className="title is-4 mt-4 mr-6 ml-6">The Mediation Agreement</div>
+        <div className="title is-4 mt-2 mr-6 ml-6">The Mediation Agreement</div>
         <div className="columns pt-0 pr-6 pl-4 ">
           <div className="column mt-5 pl-6 pr-6 pb-3 is-12-desktop is-12-tablet is-12-mobile mediator-text">
             <p>
@@ -55,6 +55,27 @@ const TheMediationAgreement = () => {
             alt="FMC Child Mediation Logo"
           />
         </div>
+      </div>
+      <div className="faq-buttons-div columns is-mobile">
+        <button className="faq-button column is-6-mobile ">
+          <Link to={'/childreninmediation'}>
+            <span>
+              <i className="fa-solid fa-arrow-left  "></i> Previous
+            </span>
+
+            <p className="faq-button-subtitle">Children In Mediation </p>
+          </Link>
+        </button>
+
+        <button className="faq-button column is-6-mobile ">
+          {/* <Link to={'/divorceandmediation'}>
+            <span>
+              Next <i className="fa-solid fa-arrow-right "></i>{' '}
+            </span>
+
+            <p className="faq-button-subtitle">Divorce &amp; Mediation </p>
+          </Link> */}
+        </button>
       </div>
     </>
   );

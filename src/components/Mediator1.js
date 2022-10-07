@@ -80,7 +80,7 @@ const Mediator1 = () => {
                           >
                             <span id="mediator-contact-info">
                               {' '}
-                              katebrown@bridgefamilymediation.co.uk
+                              <a>katebrown@bridgefamilymediation.co.uk</a>
                             </span>
                           </a>
                         </p>
