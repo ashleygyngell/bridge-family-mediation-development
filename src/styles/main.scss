@@ -307,6 +307,7 @@ justify-content: center;
 
 .hero {
   display: flex;
+  position: absolute;
   flex-direction: column;
   justify-content: end;
   height: 84vh;
@@ -324,16 +325,27 @@ justify-content: center;
   position: relative
 }
 
+#container-for-buttons {
+position: relative
+}
 
-.columns .button {
-  margin-top: 25em;
-  margin-bottom: 5em;
+#home-buttons {
+
+  margin-top:62vh;
+  padding-bottom: 10vh;
+}
+
+
+
+#home-buttons button {
+  
   height: 6vw;
   width: 25vw;
   padding: 40px;
   font-size: 25px;
-  // border: 2px solid darkgreen;
 }
+
+
 
 #has-text-over-photo {
   color: forestgreen;
@@ -350,7 +362,6 @@ justify-content: center;
   display: flex;
   flex-direction: column;
   font-size: 32px;
-  color: black
 }
 
 // About

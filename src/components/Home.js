@@ -44,7 +44,8 @@ export default class Home extends Component {
             <p>Are you going through a divorce or separation? </p>
             <p>We can help.</p>
           </div>
-          <div className="columns has-text-centered">
+
+          <div className="columns has-text-centered " id="home-buttons">
             <div className="column">
               <Link to={'/whatismediation'}>
                 <button id="button" className="button is-warning">
