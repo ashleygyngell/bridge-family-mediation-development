@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import fmaLogo from '../assets/logos/fmaLogo.png';
-import fmcLogo from '../assets/logos/fmcLogo.jpg';
+import fmaLogo from '../assets/logos/family-mediation-accociation-logo.png';
+import fmcLogo from '../assets/logos/family-mediation-council-accredited-mediator-logo.jpg';
 
 function topFunction() {
   window.scrollTo({ top: 0 });

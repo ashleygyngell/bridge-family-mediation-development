@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 // import { useState, useEffect } from 'react';
-import bfmLogo2 from '../assets/logos/withwhitelogo.png';
+import bfmLogo2 from '../assets/logos/bridge-family-mediation-logo.png';
 // import BackgroundSlider from 'react-background-slider';
 
 // import aa from '../assets/images/test1.png';
@@ -45,7 +45,10 @@ export default class Home extends Component {
             <p>We can help.</p>
           </div>
 
-          <div className="columns has-text-centered " id="home-buttons">
+          <div
+            className="columns has-text-centered fadeInOnLoad3 "
+            id="home-buttons"
+          >
             <div className="column">
               <Link to={'/whatismediation'}>
                 <button id="button" className="button is-warning">

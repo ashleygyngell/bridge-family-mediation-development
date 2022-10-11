@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import childwithfather from '../assets/images/childwithfather.png';
+import childwithfather from '../assets/images/child-with-father.png';
 import { useEffect } from 'react';
 
 const ChildrenInMediation = () => {

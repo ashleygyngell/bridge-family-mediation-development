@@ -194,7 +194,7 @@ body {
 }
 
 #navbar-title {
-  display: 'none';
+  display: none;
   flex-direction: column;
   align-self: center;
   text-align: center;
@@ -318,7 +318,7 @@ justify-content: center;
 }
 
 .hero-background {
-  background-image: url(../assets/images/backgroundfull.jpeg);
+  background-image: url(../assets/images/bridge-family-mediation-homepage-background-2.jpeg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -332,7 +332,7 @@ position: relative
 #home-buttons {
 
   margin-top:62vh;
-  padding-bottom: 10vh;
+  padding-bottom: 11vh;
 }
 
 
@@ -348,7 +348,7 @@ position: relative
 
 
 #has-text-over-photo {
-  color: forestgreen;
+  color: rgb(27, 121, 27);
 
 }
 
@@ -600,8 +600,8 @@ max-height: 500px
 }
 
 .fadeInOnLoad {
-  animation: fadeIn 1.2s ease backwards;
-  animation-delay: 0.4s;
+  animation: fadeIn 1s ease backwards;
+  animation-delay: .1s;
 }
 
 @keyframes fadeIn {
@@ -618,7 +618,24 @@ max-height: 500px
 
 .fadeInOnLoad2 {
   animation: fadeIn2 2s ease backwards;
-  animation-delay: .8s;
+  animation-delay: 1s;
+}
+
+@keyframes fadeIn2 {
+  0% {
+    transform: translate(0px, 0px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0px, 0);
+    opacity: 1;
+  }
+}
+
+.fadeInOnLoad3 {
+  animation: fadeIn2 1s ease backwards;
+  animation-delay: .0s;
 }
 
 @keyframes fadeIn2 {

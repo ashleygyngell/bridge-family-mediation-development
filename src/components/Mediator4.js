@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 // import { useNavigate } from 'react-router-dom';
-import fmcLogo from '../assets/logos/fmcLogo.jpg';
-import fmcLogoChildInclusive from '../assets/logos/fmcLogoChildInclusive.jpg';
+import fmcLogo from '../assets/logos/family-mediation-council-accredited-mediator-logo.jpg';
+import fmcLogoChildInclusive from '../assets/logos/family-mediation-council-accredited-mediator-logo.jpg';
 
 const Mediator4 = () => {
   useEffect(() => {

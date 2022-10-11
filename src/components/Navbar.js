@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import bfmLogo2 from '../assets/logos/withwhitelogo.png';
+import bfmLogo2 from '../assets/logos/bridge-family-mediation-logo.png';
 
 const Navbar = () => {
   const [openBurger, setOpenBurger] = React.useState(false);

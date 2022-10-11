@@ -59,7 +59,7 @@ const WhatIsMediation = () => {
                 Next <i className="fa-solid fa-arrow-right "></i>{' '}
               </span>
 
-              <p className="faq-button-subtitle">How it works </p>
+              <p className="faq-button-subtitle">How It Works </p>
             </Link>
           </button>
         </div>
