@@ -1,5 +1,9 @@
 ## Company Website for Bridge Family Mediation. Launching Nov 2022
 
+## Deployment 
+
+This site has been deployed as a draft site via Netlify. Please contact ashleygyngell@gmail.com for access.
+
 
 
 Original Homepage             |  Rebuilt Homepage
