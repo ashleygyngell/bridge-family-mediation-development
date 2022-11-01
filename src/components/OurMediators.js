@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import carolineHeadshot from '../assets/images/mediators/c-dunne-headshot.jpeg';
+// import carolineHeadshot from '../assets/images/mediators/c-dunne-headshot.jpeg';
 
 const About = () => {
   return (

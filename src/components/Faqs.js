@@ -1,7 +1,5 @@
 import React, { useState, useRef } from 'react';
 
-const breaks = '';
-
 const faqs = [
   {
     id: 1,
