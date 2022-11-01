@@ -25,39 +25,60 @@ const HowItWorks = () => {
               <u>Mediation</u>
             </strong>
             <p>
-              Family Mediation is a voluntary process, where separating or
-              divorcing couples come together to have a discussion — not an
-              argument — about their future arrangements, in a safe,
-              well-ordered and professional environment.
+              Family mediation is a <strong>voluntary</strong> process, where
+              couples going through divorce or separation can have a discussion
+              - not an argument - about future arrangements involving money,
+              property or children, guided by an experienced mediator.
             </p>
             <p>
-              Whilst we will guide you through the process and ask you to
-              consider possible options, mediators are completely impartial. We
-              are not there to make decisions for you but to help both of you
-              resolve the issues and decide your own arrangements for your
+              Mediation is <strong>impartial.</strong> The mediator does not
+              take sides, making sure that all negotiations are balanced and
+              that both parties are able to freely express their views.
+            </p>
+            <p>
+              The <strong> power of decision-making</strong> rests with you. The
+              mediator will not tell you what to do but can suggest possible
+              options and help you both make the right arrangements about your
               future.
             </p>
             <p>
-              Mediation does not replace legal advice and you are separately
-              encouraged to ask a solicitor to look at any agreement reached at
-              mediation to get their legal opinion.
+              Mediation is <strong>confidential</strong>, which means you are
+              free to explore all options safe in the knowledge that if
+              mediation fails, the negotiations that took place were
+              &#39;without prejudice&#39; and won&#39;t influence any future
+              legal proceedings.
             </p>
             <p>
-              Mediation is also a confidential process, which means you are free
-              to explore all options, safe in the knowledge that if mediation
-              does not work, the court is not entitled to hear about the
-              discussions that took place, so that they won&apos;t prejudice any
-              future legal proceedings.
+              There are two <strong>exceptions to confidentiality</strong>: one
+              involves financial disclosure, where the court is able to call on
+              financial information provided during mediation and use it to form
+              a judgment. The other is where a mediator is concerned that a
+              child is at risk of serious harm and therefore has a duty to
+              report it to the appropriate services.
+            </p>
+            <p>
+              When you first contact us, we offer a 20 minute introductory call
+              for you to explain the issues you wish to resolve and for us to
+              tell you how we can help.
             </p>
             <br />
             <strong>
-              <u>Call us</u>
+              <u>After Mediation</u>
             </strong>
+            <p>
+              If mediation is successful, the mediator will prepare a written
+              document detailing the arrangements that have been agreed. In
+              finance cases, this can be presented to a solicitor, who will then
+              draft a legally-binding agreement, which can be approved by the
+              courts without you having to attend.
+            </p>
+
             <p className="pb-4">
-              In order to decide if mediation is suitable for you, we offer a
-              20-minute call at no charge, so that you can tell us about the
-              issues you wish to resolve and we can explain how we might be able
-              to help.
+              With regards to children, research shows that agreements about
+              children reached in mediation last longer than orders imposed by a
+              judge. It is now the firm belief of the judicial system that
+              wherever possible children should not be the subject of court
+              orders.
             </p>
           </div>
 
@@ -76,21 +97,28 @@ const HowItWorks = () => {
             <div className="mediator-text">
               <br />
               <strong>
-                <u>Intake meeting</u>
+                <u>MIAMS</u>
               </strong>
               <p>
-                Each party is then invited to attend a separate one-hour meeting
-                on their own (sometimes called a MIAM — a Mediation Information
-                and Assessment Meeting), where we will fully explain the
-                mediation process and assess whether mediation is the
-                appropriate path for you.{' '}
+                The law now requires everyone who wishes to take a child, family
+                property or finance matter to court to attend a Mediation,
+                Information and Assessment Meeting (MIAM) to decide whether the
+                matter may be suitable for mediation.
               </p>
               <p>
-                You will have an opportunity to ask any questions and discuss
-                any concerns. After both parties have attended their intake
-                meeting and decide to go ahead with mediation, we arrange a
-                joint session. These meetings generally last 1.5 hours, so that
-                real progress can be made.
+                A mediator will take you individually through the MIAM and,
+                where agreed, will then contact the other party to invite them
+                to attend a joint mediation session. If the MIAM is unsuccessful
+                in bringing about mediation, the mediator can send the matter
+                back to court.{' '}
+              </p>
+              <p className="pb-4">
+                Family First has a franchise to grant Legal Aid, so that if you
+                are on a low income or claiming welfare benefits, you may be
+                entitled to free mediation. Where one party is granted Legal
+                Aid, the other party will benefit by also receiving their MIAM
+                free of charge, even if they themselves are not eligible for
+                Legal Aid.
               </p>
             </div>
           </div>

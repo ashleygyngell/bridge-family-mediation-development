@@ -112,7 +112,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="container copyright pt-0 ">
+          <div className="container copyright pt-0 pb-2 ">
             <div className="has-text-centered">
               <p>
                 © 2022 Bridge Family Mediation 85 Great Portland Street, London,

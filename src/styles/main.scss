@@ -7,7 +7,7 @@ $footer-padding: 2rem 0 2rem 0;
 @import '~bulma/bulma.sass';
 @import 'bulma';
 // @import 'react-responsive-carousel/lib/styles/carousel.min.css';
-
+ 
 @font-face {
   font-family: rift-soft;
   src: url("/assets/fonts/rift/Rift Soft Light.otf") format("opentype"),
@@ -33,6 +33,7 @@ body {
   min-height: 82vh;
   flex-direction: column;
 }
+
 
 
 #carousel {
@@ -88,7 +89,7 @@ body {
 }
 
 #button:hover {
-  transition: all 0.1s;
+  transition: all 0.3s;
   color: black;
   background-color: $outdoorsgreen;
 
@@ -106,6 +107,8 @@ body {
   /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
+
+
 /* Then style the iframe to fit in the container div with full height and width */
 .responsive-iframe {
   position: absolute;
@@ -116,6 +119,8 @@ body {
   width: 100%;
   height: 100%;
 }
+
+
 
 
 @media screen and (min-width: 1024px) {
@@ -348,9 +353,11 @@ position: relative
 
 
 #has-text-over-photo {
-  color: rgb(27, 121, 27);
+  color: #567c03;
 
 }
+
+
 
 .hero-text-over-photo {
   position: absolute;
@@ -380,8 +387,10 @@ position: relative
 
 #read-more {
   color: rgb(121, 120, 120);
-
   padding-bottom: 10px;
+  position: absolute;
+  bottom: 0;
+    
 }
 
 #read-more:hover {
@@ -390,13 +399,35 @@ position: relative
 }
 
 #mediator-card {
-  min-height: 52vh;
   margin-top: -1rem;
 }
 
+#mediator-card-subtitle {
+// white-space: nowrap;
+}
+
+#mediator-card-text {
+  padding-bottom: 20px;
+  min-height: 30vh
+}
+
+.mediators-back-button{
+  font-size: 1.1em;
+  padding-left: 6px;
+  padding-top: 3px;
+  border: none;
+  background: none;
+}
+
+.mediators-back-button :hover {
+  cursor: pointer;
+  transition: all 0.1s;
+  color: grey;
+}
+
 // #mediator-card:hover {
-// transition: all 0.1s;
-// scale: 1.01;
+// transition: all 0.2s;
+// scale: 1.015;
 // box-shadow: 0 0 6px rgba(0, 0, 0, .6)
 // }
 
@@ -412,7 +443,9 @@ position: relative
 
 #about-image {
   border-radius: 0.25rem;
-
+  height: 13em;
+  width: 13em;
+  object-fit: cover;
 }
 
 // Mediator
@@ -436,12 +469,15 @@ position: relative
 #mediator-image {
   margin-top: 15px;
   margin-left: 10px;
+
   // background-color: $outdoorsgreen;
 
 }
 
 .mediator-image {
-
+  object-fit: cover;
+    height: 15em;
+    width: 15em;
   border-radius: 0.25rem;
 }
 
@@ -455,9 +491,16 @@ position: relative
   img {
     display: block;
     max-width: 100%;
+      height: 140px;
     margin: 0 10;
     padding: 0 10px 0 10px
   }
+}
+
+.tabs li.is-active a {
+  border-bottom-color: black;
+  border-bottom-width: 1px;
+    color: black;
 }
 
 // Footer
@@ -491,6 +534,11 @@ height: 5em;
   scale: 1.3
 }
 
+// Contact 
+#message {
+  font-size: 1.1em;
+}
+
 
 
 .copyright {
@@ -509,6 +557,10 @@ height: 5em;
 
 
 // FAQ's
+
+.js-modal-trigger {
+  color: black;
+}
 
 .faq-buttons-div-demo {
   display: flex;

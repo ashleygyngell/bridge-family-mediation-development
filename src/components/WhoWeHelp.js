@@ -27,26 +27,26 @@ const WhoDoWeHelp = () => {
           <div className="column pt-5 pl-6 pr-6 pb-6 is-6-desktop is-12-tablet is-12-mobile mediator-text  ">
             <bl>
               <li className="ml-4">
-                Separating couples, with or without children — married or
-                unmarried.
+                Couples (heterosexual and non-heterosexual) going through
+                divorce or separation, with or without children &mdash; married,
+                in a civil partnership or unmarried.
               </li>
               <li className="ml-4">
-                Same-sex couples, whether or not in a marriage or civil
-                partnership.
+                Children who are trying to come to terms with their parents
+                &apos; separation and wish to have a say in the decisions that
+                are being made for them.
               </li>
               <li className="ml-4">
-                Children who are struggling to come to terms with their
-                parents&apos; separation and may be finding it hard to get on
-                with their parents.
+                Children who may be finding it hard to get on with their parents
+                or siblings.
               </li>
               <li className="ml-4">
-                Members of the extended family, e.g. grandparents, who may have
-                been prevented from seeing their grandchildren.
+                Members of the extended family, eg grandparents, who may have
+                issues over seeing their grandchildren.
               </li>
               <li className="ml-4">
-                Families in a range of disputes, e.g. adult siblings looking to
-                resolve the on-going care of an elderly relative; a parent in
-                dispute with a grown-up child.
+                Families in a range of disputes: aside from family break-up, we
+                also mediate between siblings and extended family members.
               </li>
             </bl>
           </div>

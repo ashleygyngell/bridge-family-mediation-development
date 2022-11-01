@@ -51,21 +51,21 @@ export default class Home extends Component {
           >
             <div className="column">
               <Link to={'/whatismediation'}>
-                <button id="button" className="button is-warning">
+                <button id="button" className="button is-info">
                   What is Mediation
                 </button>
               </Link>
             </div>
             <div className="column">
               <Link to={'/ourmediators'}>
-                <button id="button" className="button is-warning">
+                <button id="button" className="button is-info">
                   About Us
                 </button>
               </Link>
             </div>
             <div className="column">
               <Link to={'/ourfees'}>
-                <button id="button" className="button is-warning">
+                <button id="button" className="button is-info">
                   What It Costs
                 </button>
               </Link>

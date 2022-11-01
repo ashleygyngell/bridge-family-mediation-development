@@ -1,7 +1,10 @@
 import React, { useEffect } from 'react';
 // import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import fmcLogo from '../assets/logos/family-mediation-council-accredited-mediator-logo.jpg';
 import fmcLogoChildInclusive from '../assets/logos/family-mediation-council-accredited-mediator-logo.jpg';
+
+import carolineHeadshot from '../assets/images/mediators/c-dunne-headshot.jpeg';
 
 const Mediator4 = () => {
   useEffect(() => {
@@ -28,24 +31,26 @@ const Mediator4 = () => {
   // const navigate = useNavigate();
   return (
     <>
-      {/* <button className="back-button pl-4 pt-1 " onClick={() => navigate(-1)}>
-        <span>
-          <i className="fa-solid fa-arrow-left "></i>
-          {''} Our Mediators
-        </span>
-      </button> */}
+      <button className="mediators-back-button pl-4 pt-1 ">
+        <Link to={'/ourmediators'}>
+          <span>
+            <i className="fa-solid fa-arrow-left "></i>
+            {''} Our Mediators
+          </span>
+        </Link>
+      </button>
 
-      <div className="content  ">
+      <div className="content pt-0 ">
         <div className="tabs is-centered ">
           <ul>
-            <li className="subtitle" data-target="kate-brown">
-              <a>Kate Brown</a>
+            <li className="subtitle">
+              <Link to={'/katebrown'}>Kate Brown</Link>
             </li>
-            <li className="subtitle" data-target="kathleen-straub">
-              <a>Kathleen Straub</a>
+            <li className="subtitle">
+              <Link to={'/kathleenstraub'}>Kathleen Straub</Link>
             </li>
-            <li className=" subtitle" data-target="jules-waring">
-              <a>Jules Waring</a>
+            <li className="subtitle">
+              <Link to={'/juleswaring'}>Jules Waring</Link>
             </li>
             <li className="is-active subtitle" data-target="caroline-dunne">
               <a>Caroline Dunne</a>
@@ -56,224 +61,6 @@ const Mediator4 = () => {
           <div className="column is-12-tablet">
             <div className="content  ">
               <div id="tab-content">
-                <div id="kate-brown" className="is-hidden">
-                  <div className="columns pt-4 ">
-                    <div className="column is-4  has-text-centered   ">
-                      <img
-                        src="https://www.hagopsphotography.com/wp-content/uploads/2021/10/Female-LinkedIn-portrait.jpg"
-                        alt="Placeholder image"
-                        className="mediator-image has-text-centered about-image "
-                      />
-                      <div className="subtitle">
-                        <p id="fontawesome-styling" className=" pt-4  ">
-                          <a href="tel:07930366661">
-                            {' '}
-                            <span id="mediator-contact-info">07930 366661</span>
-                          </a>
-
-                          <a
-                            id="fontawesome-styling"
-                            className=""
-                            href="mailto:katebrown@bridgefamilymediation.co.uk"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <span id="mediator-contact-info">
-                              {' '}
-                              katebrown@bridgefamilymediation.co.uk
-                            </span>
-                          </a>
-                        </p>
-                        <div className="mediator-logos pt-5 ">
-                          <img href="" src={fmcLogo} alt="FMC Logo" />
-                          <img
-                            src={fmcLogoChildInclusive}
-                            alt="FMC Child Mediation Logo"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="column is-8 pr-6 pl-5 ">
-                      <div className="">
-                        <div className="media ">
-                          <div className="media-content ">
-                            <p className="title is-4 ">Kate Brown</p>
-                          </div>
-                        </div>
-
-                        <p className="subtitle is-5 pt-5 has-text-centered">
-                          Balham | Barnes | Battersea
-                        </p>
-                      </div>
-                      <div className="mediator-text pt-5 pb-5 ">
-                        <p>
-                          I completed my mediation training with the Family
-                          Mediators&#39; Association in 2015 and I am fully
-                          accredited by the Family Mediation Council. I am also
-                          qualified in Child Inclusive Mediation and can see
-                          children aged 10 and over within the mediation
-                          process.
-                        </p>
-                        <p>
-                          I have a special interest in child development and
-                          working with families to prioritise the emotional
-                          wellbeing of their children. After a long first career
-                          in the media, managing a team of creative people, much
-                          of my professional experience has been about helping
-                          people work together, resolve conflict and fulfil
-                          their potential.{' '}
-                        </p>{' '}
-                        <p>
-                          Since qualifying as a family mediator, I have been
-                          able to use these skills to guide people through
-                          separation and divorce, to try and minimise the
-                          distress of this challenging time and reach fair and
-                          lasting agreements. I am committed to helping
-                          families, however complex their situation, resolve
-                          matters sensitively, swiftly and affordably.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div id="kathleen-straub" className="is-hidden">
-                  <div className="columns pt-4 ">
-                    <div className="column is-4  has-text-centered   ">
-                      <img
-                        src="https://www.hagopsphotography.com/wp-content/uploads/2021/10/Female-LinkedIn-portrait.jpg"
-                        alt="Placeholder image"
-                        className="mediator-image has-text-centered about-image "
-                      />
-                      <div className="subtitle">
-                        <p id="fontawesome-styling" className=" pt-4  ">
-                          <a href="tel:07957 663091">
-                            {' '}
-                            <span id="mediator-contact-info">07957 663091</span>
-                          </a>
-
-                          <a
-                            id="fontawesome-styling"
-                            className=""
-                            href="mailto:kathleenstraub@bridgefamilymediation.co.uk"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <span id="mediator-contact-info">
-                              {' '}
-                              kathleenstraub@bridgefamilymediation.co.uk
-                            </span>
-                          </a>
-                        </p>
-                        <div className="mediator-logos pt-5 ">
-                          <img href="" src={fmcLogo} alt="FMC Logo" />
-                          <img
-                            src={fmcLogoChildInclusive}
-                            alt="FMC Child Mediation Logo"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="column is-8 pr-6 pl-5 ">
-                      <div className="">
-                        <div className="media ">
-                          <div className="media-content ">
-                            <p className="title is-4 ">Kathleen Straub</p>
-                          </div>
-                        </div>
-
-                        <p className="subtitle is-5 pt-5 has-text-centered">
-                          Balham | Barnes | Battersea
-                        </p>
-                      </div>
-                      <div className="mediator-text pt-5 pb-5 ">
-                        <p>
-                          I trained as a Family Mediator with the Family
-                          Mediators&apos; Association in 2013 and hold full
-                          Family Mediation Council accreditation. I am also a
-                          qualified Professional Practice Consultant,
-                          supervising other family mediators in their
-                          professional development.
-                        </p>
-                        <p>
-                          I have wide experience and knowledge of family law,
-                          having worked for 20 years as a family solicitor. I
-                          now work full time in mediation, covering all issues,
-                          and have particular experience of dealing with complex
-                          cases involving sensitive issues. I am also qualified
-                          to see children within the mediation process. My
-                          approach is to listen, guide and explore options in a
-                          calm and balanced environment.
-                        </p>{' '}
-                        <p></p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div id="jules-waring" className="is-hidden">
-                  <div className="columns pt-4 ">
-                    <div className="column is-4  has-text-centered   ">
-                      <img
-                        src="https://www.hagopsphotography.com/wp-content/uploads/2021/10/Female-LinkedIn-portrait.jpg"
-                        alt="Placeholder image"
-                        className="mediator-image has-text-centered about-image "
-                      />
-                      <div className="subtitle">
-                        <p id="fontawesome-styling" className=" pt-4  ">
-                          <a href="tel:07880 724658">
-                            {' '}
-                            <span id="mediator-contact-info">07880 724658</span>
-                          </a>
-
-                          <a
-                            id="fontawesome-styling"
-                            className=""
-                            href="mailto:juleswaring@bridgefamilymediation.co.uk"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <span id="mediator-contact-info">
-                              {' '}
-                              juleswaring@bridgefamilymediation.co.uk
-                            </span>
-                          </a>
-                        </p>
-                        <div className="mediator-logos pt-5 ">
-                          <img href="" src={fmcLogo} alt="FMC Logo" />
-                          <img
-                            src={fmcLogoChildInclusive}
-                            alt="FMC Child Mediation Logo"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="column is-8 pr-6 pl-5 ">
-                      <div className="">
-                        <div className="media ">
-                          <div className="media-content ">
-                            <p className="title is-4 ">Jules Waring</p>
-                          </div>
-                        </div>
-
-                        <p className="subtitle is-5 pt-5 has-text-centered">
-                          Balham | Barnes | Battersea
-                        </p>
-                      </div>
-                      <div className="mediator-text pt-5 pb-5 ">
-                        <p>
-                          Like Kate, I had a career in media for over 30 years
-                          before deciding to train as a family mediator.
-                          I&apos;ve been responsible for running a team and
-                          recruiting people, nurturing them through a
-                          pressurised career path and being their support and
-                          mentor. I feel these skills make me a highly
-                          empathetic and successful mediator, where I can draw
-                          on my experience to help families reach amicable and
-                          long-lasting solutions.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
                 <div id="caroline-dunne">
                   <div className="columns pt-4 ">
                     <div className="column is-4  has-text-centered   ">
@@ -284,9 +71,9 @@ const Mediator4 = () => {
                       />
                       <div className="subtitle">
                         <p id="fontawesome-styling" className=" pt-4  ">
-                          <a href="tel:07777 777777">
+                          <a href="tel:07870 796618">
                             {' '}
-                            <span id="mediator-contact-info">07777 777777</span>
+                            <span id="mediator-contact-info">07870 796618</span>
                           </a>
 
                           <a
@@ -298,7 +85,7 @@ const Mediator4 = () => {
                           >
                             <span id="mediator-contact-info">
                               {' '}
-                              carolinedunne@bridgefamilymediation.co.uk
+                              <a>carolinedunne@bridgefamilymediation.co.uk</a>
                             </span>
                           </a>
                         </p>
@@ -316,23 +103,39 @@ const Mediator4 = () => {
                         </div>
 
                         <p className="subtitle is-5 pt-5 has-text-centered">
-                          Balham | Barnes | Battersea
+                          Battersea | Sutton | Wimbledon
                         </p>
                       </div>
                       <div className="mediator-text pt-5 pb-5 ">
                         <p>
-                          Lorem ipsum dolor, sit amet consectetur adipisicing
-                          elit. Aliquid labore aspernatur voluptatibus, nemo
-                          perspiciatis commodi delectus vero sequi molestiae
-                          officia nisi recusandae sit quos unde soluta, modi eum
-                          illum dolor. Doloremque odit similique cum laborum
-                          voluptate, quia, itaque nam voluptates aliquam dolorem
-                          debitis! Tempore, in dolorem adipisci soluta
-                          consequatur ab hic ad aperiam mollitia autem
-                          perspiciatis non nam veritatis, saepe sed modi?
-                          Distinctio ipsum perferendis reprehenderit molestiae
-                          perspiciatis rem unde consectetur in est iste,
-                          eligendi natus voluptatum non repellendus nam.
+                          I studied law and qualified as a solicitor originally
+                          working in the City for a commercial practice
+                          specialising in asset finance transactions. I took a
+                          break from my career to raise a family and during this
+                          time studied for a Master&apos;s in Child Law &
+                          Policy. On returning to work I took a change of
+                          direction and began working as an advisor for Citizens
+                          Advice. This introduced me to a wide variety of
+                          different problems and people, and I enjoyed my
+                          problem-solving and information-giving roles. During
+                          my time at Citizens Advice and because of my interest
+                          in children and the law I became aware how family
+                          breakdown can have a huge impact on a child&apos;s
+                          life, and I decided to train as a family mediator in
+                          2017. Research shows that parental conflict upon
+                          separation can be damaging for children, and I believe
+                          that mediation provides a space for couples to work
+                          together to resolve their differences and so reduce
+                          conflict.
+                        </p>
+                        <p>
+                          After several years working in a busy legal aid
+                          practice, I joined Bridge Family Mediation in 2022
+                          having known members of the Bridge Team for several
+                          years. I aim to be helpful, informative, and
+                          approachable, and to engage with couples to find
+                          practical and realistic solutions that work for the
+                          whole family.
                         </p>
                       </div>
                     </div>

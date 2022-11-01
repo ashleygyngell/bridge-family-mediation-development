@@ -25,26 +25,37 @@ const WhatWeDiscuss = () => {
             <bl>
               <li className="ml-4">
                 How property, pensions, other financial assets and debts are to
-                be divided up and where both parties will live following divorce
+                be divided up and where both parties will live following
+                divorce.
               </li>
               <li className="ml-4">
-                Where the children will live when parents separate.
+                Living arrangements for both parties after separation.
+              </li>
+              <li className="ml-4">
+                Where the children will live when parents have separate homes.
+              </li>
+              <li className="ml-4">
+                How the costs of bringing up children will be covered.
               </li>
               <li className="ml-4">
                 How the children will share their time between their parents,
                 including holidays.
               </li>
               <li className="ml-4">
-                How much children will see of members of their extended family —
-                grandparents, cousins etc.
+                Arrangements for children to see members of their extended
+                family &mdash; eg grandparents, cousins etc.
               </li>
               <li className="ml-4">
                 How parents will communicate with one another in the future
                 about their children.
               </li>
               <li className="ml-4">
-                How to formalise any agreements in a Separation Deed or a
-                Consent Order.
+                How to formalise any mediation agreements in a Separation Deed
+                or a Consent Order.
+              </li>
+              <li className="ml-4">
+                A Parenting Plan to set out arrangements for children and
+                decisions about their future.
               </li>
             </bl>
           </div>

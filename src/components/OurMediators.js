@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import carolineHeadshot from '../assets/images/mediators/c-dunne-headshot.jpeg';
 
 const About = () => {
   return (
@@ -31,17 +32,19 @@ const About = () => {
                     </div>
                   </div>
                 </Link>
-                <p className="subtitle is-6 has-text-centered pt-2 ">
-                  Balham | Barnes | Battersea{' '}
+                <p
+                  id="mediator-card-subtitle"
+                  className="subtitle is-6 has-text-centered pt-2 "
+                >
+                  Barnes | Chiswick | Richmond
                 </p>
-
-                <div className="   ">
+                <div id="mediator-card-text">
                   <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Facilis blanditiis ducimus nam quaerat sit deleniti,
-                    nesciunt animi obcaecati. Exercitationem nam, rem minima
-                    enim, unde, harum possimus eos similique eveniet eligendi
-                    dicta! Nulla rerum.
+                    I am an experienced Family Mediator, fully accredited by the
+                    FMCA, and comitted to helping families resolve highly
+                    sensitive matters arising from divorce and separation,
+                    including financial & property issues and arrangement for
+                    children.
                   </p>
                   <Link to={'/katebrown'}>
                     <div id="read-more">
@@ -75,16 +78,19 @@ const About = () => {
                     </div>
                   </div>
                 </Link>
-                <p className="subtitle is-6 has-text-centered pt-2 ">
+                <p
+                  id="mediator-card-subtitle"
+                  className="subtitle is-6 has-text-centered pt-2 "
+                >
                   Balham | Barnes | Battersea{' '}
                 </p>
-                <div className="">
+                <div id="mediator-card-text">
                   <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Facilis blanditiis ducimus nam quaerat sit deleniti,
-                    nesciunt animi obcaecati. Exercitationem nam, rem minima
-                    enim, unde, harum possimus eos similique eveniet eligendi
-                    dicta! Nulla rerum.
+                    I trained as a Family Mediator with the Family
+                    Mediators&apos; Association in 2013 and hold full Family
+                    Mediation Council accreditation. I am qualified as a
+                    Professional Practice Consultant, supervising other family
+                    mediators in their professional development.
                   </p>
                   <Link to={'/kathleenstraub'}>
                     <div id="read-more">
@@ -118,16 +124,17 @@ const About = () => {
                     </div>
                   </div>
                 </Link>
-                <p className="subtitle is-6 has-text-centered pt-2 ">
-                  Balham | Barnes | Battersea{' '}
+                <p
+                  id="mediator-card-subtitle"
+                  className="subtitle is-6 has-text-centered pt-2 "
+                >
+                  Balham | Clapham | Streatham
                 </p>
-                <div className="">
+                <div id="mediator-card-text">
                   <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Facilis blanditiis ducimus nam quaerat sit deleniti,
-                    nesciunt animi obcaecati. Exercitationem nam, rem minima
-                    enim, unde, harum possimus eos similique eveniet eligendi
-                    dicta! Nulla rerum.
+                    My professional ambition is to help people make fair
+                    decisions which leave neither party aggrieved and enable
+                    them to be loving parents to the children they adore.
                   </p>
                   <Link to={'/juleswaring'}>
                     <div id="read-more">
@@ -161,16 +168,17 @@ const About = () => {
                     </div>
                   </div>
                 </Link>
-                <p className="subtitle is-6 has-text-centered pt-2 ">
-                  Balham | Barnes | Battersea{' '}
+                <p
+                  id="mediator-card-subtitle"
+                  className="subtitle is-6 has-text-centered pt-2 "
+                >
+                  Battersea | Sutton | Wimbledon
                 </p>
-                <div className="">
+                <div id="mediator-card-text">
                   <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Facilis blanditiis ducimus nam quaerat sit deleniti,
-                    nesciunt animi obcaecati. Exercitationem nam, rem minima
-                    enim, unde, harum possimus eos similique eveniet eligendi
-                    dicta! Nulla rerum.
+                    I am family mediator accredited with the Family Mediation
+                    Council (FMCA) and a member of the Family Mediators&apos;
+                    Association (FMA).
                   </p>
                   <Link to={'/carolinedunne'}>
                     <div id="read-more">
@@ -194,13 +202,13 @@ const About = () => {
           </Link> */}
         </button>
 
-        <button className="faq-button column is-6-mobile ">
+        <button className="faq-button column is-6-mobile pt-5">
           <Link to={'/whychooseus'}>
             <span>
               Next <i className="fa-solid fa-arrow-right "></i>{' '}
             </span>
 
-            <p className="faq-button-subtitle">Why Choose Us </p>
+            <p className="faq-button-subtitle ">Why Choose Us </p>
           </Link>
         </button>
       </div>

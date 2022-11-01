@@ -21,7 +21,7 @@ import Testimonials from './components/Testimonials';
 import Podcast from './components/Podcast';
 
 // Mediation
-import TheMediationAgreement from './components//TheMediationAgreement';
+import AfterMediation from './components/AfterMediation';
 import WhatIsMediation from './components//WhatIsMediation';
 import HowItWorks from './components/HowItWorks';
 import WhoWeHelp from './components//WhoWeHelp';
@@ -50,10 +50,7 @@ function App() {
         {/* FAQS */}
         <Route path="/whatismediation" element={<WhatIsMediation />} />
         <Route path="/childreninmediation" element={<ChildrenInMediation />} />
-        <Route
-          path="/themediationagreement"
-          element={<TheMediationAgreement />}
-        />
+        <Route path="/aftermediation" element={<AfterMediation />} />
         <Route path="/howitworks" element={<HowItWorks />} />
         <Route path="/whowehelp" element={<WhoWeHelp />} />
         <Route path="/divorceandmediation" element={<DivorceAndMediation />} />

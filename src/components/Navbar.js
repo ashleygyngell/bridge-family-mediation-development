@@ -90,18 +90,12 @@ const Navbar = () => {
               >
                 What Is Mediation?
               </Link>
+
               <Link to={'/howitworks'} className="navbar-item" id="navbar-item">
                 How It Works
               </Link>
-              <Link
-                to={'/divorceandmediation'}
-                className="navbar-item"
-                id="navbar-item"
-              >
-                Divorce &amp; Mediation
-              </Link>
               <Link to={'/whowehelp'} className="navbar-item" id="navbar-item">
-                Who We Help
+                Who Do We Help
               </Link>
               <Link
                 to={'/whatwediscuss'}
@@ -117,13 +111,21 @@ const Navbar = () => {
               >
                 Children In Mediation
               </Link>
-              {/* <hr className="navbar-divider"></hr> */}
               <Link
-                to={'/themediationagreement'}
+                to={'/divorceandmediation'}
                 className="navbar-item"
                 id="navbar-item"
               >
-                The Mediation Agreement
+                Divorce &amp; Mediation
+              </Link>
+
+              {/* <hr className="navbar-divider"></hr> */}
+              <Link
+                to={'/aftermediation'}
+                className="navbar-item"
+                id="navbar-item"
+              >
+                After Mediation
               </Link>
             </div>
           </div>

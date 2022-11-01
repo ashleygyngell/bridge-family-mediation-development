@@ -87,11 +87,15 @@ const Contact = () => {
               </span>
             </a>
           </p>
-          <Link to={'/ourmediators'}>
-            <p className="mediator-text ">
-              <strong>Phone:</strong> <a>Our Mediators</a>
-            </p>
-          </Link>
+          <p className="mediator-text ">
+            <strong>Phone: </strong>
+
+            <span id="mediator-contact-info">
+              {' '}
+              Click <Link to={'/ourmediators'}>here </Link>
+              for our mediators
+            </span>
+          </p>
         </div>
       </div>
     </>
