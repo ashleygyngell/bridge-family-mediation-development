@@ -75,7 +75,7 @@ const WhatWeDiscuss = () => {
               <i className="fa-solid fa-arrow-left  "></i> Previous
             </span>
 
-            <p className="faq-button-subtitle">Who We Help </p>
+            <p className="faq-button-subtitle">Who Do We Help </p>
           </Link>
         </button>
 

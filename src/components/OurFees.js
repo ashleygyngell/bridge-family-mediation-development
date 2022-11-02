@@ -38,10 +38,6 @@ const OurFees = () => {
               Joint Mediation Session (90 minutes): £180 per person.
             </li>
             <li className="ml-4">
-              We listen to you &#8212; and take great care to make you feel safe
-              and comfortable.
-            </li>
-            <li className="ml-4">
               Memorandum of Understanding or Summary of Proposals: £120 per hour
               per person (normally in the region of 1.5 hours work).
             </li>

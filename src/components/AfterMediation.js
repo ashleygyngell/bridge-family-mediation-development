@@ -58,12 +58,12 @@ const AfterMediation = () => {
       </div>
       <div className="faq-buttons-div columns is-mobile">
         <button className="faq-button column is-6-mobile ">
-          <Link to={'/childreninmediation'}>
+          <Link to={'/divorceandmediation'}>
             <span>
               <i className="fa-solid fa-arrow-left  "></i> Previous
             </span>
 
-            <p className="faq-button-subtitle">Children In Mediation </p>
+            <p className="faq-button-subtitle">Divorce & Mediation </p>
           </Link>
         </button>
 

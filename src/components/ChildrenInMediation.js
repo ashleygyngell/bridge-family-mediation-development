@@ -159,12 +159,12 @@ const ChildrenInMediation = () => {
         </button>
 
         <button className="faq-button column is-6-mobile ">
-          <Link to={'/aftermediation'}>
+          <Link to={'/divorceandmediation'}>
             <span>
               Next <i className="fa-solid fa-arrow-right "></i>{' '}
             </span>
 
-            <p className="faq-button-subtitle">After Mediation </p>
+            <p className="faq-button-subtitle">Divorce & Mediation </p>
           </Link>
         </button>
       </div>

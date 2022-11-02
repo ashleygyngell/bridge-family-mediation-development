@@ -131,12 +131,12 @@ const HowItWorks = () => {
         </button>
 
         <button className="faq-button column is-6-mobile ">
-          <Link to={'/divorceandmediation'}>
+          <Link to={'/whodowehelp'}>
             <span>
               Next <i className="fa-solid fa-arrow-right "></i>{' '}
             </span>
 
-            <p className="faq-button-subtitle">Divorce &amp; Mediation </p>
+            <p className="faq-button-subtitle">Who Do We help? </p>
           </Link>
         </button>
       </div>

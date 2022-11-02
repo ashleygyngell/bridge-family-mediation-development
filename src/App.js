@@ -52,7 +52,7 @@ function App() {
         <Route path="/childreninmediation" element={<ChildrenInMediation />} />
         <Route path="/aftermediation" element={<AfterMediation />} />
         <Route path="/howitworks" element={<HowItWorks />} />
-        <Route path="/whowehelp" element={<WhoWeHelp />} />
+        <Route path="/whodowehelp" element={<WhoWeHelp />} />
         <Route path="/divorceandmediation" element={<DivorceAndMediation />} />
         <Route path="/whatwediscuss" element={<WhatWeDiscuss />} />
         <Route path="/whychooseus" element={<WhyChooseUs />} />

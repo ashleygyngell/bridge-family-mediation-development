@@ -281,22 +281,22 @@ const DivorceAndMediation = () => {
       </div>
       <div className="faq-buttons-div columns is-mobile">
         <button className="faq-button column is-6-mobile ">
-          <Link to={'/howitworks'}>
+          <Link to={'/childreninmediation'}>
             <span>
               <i className="fa-solid fa-arrow-left  "></i> Previous
             </span>
 
-            <p className="faq-button-subtitle">How It Works </p>
+            <p className="faq-button-subtitle">Children In Mediation</p>
           </Link>
         </button>
 
         <button className="faq-button column is-6-mobile ">
-          <Link to={'/whowehelp'}>
+          <Link to={'/aftermediation'}>
             <span>
               Next <i className="fa-solid fa-arrow-right "></i>{' '}
             </span>
 
-            <p className="faq-button-subtitle">Who We Help</p>
+            <p className="faq-button-subtitle">After Mediation</p>
           </Link>
         </button>
       </div>

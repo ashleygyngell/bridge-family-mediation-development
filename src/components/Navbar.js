@@ -94,7 +94,11 @@ const Navbar = () => {
               <Link to={'/howitworks'} className="navbar-item" id="navbar-item">
                 How It Works
               </Link>
-              <Link to={'/whowehelp'} className="navbar-item" id="navbar-item">
+              <Link
+                to={'/whodowehelp'}
+                className="navbar-item"
+                id="navbar-item"
+              >
                 Who Do We Help
               </Link>
               <Link

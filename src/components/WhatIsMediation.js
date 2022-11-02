@@ -20,7 +20,7 @@ const WhatIsMediation = () => {
         <div className="columns pt-5 pr-6 pl-4 ">
           <div className="column pt-5 pl-6 pr-6 pb-0 is-6-desktop is-12-tablet is-12-mobile mediator-text ">
             <strong>
-              <u>What is Mediation</u>
+              <u>What is Mediation?</u>
             </strong>
             <p>
               Family Mediation is highly successful in helping couples resolve
