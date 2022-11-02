@@ -22,66 +22,28 @@ const HowItWorks = () => {
         <div className="columns pt-5 pr-6 pl-4 ">
           <div className="column pt-5 pl-6 pr-6 is-6-desktop is-12-tablet is-12-mobile mediator-text">
             <strong>
-              <u>Mediation</u>
+              <u>Call us</u>
             </strong>
             <p>
-              Family mediation is a <strong>voluntary</strong> process, where
-              couples going through divorce or separation can have a discussion
-              - not an argument - about future arrangements involving money,
-              property or children, guided by an experienced mediator.
-            </p>
-            <p>
-              Mediation is <strong>impartial.</strong> The mediator does not
-              take sides, making sure that all negotiations are balanced and
-              that both parties are able to freely express their views.
-            </p>
-            <p>
-              The <strong> power of decision-making</strong> rests with you. The
-              mediator will not tell you what to do but can suggest possible
-              options and help you both make the right arrangements about your
-              future.
-            </p>
-            <p>
-              Mediation is <strong>confidential</strong>, which means you are
-              free to explore all options safe in the knowledge that if
-              mediation fails, the negotiations that took place were
-              &#39;without prejudice&#39; and won&#39;t influence any future
-              legal proceedings.
-            </p>
-            <p>
-              There are two <strong>exceptions to confidentiality</strong>: one
-              involves financial disclosure, where the court is able to call on
-              financial information provided during mediation and use it to form
-              a judgment. The other is where a mediator is concerned that a
-              child is at risk of serious harm and therefore has a duty to
-              report it to the appropriate services.
-            </p>
-            <p>
-              When you first contact us, we offer a 20 minute introductory call
-              for you to explain the issues you wish to resolve and for us to
-              tell you how we can help.
+              To help you decide if mediation is right for you, we offer a{' '}
+              <strong>free 20-minute introductory call</strong>, so that you can
+              tell us the issues you&apos;d like to resolve and we can answer
+              any questions or concerns you might have.
             </p>
             <br />
             <strong>
-              <u>After Mediation</u>
+              <u>The Intake Meeting</u>
             </strong>
-            <p>
-              If mediation is successful, the mediator will prepare a written
-              document detailing the arrangements that have been agreed. In
-              finance cases, this can be presented to a solicitor, who will then
-              draft a legally-binding agreement, which can be approved by the
-              courts without you having to attend.
-            </p>
-
             <p className="pb-4">
-              With regards to children, research shows that agreements about
-              children reached in mediation last longer than orders imposed by a
-              judge. It is now the firm belief of the judicial system that
-              wherever possible children should not be the subject of court
-              orders.
+              Each party is then invited to attend a 60-minute{' '}
+              <strong>one to one</strong> Intake Meeting, a{' '}
+              <strong>get to know you</strong> session, where you are able to
+              tell the mediator in confidence anything you&apos;d like them to
+              know, and the mediator can explain more about the process of
+              reaching a settlement. Then, if you both decide mediation is the
+              right path for you, we will arrange a joint session.
             </p>
           </div>
-
           <div className=" column  is-6-desktop is-12-tablet is-12-mobile pt-5 pr-6 pl-6  ">
             <div className="video-responsive">
               <iframe
@@ -93,32 +55,65 @@ const HowItWorks = () => {
                 frameBorder="1"
               ></iframe>
             </div>
-
-            <div className="mediator-text">
-              <br />
+          </div>
+        </div>
+        <div className="columns  pr-6 pl-4 ">
+          <div className="column pt-0 pl-6 pr-6 is-12-desktop is-12-tablet is-12-mobile mediator-text">
+            <div className="mediator-text pb-4">
               <strong>
                 <u>MIAMS</u>
               </strong>
               <p>
-                The law now requires everyone who wishes to take a child, family
-                property or finance matter to court to attend a Mediation,
-                Information and Assessment Meeting (MIAM) to decide whether the
-                matter may be suitable for mediation.
+                A MIAM is a more formal Intake Meeting. The law now requires
+                everyone who wishes to take a child or finance matter to court
+                to attend a Mediation Information and Assessment Meeting (MIAM),
+                to consider whether the matter may be suitable for mediation.
               </p>
               <p>
                 A mediator will take you individually through the MIAM and,
                 where agreed, will then contact the other party to invite them
-                to attend a joint mediation session. If the MIAM is unsuccessful
-                in bringing about mediation, the mediator can send the matter
-                back to court.{' '}
+                to attend. We will always do our best to bring about mediation
+                but If the MIAM is unsuccessful, the mediator can sign the form
+                required if you need to proceed to court.
               </p>
-              <p className="pb-4">
-                Family First has a franchise to grant Legal Aid, so that if you
-                are on a low income or claiming welfare benefits, you may be
-                entitled to free mediation. Where one party is granted Legal
-                Aid, the other party will benefit by also receiving their MIAM
-                free of charge, even if they themselves are not eligible for
-                Legal Aid.
+              <br />
+              <strong>
+                <u>Joint Mediation</u>
+              </strong>
+              <p>
+                Once you have both decided to go ahead, the mediator will book
+                you in for a joint session. These sessions usually last 90
+                minutes, so that significant progress can be made.
+              </p>
+              <p>
+                If the issues to be resolved include money and property, the
+                mediator will give you both Financial Disclosure forms to fill
+                in, which asks for full details of your finances (including
+                savings, investments, pensions, liabilities, properties,
+                mortgages etc). The mediator will then draw up your Financial
+                Statement, giving a clear picture of your joint financial
+                situation, so that you can start to discuss options for
+                settlement.
+              </p>
+              <p>
+                Couples typically need 3-5 joint sessions to resolve matters,
+                but every case is different - it all depends on the complexity
+                of the issues being discussed.
+              </p>
+              <br />
+              <strong>
+                <u>After Mediation</u>
+              </strong>
+              <p>
+                Once you have successfully concluded mediation, the mediator
+                will prepare a written document called a Memorandum of
+                Understanding, detailing the proposals you have agreed.
+              </p>
+              <p>
+                In Finance cases, this MOU, along with your Financial Statement,
+                is usually presented to a solicitor, who will draft a legally
+                binding agreement or Consent Order for you both to sign, which
+                will then be approved by the court.
               </p>
             </div>
           </div>
