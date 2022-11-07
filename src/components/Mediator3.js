@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import fmcLogo from '../assets/logos/family-mediation-council-accredited-mediator-logo.jpg';
 import fmcLogoChildInclusive from '../assets/logos/family-mediation-council-child-inclusive-mediator-logo.jpg';
+import julesHeadshot from '../assets/images/mediators/jules.jpg';
 
 const Mediator3 = () => {
   useEffect(() => {
@@ -62,8 +63,9 @@ const Mediator3 = () => {
                   <div className="columns pt-4 ">
                     <div className="column is-4  has-text-centered   ">
                       <img
-                        src="https://www.hagopsphotography.com/wp-content/uploads/2021/10/Female-LinkedIn-portrait.jpg"
-                        alt="Placeholder image"
+                        src={julesHeadshot}
+                        alt="Jules Waring Headshot"
+                        id="about-image"
                         className="mediator-image has-text-centered about-image "
                       />
                       <div className="subtitle">
@@ -72,7 +74,7 @@ const Mediator3 = () => {
                             {' '}
                             <span id="mediator-contact-info">07880 724658</span>
                           </a>
-
+                          <br />
                           <a
                             id="fontawesome-styling"
                             className=""

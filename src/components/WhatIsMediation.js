@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
+import childwithfather from '../assets/images/child-with-father.png';
 
 const WhatIsMediation = () => {
   useEffect(() => {
@@ -18,7 +19,7 @@ const WhatIsMediation = () => {
       <div className="content  ">
         <div className="title is-4 mt-2 mr-6 ml-6">What is mediation?</div>
         <div className="columns pt-5 pr-6 pl-4 ">
-          <div className="column pt-5 pl-6 pr-6 pb-0 is-6-desktop is-12-tablet is-12-mobile mediator-text ">
+          <div className="column pt-5 pl-6 pr-6 pb-0 is-12-desktop is-12-tablet is-12-mobile mediator-text ">
             <strong>
               <u>What is Mediation?</u>
             </strong>
@@ -59,17 +60,17 @@ const WhatIsMediation = () => {
               peace with your new family circumstances.
             </p>
           </div>
-
-          <div className=" column  mt-4 pl-6 pr-6 pb-0 is-6-desktop is-12-tablet is-12-mobile">
-            <img
-              src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1663000714/istockphoto-960613824-1024x1024-transformed_ayyh9v.jpg"
-              alt="FMC Child Mediation Logo"
-            />
-          </div>
         </div>
-        <br />
+        <div className=" column pt-2 pl-6 pr-6 pb-4 is-12-desktop is-12-tablet is-12-mobile has-text-centered">
+          <img
+            id="mediation-breakdown-image-style-2"
+            src={childwithfather}
+            alt="Father and son holding hands, on a walk over a bridge"
+            width="auto"
+          />
+        </div>
         <div className="columns pt-5 pr-6 pl-4 ">
-          <div className="column pt-3 pl-6 pr-6 pb-6  is-12-desktop is-12-tablet is-12-mobile mediator-text">
+          <div className="column pt-0 pl-6 pr-6 pb-2  is-12-desktop is-12-tablet is-12-mobile mediator-text">
             <strong>
               <u>The principles of Mediation</u>
             </strong>

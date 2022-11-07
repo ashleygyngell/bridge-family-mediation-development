@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import carolineHeadshot from '../assets/images/mediators/c-dunne-headshot.jpeg';
+import carolineHeadshot from '../assets/images/mediators/caroline.jpeg';
+import julesHeadshot from '../assets/images/mediators/jules.jpg';
+import kateHeadshot from '../assets/images/mediators/kate.jpg';
+import kathleenHeadshot from '../assets/images/mediators/kathleen.jpg';
 
 const About = () => {
   return (
@@ -17,8 +20,8 @@ const About = () => {
                   <figure className="image is-2by2 ">
                     <img
                       id="about-image"
-                      src="https://www.hagopsphotography.com/wp-content/uploads/2021/10/Female-LinkedIn-portrait.jpg"
-                      alt="Placeholder image"
+                      src={kateHeadshot}
+                      alt="Kate Brown Headshot"
                     />
                   </figure>
                 </Link>
@@ -64,8 +67,8 @@ const About = () => {
                   <figure className="image is-2by2">
                     <img
                       id="about-image"
-                      src="https://www.hagopsphotography.com/wp-content/uploads/2021/10/Female-LinkedIn-portrait.jpg"
-                      alt="Placeholder image"
+                      src={kathleenHeadshot}
+                      alt="Kathleen Straub Headshot"
                     />
                   </figure>
                 </Link>
@@ -110,8 +113,8 @@ const About = () => {
                   <figure className="image is-2by2">
                     <img
                       id="about-image"
-                      src="https://www.hagopsphotography.com/wp-content/uploads/2021/10/Female-LinkedIn-portrait.jpg"
-                      alt="Placeholder image"
+                      src={julesHeadshot}
+                      alt="Jules Waring Headshot"
                     />
                   </figure>
                 </Link>
@@ -154,8 +157,8 @@ const About = () => {
                   <figure className="image is-2by2">
                     <img
                       id="about-image"
-                      src="https://www.hagopsphotography.com/wp-content/uploads/2021/10/Female-LinkedIn-portrait.jpg"
-                      alt="Placeholder image"
+                      src={carolineHeadshot}
+                      alt="Caroline Dunne Headshot"
                     />
                   </figure>
                 </Link>

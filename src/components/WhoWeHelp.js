@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
+import familyImage from '../assets/images/stock-photo-unhappy-african-american-family-in-living-room-at-home-sad-father-embracing-little-preschooler-1222838173-transformed.jpeg';
 
 const WhoDoWeHelp = () => {
   useEffect(() => {
@@ -17,14 +18,16 @@ const WhoDoWeHelp = () => {
       </button> */}
       <div className="content  ">
         <div className="title is-4 mt-2 mr-6 ml-6">Who do we help?</div>
-        <div className="columns pt-5 pr-6 pl-4 ">
-          <div className=" column mt-4 pl-6 pr-6 pb-6  is-6-desktop is-12-tablet is-12-mobile">
+        <div className="columns pt-5 pr-6 pl-6 ">
+          <div className="column mt-4 pl-6 pr-6 pb-6 is-6-desktop is-12-tablet is-12-mobile has-text-centered">
             <img
-              src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1663000714/istockphoto-960613824-1024x1024-transformed_ayyh9v.jpg"
-              alt="FMC Child Mediation Logo"
+              id="mediation-breakdown-image"
+              src={familyImage}
+              alt="Family With Daughter"
+              width="auto"
             />
           </div>
-          <div className="column pt-5 pl-6 pr-6 pb-6 is-6-desktop is-12-tablet is-12-mobile mediator-text  ">
+          <div className="column mt-5 pl-6 pr-6 pb-6 is-6-desktop is-12-tablet is-12-mobile mediator-text  ">
             <bl>
               <li className="ml-4">
                 Couples (heterosexual and non-heterosexual) going through

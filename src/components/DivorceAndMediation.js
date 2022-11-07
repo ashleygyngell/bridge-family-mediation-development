@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 import { useEffect } from 'react';
+import divorceCalculator from '../assets/images/stock-photo-japanese-couple-s-marriage-and-divorce-money-image-1915079419.jpg';
 
 const DivorceAndMediation = () => {
   useEffect(() => {
@@ -151,6 +151,7 @@ const DivorceAndMediation = () => {
               Conditional Order has been made. It cannot be submitted before
               then.{' '}
             </p>
+
             <strong>
               <u>Children</u>
             </strong>
@@ -170,6 +171,7 @@ const DivorceAndMediation = () => {
                 https://www.gov.uk/get-a-divorce
               </a>
             </p>
+
             {/* ---------------------------- ----------------------------
             <p>
               If you are considering making a Divorce Application, then you will

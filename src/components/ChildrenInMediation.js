@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import childwithfather from '../assets/images/child-with-father.png';
+import childUpset from '../assets/images/stock-photo-upset-lonely-bullied-little-african-american-kid-girl-holding-teddy-bear-looking-away-feels-1319345675-transformed.jpeg';
 import { useEffect } from 'react';
 
 const ChildrenInMediation = () => {
@@ -133,17 +133,15 @@ const ChildrenInMediation = () => {
                 </li>
               </bl>
             </div>
-            <div className=" column is-12-desktop is-12-tablet is-12-mobile  pt-6 pl-6 pr-6 pb-6 has-text-centered ">
+            {/* <div className=" column is-12-desktop is-12-tablet is-12-mobile  pt-6 pl-6 pr-6 pb-6 has-text-centered ">
               <img
                 id="mediation-breakdown-image"
-                src={childwithfather}
-                alt="Child With Father"
+                src={childUpset}
+                alt="Emotional child holding a teddy bear"
                 width="auto"
               />{' '}
-              <p>
-                {/* https://www.dreamstime.com/back-view-father-son-holding-hands-walking-bridge-park-image127765196 */}
-              </p>
-            </div>
+              
+            </div> */}
           </div>
         </div>
       </div>

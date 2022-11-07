@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import fmcLogo from '../assets/logos/family-mediation-council-accredited-mediator-logo.jpg';
 import fmcLogoChildInclusive from '../assets/logos/family-mediation-council-child-inclusive-mediator-logo.jpg';
+import kathleenHeadshot from '../assets/images/mediators/kathleen.jpg';
 
 const Mediator2 = () => {
   useEffect(() => {
@@ -61,10 +62,11 @@ const Mediator2 = () => {
               <div id="tab-content">
                 <div id="kathleen-straub">
                   <div className="columns pt-4 ">
-                    <div className="column is-4  has-text-centered   ">
+                    <div className="column is-4  has-text-centered  ">
                       <img
-                        src="https://www.hagopsphotography.com/wp-content/uploads/2021/10/Female-LinkedIn-portrait.jpg"
-                        alt="Placeholder image"
+                        src={kathleenHeadshot}
+                        id="about-image"
+                        alt="Kathleen Straub Headshot"
                         className="mediator-image has-text-centered about-image "
                       />
                       <div className="subtitle">
@@ -73,7 +75,7 @@ const Mediator2 = () => {
                             {' '}
                             <span id="mediator-contact-info">07957 663091</span>
                           </a>
-
+                          <br />
                           <a
                             id="fontawesome-styling"
                             className=""
@@ -96,7 +98,7 @@ const Mediator2 = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="column is-8 pr-6 pl-5 ">
+                    <div className="column is-8 pr-6 pl-5  ">
                       <div className="">
                         <div className="media ">
                           <div className="media-content ">
