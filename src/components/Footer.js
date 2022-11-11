@@ -73,7 +73,7 @@ const Footer = () => {
                   <li>
                     <Link to={'/faqs'} onClick={topFunction}>
                       {/* <i className="fa-solid fa-lock"></i> */}
-                      FAQ&#39;s
+                      FAQs
                     </Link>
                   </li>
 
@@ -103,9 +103,9 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to={'/complaintspolicy'} onClick={topFunction}>
+                    <Link to={'/complaintsprocedure'} onClick={topFunction}>
                       {/* <i className="fa-solid fa-lock"></i> */}
-                      Complaints Policy
+                      Complaints Procedure
                     </Link>
                   </li>
                 </ul>

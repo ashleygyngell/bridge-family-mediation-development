@@ -19,8 +19,8 @@ const ChildrenInMediation = () => {
 
       <div className="content  ">
         <div className="title is-4 mt-2 mr-6 ml-6">Children In Mediation</div>
-        <div className="columns pt-0 pr-6 pl-4 ">
-          <div className="column mt-5 pl-6 pr-6 pb-3 is-12-desktop is-12-tablet is-12-mobile mediator-text">
+        <div className="columns pt-5 pr-6 pl-4 ">
+          <div className="column pt-5 pl-6 pr-6 pb-3 is-12-desktop is-12-tablet is-12-mobile mediator-text">
             <strong>
               <u>Child Inclusive Mediation (CIM)</u>
             </strong>
@@ -62,6 +62,15 @@ const ChildrenInMediation = () => {
               have the option of meeting a Family Mediator, so that they can
               have a voice in the decisions being made for them.
             </p>
+
+            <div className=" column pt-2 pl-6 pr-6 pb-2 is-12-desktop is-12-tablet is-12-mobile has-text-centered">
+              <img
+                id="mediation-breakdown-image"
+                src={childUpset}
+                alt="Young child holding a teddy bear. "
+                width="auto"
+              />
+            </div>
             <strong>
               <u>How it works</u>
             </strong>

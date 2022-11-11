@@ -30,11 +30,11 @@ const HowItWorks = () => {
               tell us the issues you&apos;d like to resolve and we can answer
               any questions or concerns you might have.
             </p>
-            <br />
+
             <strong>
               <u>The Intake Meeting</u>
             </strong>
-            <p className="pb-4">
+            <p className="pb-2">
               Each party is then invited to attend a 60-minute{' '}
               <strong>one to one</strong> Intake Meeting, a{' '}
               <strong>get to know you</strong> session, where you are able to
@@ -76,7 +76,7 @@ const HowItWorks = () => {
                 but If the MIAM is unsuccessful, the mediator can sign the form
                 required if you need to proceed to court.
               </p>
-              <br />
+
               <strong>
                 <u>Joint Mediation</u>
               </strong>
@@ -100,7 +100,7 @@ const HowItWorks = () => {
                 but every case is different - it all depends on the complexity
                 of the issues being discussed.
               </p>
-              <br />
+
               <strong>
                 <u>After Mediation</u>
               </strong>

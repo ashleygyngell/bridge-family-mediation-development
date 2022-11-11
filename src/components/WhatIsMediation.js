@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
-import childwithfather from '../assets/images/child-with-father.png';
+import manAndWomanImage from '../assets/images/stock-photo-psychologist-and-young-marriage-after-successful-marital-therapy-646781635-transformed.jpeg';
 
 const WhatIsMediation = () => {
   useEffect(() => {
@@ -61,11 +61,11 @@ const WhatIsMediation = () => {
             </p>
           </div>
         </div>
-        <div className=" column pt-2 pl-6 pr-6 pb-4 is-12-desktop is-12-tablet is-12-mobile has-text-centered">
+        <div className=" column pt-2 pl-6 pr-6 pb-2 is-12-desktop is-12-tablet is-12-mobile has-text-centered">
           <img
-            id="mediation-breakdown-image-style-2"
-            src={childwithfather}
-            alt="Father and son holding hands, on a walk over a bridge"
+            id="mediation-breakdown-image"
+            src={manAndWomanImage}
+            alt="Young couple glance at each other during a mediation session. "
             width="auto"
           />
         </div>

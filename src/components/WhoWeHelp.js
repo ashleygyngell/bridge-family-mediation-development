@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
-import familyImage from '../assets/images/stock-photo-unhappy-african-american-family-in-living-room-at-home-sad-father-embracing-little-preschooler-1222838173-transformed.jpeg';
+import familyImage from '../assets/images/stock-photo-crop-close-up-of-unhappy-young-couple-sit-separate-have-problems-in-relationship-think-of-breakup-1901549803-transformed.jpeg';
 
 const WhoDoWeHelp = () => {
   useEffect(() => {

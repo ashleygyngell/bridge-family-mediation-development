@@ -15,7 +15,7 @@ import Mediator3 from './components/Mediator3';
 import Mediator4 from './components/Mediator4';
 import UsefulLinks from './components/UsefulLinks';
 import TheVoucherScheme from './components/TheVoucherScheme';
-import ComplaintsPolicy from './components/ComplaintsPolicy';
+import ComplaintsProcedure from './components/ComplaintsProcedure';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import Testimonials from './components/Testimonials';
 import Podcast from './components/Podcast';
@@ -59,7 +59,7 @@ function App() {
         <Route path="/ourfees" element={<OurFees />} />
         <Route path="/thevoucherscheme" element={<TheVoucherScheme />} />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
-        <Route path="/complaintspolicy" element={<ComplaintsPolicy />} />
+        <Route path="/complaintsprocedure" element={<ComplaintsProcedure />} />
         <Route path="/Testimonials" element={<Testimonials />} />
         <Route path="/Podcast" element={<Podcast />} />
       </Routes>

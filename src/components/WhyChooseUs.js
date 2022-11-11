@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
+import groupHeadshot from '../assets/images/why-choose-us-bridge-family-mediation.jpg';
 
 const WhyChooseUs = () => {
   useEffect(() => {
@@ -53,7 +54,7 @@ const WhyChooseUs = () => {
         <div className="column is-12-desktop is-12-tablet is-12-mobile  pt-0 pl-6 pr-6 pb-0 has-text-centered">
           <img
             id="mediation-breakdown-image"
-            src="https://thumbs.dreamstime.com/b/happy-confident-diverse-old-young-business-people-stand-together-office-smiling-multiethnic-professional-colleagues-staff-161595812.jpg"
+            src={groupHeadshot}
             alt="Group Photo"
           />
         </div>
