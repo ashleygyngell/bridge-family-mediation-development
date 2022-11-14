@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
-import divorceCalculator from '../assets/images/stock-photo-japanese-couple-s-marriage-and-divorce-money-image-1915079419.jpg';
+// import divorceCalculator from '../assets/images/stock-photo-japanese-couple-s-marriage-and-divorce-money-image-1915079419.jpg';
 
 const DivorceAndMediation = () => {
   useEffect(() => {

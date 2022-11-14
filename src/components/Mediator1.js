@@ -115,7 +115,7 @@ const Mediator1 = () => {
                       <div className="mediator-text pt-5 pb-5 ">
                         <p>
                           I am an experienced Family Mediator, fully accredited
-                          by the FMCA, and comitted to helping families resolve
+                          by the FMCA, and committed to helping families resolve
                           highly sensitive matters arising from divorce and
                           separation, including financial & property issues and
                           arrangement for children.

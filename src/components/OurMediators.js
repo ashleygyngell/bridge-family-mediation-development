@@ -44,7 +44,7 @@ const About = () => {
                 <div id="mediator-card-text">
                   <p>
                     I am an experienced Family Mediator, fully accredited by the
-                    FMCA, and comitted to helping families resolve highly
+                    FMCA, and committed to helping families resolve highly
                     sensitive matters arising from divorce and separation,
                     including financial & property issues and arrangement for
                     children.

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
+import contractImage from '../assets/images/stock-photo-wife-and-husband-signing-divorce-documents-or-premarital-agreement-488122756-transformed.jpeg';
 
 const TheVoucherScheme = () => {
   useEffect(() => {
@@ -80,8 +81,8 @@ const TheVoucherScheme = () => {
         <div className=" column is-12-desktop is-12-tablet is-12-mobile mt-4 pl-6 pr-6 pb-6 has-text-centered ">
           <img
             id="mediation-breakdown-image"
-            src="https://res.cloudinary.com/dj7e2jadx/image/upload/v1663000714/istockphoto-960613824-1024x1024-transformed_ayyh9v.jpg"
-            alt="FMC Child Mediation Logo"
+            src={contractImage}
+            alt="Wife and husband signing divorce documents  "
           />{' '}
         </div>
       </div>

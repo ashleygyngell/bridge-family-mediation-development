@@ -63,6 +63,7 @@ body {
     min-height: 67vh;
     padding: 2% 2% 2% 2%;
   }
+  
 }
 
 .back-button {
@@ -322,7 +323,7 @@ justify-content: center;
 
 .hero-background {
   background-image: url(../assets/images/bridge-family-mediation-homepage-background-2.jpeg);
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative
@@ -333,16 +334,16 @@ position: relative
 }
 
 #home-buttons {
-
   margin-top:62vh;
   padding-bottom: 11vh;
+  
 }
 
 
 
 #home-buttons button {
-  
   height: 6vw;
+  min-width: 230px;
   width: 25vw;
   padding: 40px;
   font-size: 25px;
@@ -352,7 +353,7 @@ position: relative
 
 #has-text-over-photo {
   color: #567c03;
-
+  margin: 0 20px 0 20px;
 }
 
 
