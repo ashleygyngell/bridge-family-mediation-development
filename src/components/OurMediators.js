@@ -11,7 +11,7 @@ const About = () => {
       <div className="content ">
         <div className="title is-4 mt-2 mr-6 ml-6">Our mediators</div>
 
-        <div className="columns pt-6 pr-6 pl-6 ">
+        <div className="columns pt-6 pr-6 pl-6 our-mediators ">
           {/* Mediator 1 */}
           <div className="column ">
             <div id="mediator-card" className="card pt-2">

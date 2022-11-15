@@ -4,6 +4,49 @@ import { Link, useLocation } from 'react-router-dom';
 import bfmLogo2 from '../assets/logos/bridge-family-mediation-logo.png';
 
 const Navbar = () => {
+  // if (document.querySelectorAll('.navbar-link')) {
+  //   [].forEach.call(
+  //     document.querySelectorAll('.navbar-link'),
+  //     function (elLink) {
+  //       if (elLink.classList.contains('is-active'))
+  //         elLink.classList.toggle('is-active');
+  //       if (
+  //         elLink.nextElementSibling.classList.contains('navbar-dropdown') &&
+  //         elLink.nextElementSibling.hasChildNodes()
+  //       ) {
+  //         elLink.addEventListener('click', function () {
+  //           elLink.classList.toggle('is-active');
+  //           if (
+  //             elLink.classList.contains('is-active') &&
+  //             elLink.nextElementSibling.style.display === 'none'
+  //           )
+  //             elLink.nextElementSibling.style.display = 'block';
+  //           else if (
+  //             !elLink.classList.contains('is-active') &&
+  //             elLink.nextElementSibling.style.display === 'block'
+  //           )
+  //             elLink.nextElementSibling.style.display = 'none';
+  //           [].forEach.call(
+  //             elLink.nextElementSibling.childNodes,
+  //             function (siblingChild) {
+  //               siblingChild.addEventListener('click', function () {
+  //                 siblingChild.parentNode.style.display = 'none';
+  //                 if (elLink.classList.contains('is-active'))
+  //                   elLink.classList.toggle('is-active');
+  //               });
+  //             }
+  //           );
+  //         });
+  //         elLink.nextElementSibling.addEventListener('mouseleave', function () {
+  //           elLink.nextElementSibling.style.display = 'none';
+  //           if (elLink.classList.contains('is-active'))
+  //             elLink.classList.toggle('is-active');
+  //         });
+  //       }
+  //     }
+  //   );
+  // }
+
   const [openBurger, setOpenBurger] = React.useState(false);
 
   const toggleBurgerMenu = () => {
@@ -27,7 +70,7 @@ const Navbar = () => {
     ) {
       navbarText.style.display = 'none';
     } else {
-      console.log('nothing heppen');
+      console.log('error');
     }
   }, [location, navbarText]);
 
@@ -122,7 +165,6 @@ const Navbar = () => {
               >
                 Divorce &amp; Mediation
               </Link>
-
               {/* <hr className="navbar-divider"></hr> */}
               <Link
                 to={'/aftermediation'}

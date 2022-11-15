@@ -58,7 +58,7 @@ const Mediator2 = () => {
         </div>
         <div className="columns is-variable is-12">
           <div className="column is-12-tablet">
-            <div className="content  ">
+            <div className="content-mediators ">
               <div id="tab-content">
                 <div id="kathleen-straub">
                   <div className="columns pt-4 ">
@@ -106,7 +106,7 @@ const Mediator2 = () => {
                           </div>
                         </div>
 
-                        <p className="subtitle is-5 pt-5 has-text-centered">
+                        <p className="subtitle is-5 pt-2 has-text-centered">
                           Balham | Barnes | Battersea
                         </p>
                       </div>

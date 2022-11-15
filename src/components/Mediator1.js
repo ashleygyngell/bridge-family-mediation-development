@@ -60,7 +60,7 @@ const Mediator1 = () => {
         </div>
         <div className="columns is-variable is-12">
           <div className="column is-12-tablet">
-            <div className="content  ">
+            <div className="content-mediators  ">
               <div id="tab-content">
                 <div id="kate-brown">
                   <div className="columns pt-4 ">
