@@ -95,6 +95,7 @@ const Navbar = () => {
           </Link>
         </Link>
       </div>
+
       <a
         role="button"
         className="navbar-burger navbar-end"

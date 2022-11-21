@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import fmaLogo from '../assets/logos/family-mediation-accociation-logo.png';
-import fmcLogo from '../assets/logos/family-mediation-council-accredited-mediator-logo.jpg';
+import fmcLogo from '../assets/logos/family-mediation-council-logo.png';
 
 function topFunction() {
   window.scrollTo({ top: 0 });
@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="columns is-multiline is-flex-tablet is-flex-mobile level">
             <div className="column is-3-desktop is-12-tablet is-12-mobile">
               <div className="footer-group level-item " id="footer-images">
-                <div className="footer-image-2 mr-2">
+                <div className="footer-image-2 mr-4">
                   <a
                     href="https://www.familymediationcouncil.org.uk/"
                     target="_blank"
@@ -115,8 +115,8 @@ const Footer = () => {
           <div className="container copyright pt-0 pb-2 ">
             <div className="has-text-centered">
               <p>
-                © 2022 Bridge Family Mediation 85 Great Portland Street, London,
-                W1W 7LT. All Rights Reserved.
+                © 2022 Bridge Family Mediation | Registered Office: 85 Great
+                Portland Street, London, W1W 7LT | All Rights Reserved
               </p>
             </div>
           </div>

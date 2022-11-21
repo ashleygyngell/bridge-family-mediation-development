@@ -48,9 +48,9 @@ const HowItWorks = () => {
             <div className="video-responsive">
               <iframe
                 className="responsive-iframe"
-                src="https://www.youtube.com/embed/HvO1QI_xlB0"
+                src="https://www.youtube.com/embed/HvO1QI_xlB0?rel=0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen=""
+                allowFullScreen="allowfullscreen"
                 title="How Mediation Works"
                 frameBorder="1"
               ></iframe>
@@ -73,7 +73,7 @@ const HowItWorks = () => {
                 A mediator will take you individually through the MIAM and,
                 where agreed, will then contact the other party to invite them
                 to attend. We will always do our best to bring about mediation
-                but If the MIAM is unsuccessful, the mediator can sign the form
+                but if the MIAM is unsuccessful, the mediator can sign the form
                 required if you need to proceed to court.
               </p>
 

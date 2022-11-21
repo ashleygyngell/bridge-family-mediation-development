@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 // import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import fmcLogo from '../assets/logos/family-mediation-council-accredited-mediator-logo.jpg';
+import fmcLogo from '../assets/logos/family-mediation-council-logo.png';
 import fmcLogoChildInclusive from '../assets/logos/family-mediation-council-child-inclusive-mediator-logo.jpg';
-import julesHeadshot from '../assets/images/mediators/jules.jpg';
+import julesHeadshot from '../assets/images/mediators/jules.jpeg';
 
 const Mediator3 = () => {
   useEffect(() => {
@@ -112,19 +112,24 @@ const Mediator3 = () => {
                       <div className="mediator-text pt-5 pb-5 ">
                         <p>
                           <p>
+                            I completed my training as a family mediator with
+                            the FMA in 2017 and have been practicing since then.
                             My professional ambition is to help people make fair
                             decisions which leave neither party aggrieved and
                             enable them to be loving parents to the children
                             they adore.
                           </p>
                           <p>
-                            I completed my training as a family mediator with
-                            the FMA in 2017 and started practising on a part
-                            time basis. In 2021, after a very happy 24 year
-                            career in television, first as a programme maker
+                            I was practicing as a Family Mediator alongside my
+                            main job until late 2021. After a very happy 36 year
+                            career in television (first as a programme maker,
                             then running the recruitment department at a major
-                            independent television company, I decided to leave
-                            to focus full time on mediating.
+                            independent production company) I decided to focus
+                            full time on mediation. In 2021, after a very happy
+                            24 year career in television, first as a programme
+                            maker then running the recruitment department at a
+                            major independent television company, I decided to
+                            leave to focus full time on mediating.
                           </p>
                           <p>
                             With my colleagues, we established Bridge Family

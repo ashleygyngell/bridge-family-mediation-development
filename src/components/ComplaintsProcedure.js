@@ -23,7 +23,7 @@ const ComplaintsProcedure = () => {
             <strong>
               <u>Our Commitment to you</u>
             </strong>
-            <br />
+
             <p>
               At Bridge Family Mediation, we want to ensure that we run the best
               service possible. If there is any dissatisfaction, we would like
@@ -43,11 +43,11 @@ const ComplaintsProcedure = () => {
               complaint has been raised. We will not pass on any details of the
               complaint.
             </p>
-            <br />
+
             <strong>
               <u>Who can make a complaint?</u>
             </strong>
-            <br />
+
             <p>
               A complaint can be made by a client, a former client or a
               qualifying third party (a prospective client directly affected by
@@ -65,11 +65,11 @@ const ComplaintsProcedure = () => {
                 https://www.familymediationcouncil.org.uk/complaints-about-mediators
               </a>
             </p>
-            <br />
+
             <strong>
               <u>What can constitute a complaint?</u>
             </strong>
-            <br />
+
             <p>
               If we have been unable to resolve the matter with you by phone or
               in person conversation, we will ask you to explain in writing,
@@ -86,11 +86,11 @@ const ComplaintsProcedure = () => {
               We are not required to investigate complaints that appear to be
               vexatious or of a purely personal nature.{' '}
             </p>
-            <br />
+
             <strong>
               <u>How we will respond</u>
             </strong>
-            <br />
+
             <p>We will acknowledge the complaint within 48 hours.</p>
             <p>
               The complaint will be investigated and responded to in full within
@@ -109,23 +109,17 @@ const ComplaintsProcedure = () => {
               or we will let you know if we feel we cannot proceed with it. We
               will then let you know what your next options are.
             </p>
-            <p>
-              If you are not satisfied with the suggested outcome, please let us
-              know within 3 weeks. We will try to review the situation further
-              or we will let you know if we feel we cannot proceed with it. We
-              will then let you know what your next options are.
-            </p>
+
             <p>
               At any point in the Complaints Procedure, we may suggest that the
               complaint could be dealt with through mediation. The mediation
               would be provided by an outside mediator, agreed by both parties,
               and any charge will be divided equally.
             </p>
-            <br />
+
             <strong>
               <u>A further level</u>
             </strong>
-            <br />
 
             <p>
               If you remain dissatisfied with the outcome of the Complaints

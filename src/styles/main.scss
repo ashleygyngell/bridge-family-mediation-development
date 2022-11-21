@@ -82,6 +82,21 @@ body {
     }
   }
 
+// DESKTOP (FOR HEADER)
+    @media only screen and (max-width: 1086px) {
+      #logo-responsive {
+        font-size: 5vw;
+        padding-top: 10px;
+      } 
+          
+     
+    }
+    @media only screen and (max-width: 1023px) {
+// .title-hero {
+//   display: none
+//   }
+    }
+
 // TABLET
 @media screen and (min-device-width: 801px) and (max-device-width: 1281px) {
 .content {
@@ -91,13 +106,21 @@ body {
       min-height: 67vh;
       padding: 2% 5% 2% 5%;
     }
-    .footer {
+    #footer {
       padding-top: 20px;
     }
   }
 
+
 // MOBILE
 @media only screen and (max-width: 800px) {
+  #logo-responsive {
+      font-size: 3vw;
+      letter-spacing: 1.4vw;
+    }
+  #logo-home {
+    height: 5vw;
+  }
   .content {
       min-height: 67vh;
       padding: 2% -0% 2% 0%;
@@ -107,7 +130,7 @@ body {
       padding: 2% 5% 2% 5%;
     }  .tabs {
         display: none
-      } .footer {
+      } #footer {
          padding-top: 20px;
        }
     }
@@ -195,6 +218,9 @@ body {
 
 .navbar-menu {
   background-color: $outdoorsgreen;
+height: 45px;
+  padding-top: 9px;
+    
 }
 
 .navbar-menu :hover {
@@ -288,14 +314,17 @@ span {
   background-color: $outdoorsgreen;
   color: black;
   font-size: 1em;
+  top: 35px
 }
 
 #navbar-dropdown-right {
 left: calc(100% + (-135px));
+
 }
 
 #navbar-dropdown {
   left: calc(100% + (-115px));
+
 }
 
 .navbar-item a{

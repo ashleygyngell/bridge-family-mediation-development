@@ -99,9 +99,9 @@ const ChildrenInMediation = () => {
                 <div className="video-responsive ">
                   <iframe
                     className="responsive-iframe"
-                    src="https://www.youtube.com/embed/NLI9k_fG9wI"
+                    src="https://www.youtube.com/embed/NLI9k_fG9wI?rel=0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen=""
+                    allowFullScreen="allowfullscreen"
                     title="The Rights Idea? Children's rights when parents separate: Tom's story"
                     frameBorder="1"
                   ></iframe>

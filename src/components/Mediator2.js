@@ -106,8 +106,8 @@ const Mediator2 = () => {
                           </div>
                         </div>
 
-                        <p className="subtitle is-5 pt-2 has-text-centered">
-                          Balham | Barnes | Battersea
+                        <p className="subtitle is-5 pt-5 has-text-centered">
+                          Putney | Southfields | Wandsworth
                         </p>
                       </div>
                       <div className="mediator-text pt-5 pb-5 ">

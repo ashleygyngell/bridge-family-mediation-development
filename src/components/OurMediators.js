@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import carolineHeadshot from '../assets/images/mediators/caroline.jpeg';
-import julesHeadshot from '../assets/images/mediators/jules.jpg';
+import julesHeadshot from '../assets/images/mediators/jules.jpeg';
 import kateHeadshot from '../assets/images/mediators/kate.jpg';
 import kathleenHeadshot from '../assets/images/mediators/kathleen.jpg';
 
@@ -85,7 +85,7 @@ const About = () => {
                   id="mediator-card-subtitle"
                   className="subtitle is-6 has-text-centered pt-2 "
                 >
-                  Balham | Barnes | Battersea{' '}
+                  Putney | Southfields | Wandsworth{' '}
                 </p>
                 <div id="mediator-card-text">
                   <p>
@@ -135,9 +135,11 @@ const About = () => {
                 </p>
                 <div id="mediator-card-text">
                   <p>
-                    My professional ambition is to help people make fair
-                    decisions which leave neither party aggrieved and enable
-                    them to be loving parents to the children they adore.
+                    I completed my training as a family mediator with the FMA in
+                    2017 and have been practicing since then. My professional
+                    ambition is to help people make fair decisions which leave
+                    neither party aggrieved and enable them to be loving parents
+                    to the children they adore.
                   </p>
                   <Link to={'/juleswaring'}>
                     <div id="read-more">

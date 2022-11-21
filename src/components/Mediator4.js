@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 // import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import fmcLogo from '../assets/logos/family-mediation-council-accredited-mediator-logo.jpg';
+import fmcGenericLogo from '../assets/logos/family-mediation-council-logo.png';
 // import fmcLogoChildInclusive from '../assets/logos/family-mediation-council-accredited-mediator-logo.jpg';
 import carolineHeadshot from '../assets/images/mediators/caroline.jpeg';
 
@@ -79,18 +80,19 @@ const Mediator4 = () => {
                           <a
                             id="fontawesome-styling"
                             className=""
-                            href="mailto:carolinedunne@bridgefamilymediation.co.uk"
+                            href="mailto:caroline@bridgefamilymediation.co.uk"
                             target="_blank"
                             rel="noreferrer"
                           >
                             <span id="mediator-contact-info">
                               {' '}
-                              <a>carolinedunne@bridgefamilymediation.co.uk</a>
+                              <a>caroline@bridgefamilymediation.co.uk</a>
                             </span>
                           </a>
                         </p>
                         <div className="mediator-logos pt-5 ">
                           <img href="" src={fmcLogo} alt="FMC Logo" />
+                          <img href="" src={fmcGenericLogo} alt="FMC Logo" />
                         </div>
                       </div>
                     </div>
@@ -108,6 +110,11 @@ const Mediator4 = () => {
                       </div>
                       <div className="mediator-text pt-5 pb-5 ">
                         <p>
+                          I am family mediator accredited with the Family
+                          Mediation Council (FMCA) and a member of the Family
+                          Mediators&apos; Association (FMA).
+                        </p>
+                        <p>
                           I studied law and qualified as a solicitor originally
                           working in the City for a commercial practice
                           specialising in asset finance transactions. I took a
@@ -117,16 +124,18 @@ const Mediator4 = () => {
                           direction and began working as an advisor for Citizens
                           Advice. This introduced me to a wide variety of
                           different problems and people, and I enjoyed my
-                          problem-solving and information-giving roles. During
-                          my time at Citizens Advice and because of my interest
-                          in children and the law I became aware how family
-                          breakdown can have a huge impact on a child&apos;s
-                          life, and I decided to train as a family mediator in
-                          2017. Research shows that parental conflict upon
-                          separation can be damaging for children, and I believe
-                          that mediation provides a space for couples to work
-                          together to resolve their differences and so reduce
-                          conflict.
+                          problem-solving and information-giving roles.{' '}
+                        </p>
+                        <p>
+                          During my time at Citizens Advice and because of my
+                          interest in children and the law I became aware how
+                          family breakdown can have a huge impact on a
+                          child&apos;s life, and I decided to train as a family
+                          mediator in 2017. Research shows that parental
+                          conflict upon separation can be damaging for children,
+                          and I believe that mediation provides a space for
+                          couples to work together to resolve their differences
+                          and so reduce conflict.
                         </p>
                         <p>
                           After several years working in a busy legal aid

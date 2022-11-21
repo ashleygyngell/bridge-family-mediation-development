@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7072e491.css",
-    "main.js": "/static/js/main.ac433049.js",
+    "main.css": "/static/css/main.8f846691.css",
+    "main.js": "/static/js/main.a9e0ae36.js",
     "static/media/child-with-father.png": "/static/media/child-with-father.251d9c37db2001dc49f5.png",
     "static/media/bridge-family-mediation-homepage-background-2.jpeg": "/static/media/bridge-family-mediation-homepage-background-2.72aa481c86646484dae8.jpeg",
     "static/media/caroline.jpeg": "/static/media/caroline.1142d1c1e9586d49473d.jpeg",
@@ -19,11 +19,11 @@
     "static/media/Rift Soft Light.otf": "/static/media/Rift Soft Light.32772be48cc1d17e2647.otf",
     "static/media/kate.jpg": "/static/media/kate.b2c591cc9effb8d1c7b4.jpg",
     "index.html": "/index.html",
-    "main.7072e491.css.map": "/static/css/main.7072e491.css.map",
-    "main.ac433049.js.map": "/static/js/main.ac433049.js.map"
+    "main.8f846691.css.map": "/static/css/main.8f846691.css.map",
+    "main.a9e0ae36.js.map": "/static/js/main.a9e0ae36.js.map"
   },
   "entrypoints": [
-    "static/css/main.7072e491.css",
-    "static/js/main.ac433049.js"
+    "static/css/main.8f846691.css",
+    "static/js/main.a9e0ae36.js"
   ]
 }

@@ -2,13 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 // import { useState, useEffect } from 'react';
 import bfmLogo2 from '../assets/logos/bridge-family-mediation-logo.png';
-// import BackgroundSlider from 'react-background-slider';
 
-// import aa from '../assets/images/test1.png';
-// import aa2 from '../assets/images/test2.png';
-// import aa3 from '../assets/images/test3.png';
-
-// Homepage needs new photo background and liscenced.
 export default class Home extends Component {
   render() {
     return (
@@ -21,12 +15,13 @@ export default class Home extends Component {
           {/* </div> */}
           <div className="logo-home-container  fadeInOnLoad has-text-centered">
             <img
+              id="logo-home"
               className="logo-home fadeInOnLoad pr-5 "
               src={bfmLogo2}
               alt="Bridge Family Mediation Logo "
               width="auto"
             />{' '}
-            <p>
+            <p id="logo-responsive">
               <span className="pr-5">Bridge</span>Family Mediation
             </p>
           </div>
