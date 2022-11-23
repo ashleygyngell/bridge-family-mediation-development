@@ -100,6 +100,9 @@ body {
 
 // DESKTOP
 @media screen and (min-width: 1281px) {
+  #mediator-card-subtitle {
+      font-size: .9em
+    }
   .content {
     min-height: 67vh;
     padding: 2% 6% 2% 6%;
@@ -148,22 +151,26 @@ body {
 
 }
 
-@media screen and (min-width: 1023px) and (max-width: 1278px) {
+
+@media screen and (min-width: 1024px) and (max-width: 1173px) {
   #mediator-card-subtitle {
-    font-size: .9vw;
+    font-size: .9vw
   }
-
 }
-
-@media screen and (min-width: 1279px) and (max-width: 1452px) {
+@media screen and (min-width: 1174px) and (max-width: 1311px) {
   #mediator-card-subtitle {
-    font-size: smaller;
+    font-size: 1vw
+  }
+}
+@media screen and (min-width: 1312px) and (max-width: 1452px) {
+  #mediator-card-subtitle {
+    font-size: .8vw
   }
 }
 
 @media screen and (min-width: 1023px) and (max-width: 1095px) {
   #mediator-title {
-    font-size: .8vw
+    font-size: .9vw
   }
 }
 

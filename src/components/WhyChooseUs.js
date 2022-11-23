@@ -52,27 +52,27 @@ const WhyChooseUs = () => {
             />
           </div>
         </div>
-        <div className="faq-buttons-div columns is-mobile">
-          <button className="faq-button column is-6-mobile ">
-            <Link to={'/ourmediators'}>
-              <span>
-                <i className="fa-solid fa-arrow-left  "></i> Previous
-              </span>
+      </div>
+      <div className="faq-buttons-div columns is-mobile">
+        <button className="faq-button column is-6-mobile ">
+          <Link to={'/ourmediators'}>
+            <span>
+              <i className="fa-solid fa-arrow-left  "></i> Previous
+            </span>
 
-              <p className="faq-button-subtitle">Our Mediators</p>
-            </Link>
-          </button>
-          {/* Do not remove */}
-          <button className="faq-button column is-6-mobile ">
-            {/* <Link to={'/whychooseus'}>
+            <p className="faq-button-subtitle">Our Mediators</p>
+          </Link>
+        </button>
+        {/* Do not remove */}
+        <button className="faq-button column is-6-mobile ">
+          {/* <Link to={'/whychooseus'}>
             <span>
               Next <i className="fa-solid fa-arrow-right "></i>{' '}
             </span>
 
             <p className="faq-button-subtitle">Why Choose Us </p>
           </Link> */}
-          </button>
-        </div>
+        </button>
       </div>
     </>
   );

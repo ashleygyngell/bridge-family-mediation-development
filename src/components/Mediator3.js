@@ -152,12 +152,10 @@ const Mediator3 = () => {
                             main job until late 2021. After a very happy 36 year
                             career in television (first as a programme maker,
                             then running the recruitment department at a major
-                            independent production company) I decided to focus
-                            full time on mediation. In 2021, after a very happy
-                            24 year career in television, first as a programme
-                            maker then running the recruitment department at a
-                            major independent television company, I decided to
-                            leave to focus full time on mediating.
+                            independent production company) I decided to step
+                            away from television and focus full time on
+                            mediation.
+                            {/*  */}
                           </p>
                           <p>
                             With my colleagues, we established Bridge Family
