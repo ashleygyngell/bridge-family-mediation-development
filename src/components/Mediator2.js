@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-// import { useNavigate } from 'react-router-dom';
+import { React, useEffect } from 'react';
+
 import { Link } from 'react-router-dom';
 import fmcLogo from '../assets/logos/family-mediation-council-accredited-mediator-logo.jpg';
 import fmcLogoChildInclusive from '../assets/logos/family-mediation-council-child-inclusive-mediator-logo.jpg';
@@ -7,6 +7,7 @@ import kathleenHeadshot from '../assets/images/mediators/kathleen.jpg';
 
 const Mediator2 = () => {
   useEffect(() => {
+    window.scrollTo(0, 0);
     const tabs = document.querySelectorAll('.tabs li');
     const tabContentBoxes = document.querySelectorAll('#tab-content > div');
 
@@ -16,7 +17,7 @@ const Mediator2 = () => {
         tab.classList.add('is-active');
 
         const target = tab.dataset.target;
-        // console.log(target);
+
         tabContentBoxes.forEach((box) => {
           if (box.getAttribute('id') === target) {
             box.classList.remove('is-hidden');
@@ -27,11 +28,10 @@ const Mediator2 = () => {
       });
     });
   });
-  // const navigate = useNavigate();
   return (
     <>
       <Link to={'/ourmediators'}>
-        <button className="mediators-back-button pl-4 pt-1 ">
+        <button className="mediators-back-button pl-4 pt-1 pb-2 ">
           <span>
             <i className="fa-solid fa-arrow-left "></i>
             {''} Our Mediators
@@ -42,16 +42,20 @@ const Mediator2 = () => {
       <div className="content pt-0  ">
         <div className="tabs is-centered ">
           <ul>
-            <li className="subtitle">
+            <li id="kate-brown-tab" className="subtitle">
               <Link to={'/katebrown'}>Kate Brown</Link>
             </li>
-            <li className="is-active subtitle" data-target="kathleen-straub">
+            <li
+              id="kathleen-straub-tab"
+              className="is-active subtitle"
+              data-target="kathleen-straub"
+            >
               <a>Kathleen Straub</a>
             </li>
-            <li className="subtitle">
+            <li id="jules-waring-tab" className="subtitle">
               <Link to={'/juleswaring'}>Jules Waring</Link>
             </li>
-            <li className="subtitle">
+            <li id="caroline-dunne-tab" className="subtitle">
               <Link to={'/carolinedunne'}>Caroline Dunne</Link>
             </li>
           </ul>
@@ -69,11 +73,11 @@ const Mediator2 = () => {
                         alt="Kathleen Straub Headshot"
                         className="mediator-image has-text-centered about-image "
                       />
-                      <div className="subtitle">
+                      <div id="mediator-contact-info" className="subtitle">
                         <p id="fontawesome-styling" className=" pt-4  ">
                           <a href="tel:07957 663091">
                             {' '}
-                            <span id="mediator-contact-info">07957 663091</span>
+                            <span>07957 663091</span>
                           </a>
                           <br />
                           <a
@@ -83,13 +87,16 @@ const Mediator2 = () => {
                             target="_blank"
                             rel="noreferrer"
                           >
-                            <span id="mediator-contact-info">
+                            <span>
                               {' '}
                               <a>kathleenstraub@bridgefamilymediation.co.uk</a>
                             </span>
                           </a>
                         </p>
-                        <div className="mediator-logos pt-5 ">
+                        <div
+                          id="mediator-logos"
+                          className="mediator-logos pt-5 "
+                        >
                           <img href="" src={fmcLogo} alt="FMC Logo" />
                           <img
                             src={fmcLogoChildInclusive}
@@ -98,14 +105,33 @@ const Mediator2 = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="column is-8 pr-6 pl-5  ">
+                    <div className="column is-8 pr-5s pl-5  ">
                       <div className="">
-                        <div className="media ">
+                        <div id="media" className="media ">
                           <div className="media-content ">
                             <p className="title is-4 ">Kathleen Straub</p>
                           </div>
                         </div>
-
+                        <div
+                          id="mediator-contact-info-mobile"
+                          className="subtitle mediator-contact-info-mobile has-text-centered"
+                        >
+                          <p id="fontawesome-styling" className=" pt-4  ">
+                            <a className="pr-2" href="tel:07957 663091">
+                              {' '}
+                              <i className="fa-solid fa-phone "></i>
+                            </a>
+                            <a
+                              id="fontawesome-styling"
+                              className="pl-4"
+                              href="mailto:kathleenstraub@bridgefamilymediation.co.uk"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <i className="fa-solid fa-envelope "></i>
+                            </a>
+                          </p>
+                        </div>
                         <p className="subtitle is-5 pt-5 has-text-centered">
                           Putney | Southfields | Wandsworth
                         </p>
@@ -138,6 +164,17 @@ const Mediator2 = () => {
                           them work towards co-parenting or reaching a financial
                           settlement.
                         </p>
+                      </div>
+                      <div
+                        id="mediator-logos-mobile"
+                        className="mediator-logos-mobile  "
+                      >
+                        <img href="" src={fmcLogo} alt="FMC Logo" />
+                        <img
+                          href=""
+                          src={fmcLogoChildInclusive}
+                          alt="FMC Child Inclusive Logo"
+                        />
                       </div>
                     </div>
                   </div>

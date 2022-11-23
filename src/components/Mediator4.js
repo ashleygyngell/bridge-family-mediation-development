@@ -1,13 +1,13 @@
-import React, { useEffect } from 'react';
-// import { useNavigate } from 'react-router-dom';
+import { React, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import fmcLogo from '../assets/logos/family-mediation-council-accredited-mediator-logo.jpg';
 import fmcGenericLogo from '../assets/logos/family-mediation-council-logo.png';
 // import fmcLogoChildInclusive from '../assets/logos/family-mediation-council-accredited-mediator-logo.jpg';
-import carolineHeadshot from '../assets/images/mediators/caroline.jpeg';
+import carolineHeadshot from '../assets/images/mediators/caroline.webp';
 
 const Mediator4 = () => {
   useEffect(() => {
+    window.scrollTo(0, 0);
     const tabs = document.querySelectorAll('.tabs li');
     const tabContentBoxes = document.querySelectorAll('#tab-content > div');
 
@@ -17,7 +17,7 @@ const Mediator4 = () => {
         tab.classList.add('is-active');
 
         const target = tab.dataset.target;
-        // console.log(target);
+
         tabContentBoxes.forEach((box) => {
           if (box.getAttribute('id') === target) {
             box.classList.remove('is-hidden');
@@ -28,10 +28,9 @@ const Mediator4 = () => {
       });
     });
   });
-  // const navigate = useNavigate();
   return (
     <>
-      <button className="mediators-back-button pl-4 pt-1 ">
+      <button className="mediators-back-button pl-4 pt-1 pb-2 ">
         <Link to={'/ourmediators'}>
           <span>
             <i className="fa-solid fa-arrow-left "></i>
@@ -43,16 +42,20 @@ const Mediator4 = () => {
       <div className="content pt-0 ">
         <div className="tabs is-centered ">
           <ul>
-            <li className="subtitle">
+            <li id="kate-brown-tab" className="subtitle">
               <Link to={'/katebrown'}>Kate Brown</Link>
             </li>
-            <li className="subtitle">
+            <li id="kathleen-straub-tab" className="subtitle">
               <Link to={'/kathleenstraub'}>Kathleen Straub</Link>
             </li>
-            <li className="subtitle">
+            <li id="jules-waring-tab" className="subtitle">
               <Link to={'/juleswaring'}>Jules Waring</Link>
             </li>
-            <li className="is-active subtitle" data-target="caroline-dunne">
+            <li
+              id="caroline-dunne-tab"
+              className="is-active subtitle"
+              data-target="caroline-dunne"
+            >
               <a>Caroline Dunne</a>
             </li>
           </ul>
@@ -70,11 +73,11 @@ const Mediator4 = () => {
                         id="about-image"
                         className="mediator-image has-text-centered about-image "
                       />
-                      <div className="subtitle">
+                      <div id="mediator-contact-info" className="subtitle">
                         <p id="fontawesome-styling" className=" pt-4  ">
                           <a href="tel:07870 796618">
                             {' '}
-                            <span id="mediator-contact-info">07870 796618</span>
+                            <span>07870 796618</span>
                           </a>
                           <br />
                           <a
@@ -84,30 +87,53 @@ const Mediator4 = () => {
                             target="_blank"
                             rel="noreferrer"
                           >
-                            <span id="mediator-contact-info">
+                            <span>
                               {' '}
                               <a>caroline@bridgefamilymediation.co.uk</a>
                             </span>
                           </a>
                         </p>
-                        <div className="mediator-logos pt-5 ">
+                        <div
+                          id="mediator-logos"
+                          className="mediator-logos pt-5 "
+                        >
                           <img href="" src={fmcLogo} alt="FMC Logo" />
                           <img href="" src={fmcGenericLogo} alt="FMC Logo" />
                         </div>
                       </div>
                     </div>
-                    <div className="column is-8 pr-6 pl-5 ">
+                    <div className="column is-8 pr-5 pl-5 ">
                       <div className="">
-                        <div className="media ">
+                        <div id="media" className="media ">
                           <div className="media-content ">
                             <p className="title is-4 ">Caroline Dunne</p>
                           </div>
                         </div>
-
+                        <div
+                          id="mediator-contact-info-mobile"
+                          className="subtitle mediator-contact-info-mobile has-text-centered"
+                        >
+                          <p id="fontawesome-styling" className=" pt-4  ">
+                            <a className="pr-2" href="tel:07870 796618">
+                              {' '}
+                              <i className="fa-solid fa-phone "></i>
+                            </a>
+                            <a
+                              id="fontawesome-styling"
+                              className="pl-4"
+                              href="mailto:caroline@bridgefamilymediation.co.uk"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <i className="fa-solid fa-envelope "></i>
+                            </a>
+                          </p>
+                        </div>
                         <p className="subtitle is-5 pt-5 has-text-centered">
                           Battersea | Sutton | Wimbledon
                         </p>
                       </div>
+
                       <div className="mediator-text pt-5 pb-5 ">
                         <p>
                           I am family mediator accredited with the Family
@@ -146,6 +172,17 @@ const Mediator4 = () => {
                           practical and realistic solutions that work for the
                           whole family.
                         </p>
+                      </div>
+                      <div
+                        id="mediator-logos-mobile"
+                        className="mediator-logos-mobile  "
+                      >
+                        <img href="" src={fmcLogo} alt="FMC Logo" />
+                        <img
+                          href=""
+                          src={fmcGenericLogo}
+                          alt="FMC Generic Logo"
+                        />
                       </div>
                     </div>
                   </div>

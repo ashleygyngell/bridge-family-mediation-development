@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-// import { useState, useEffect } from 'react';
 import bfmLogo2 from '../assets/logos/bridge-family-mediation-logo.png';
 
 export default class Home extends Component {
@@ -9,29 +8,27 @@ export default class Home extends Component {
       <>
         {' '}
         <section className="title-hero  ">
-          {/* <div className="logo-home-container ">
-            {' '} */}
-
-          {/* </div> */}
-          <div className="logo-home-container  fadeInOnLoad has-text-centered">
+          <div
+            id="logo-home-container"
+            className="logo-home-container  fadeInOnLoad has-text-centered"
+          >
             <img
               id="logo-home"
-              className="logo-home fadeInOnLoad pr-5 "
+              className="logo-home fadeInOnLoad "
               src={bfmLogo2}
               alt="Bridge Family Mediation Logo "
               width="auto"
             />{' '}
-            <p id="logo-responsive">
-              <span className="pr-5">Bridge</span>Family Mediation
+            <p id="logo-responsive" className="logo-responsive">
+              <span className="logo-responsive-bridge-text">Bridge</span>Family
+              Mediation
             </p>
           </div>
         </section>
-        {/* <BackgroundSlider
-          images={[aa, aa2, aa3]}
-          duration={10}
-          transition={2}
-        /> */}
-        <section className="hero hero-background full-height is-tablet">
+        <section
+          id="hero"
+          className="hero hero-background full-height is-tablet"
+        >
           <div
             id="has-text-over-photo"
             className="hero-text-over-photo has-text-centered fadeInOnLoad2 "

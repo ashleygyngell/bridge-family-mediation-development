@@ -36,104 +36,32 @@ button {
   font-family: 'Jost', sans-serif;
 }
 
-
-
 body {
   display: flex;
   min-height: 82vh;
   flex-direction: column;
 }
 
+// #carousel {
+//   position: absolute;
+//   opacity: .7;
+//   width: 100vw;
+//   z-index: -1;
+// }
 
-
-#carousel {
-  position: absolute;
-  opacity: .7;
-  width: 100vw;
-  z-index: -1;
-}
-
-#carousel img {
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  top: -140px
-}
+// #carousel img {
+//   background-position: center center;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   position: relative;
+//   top: -140px
+// }
 
 .content ul {
   list-style: disc outside;
   margin-left: 0em;
   margin-top: 1em;
 }
-
-// DESKTOP
-@media only screen and (min-width: 1281px) {
-  .content {
-    min-height: 67vh;
-    padding: 2% 6% 2% 6%;
-    max-width: 1500px;
-      margin-left: auto;
-      margin-right: auto;
-  } 
-  .content-mediators {
-     min-height: 67vh;
-     padding: 2% 0% 2% 0%;
-    }
-  }
-
-// DESKTOP (FOR HEADER)
-    @media only screen and (max-width: 1086px) {
-      #logo-responsive {
-        font-size: 5vw;
-        padding-top: 10px;
-      } 
-          
-     
-    }
-    @media only screen and (max-width: 1023px) {
-// .title-hero {
-//   display: none
-//   }
-    }
-
-// TABLET
-@media screen and (min-device-width: 801px) and (max-device-width: 1281px) {
-.content {
-    min-height: 67vh;
-    padding: 2% 6% 2% 6%;
-  }  .content-mediators {
-      min-height: 67vh;
-      padding: 2% 5% 2% 5%;
-    }
-    #footer {
-      padding-top: 20px;
-    }
-  }
-
-
-// MOBILE
-@media only screen and (max-width: 800px) {
-  #logo-responsive {
-      font-size: 3vw;
-      letter-spacing: 1.4vw;
-    }
-  #logo-home {
-    height: 5vw;
-  }
-  .content {
-      min-height: 67vh;
-      padding: 2% -0% 2% 0%;
-    }
-    .content-mediators {
-      min-height: 67vh;
-      padding: 2% 5% 2% 5%;
-    }  .tabs {
-        display: none
-      } #footer {
-         padding-top: 20px;
-       }
-    }
 
 .back-button {
   position: absolute;
@@ -163,10 +91,301 @@ body {
 
 }
 
-#fontawesome-styling {
-  color: black;
-  // white-space: nowrap
+// #fontawesome-styling {
+//   color: black;
+// }
+
+
+// RESPONSIVE LAYOUT
+
+// DESKTOP
+@media screen and (min-width: 1281px) {
+  .content {
+    min-height: 67vh;
+    padding: 2% 6% 2% 6%;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .content-mediators {
+    min-height: 67vh;
+    padding: 2% 0% 2% 0%;
+  }
+
+  .logo-home-container {
+    display: flex;
+    font-size: 70px;
+  }
+
+  #logo-responsive {
+    font-size: 70px;
+
+    padding-left: 20px;
+    padding-bottom: 10px;
+    line-height: 1
+  }
+    #footer-images {
+      display: flex
+    }
+        .footer-links {
+          text-align: start;
+        }
+                .tabs {
+                  padding-top: 10px;
+                  margin-top: -1em;
+                }
 }
+
+@media screen and (min-width: 1024px) {
+  .navbar-item.is-hoverable:hover .navbar-dropdown {
+    display: block !important;
+  }
+
+  .navbar-item.is-hoverable:focus-within .navbar-dropdown {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1278px) {
+  #mediator-card-subtitle {
+    font-size: .9vw;
+  }
+
+}
+
+@media screen and (min-width: 1279px) and (max-width: 1452px) {
+  #mediator-card-subtitle {
+    font-size: smaller;
+  }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1095px) {
+  #mediator-title {
+    font-size: .8vw
+  }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1313px) {
+  #mediator-card-text {
+    font-size: .85em;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .navbar-burger {
+    display: none;
+  }
+
+  #navbar-overlay {
+    display: block;
+  }
+}
+
+
+
+// TABLET
+@media screen and (min-width: 801px) and (max-width: 1280px) {
+  .logo-home-container {
+    display: flex
+  }
+
+  .content {
+    min-height: 67vh;
+    padding: 2% 6% 2% 6%;
+    
+  }
+
+  .content-mediators {
+    min-height: 67vh;
+    padding: 2% 5% 2% 5%;
+  }
+
+  #footer {
+    padding-top: 20px;
+  }
+
+        #footer-images {
+          display: flex;
+          padding-left: 40px;
+        }
+
+                #footer-images img {
+                  padding-top: 10px;
+                  height: 8vw;
+                  
+                  display: inline-block;
+                  object-fit: scale-down;
+                }
+
+                                .footer-links {
+                                  text-align: start;
+                                }
+
+
+
+  #logo-responsive {
+    font-size: 4vw;
+  }
+ .tabs {
+   padding-top: 20px;
+   margin-top: -1em;
+ }
+}
+
+// MOBILE
+@media screen and (max-width: 800px) {
+  #navbar {
+    min-height: 3vh
+  }
+  .content {
+    min-height: 67vh;
+    padding: 2% -0% 2% 0%;
+  }
+
+  .content-mediators {
+    min-height: 67vh;
+    padding: 2% 5% 2% 5%;
+  }
+
+  #mediator-logos {
+    display: none;
+  }
+
+  #mediator-contact-info {
+    display: none
+  }
+
+  #mediator-contact-info-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #0000EE (blue);
+    font-size: 30px;
+    margin-bottom: -1rem;
+  }
+
+  #mediator-logos-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 140px;
+    width: 100%;
+  }
+
+  #mediator-logos-mobile img {
+    display: block;
+    max-width: 100%;
+    height: 140px;
+    margin: 0 10;
+    padding: 0 10px 0 10px
+  }
+
+  #tab-content {
+    margin-top: -2.5rem
+  }
+
+  .tabs {
+    display: none
+  }
+
+  #footer-links {
+    text-align: center;
+  }
+
+  #footer {
+    padding-top: 20px;
+  }
+
+  #footer-images-mobile {
+    display: inline-block;
+  }
+
+  #footer-images-mobile img {
+    padding-top: 10px;
+    height: 4em;
+    width: auto;
+    display: inline-block;
+    object-fit: scale-down;
+  }
+
+  #hero {
+    height: 110vh
+  }
+
+
+
+  .footer-images-mobile {
+    display: none
+  }
+
+
+
+
+
+  #logo-home-container {
+    display: block;
+    word-spacing: -10px;
+  }
+
+  #logo-responsive {
+    font-size: 4vw;
+    padding-left: 20px;
+    line-height: 1.5;
+  }
+
+ 
+  #navbar-title-text {
+    font-size: 3.7vw;
+    letter-spacing: 7px;
+  }
+
+  #navbar-title img {
+    height: 30px
+  }
+
+  // #kate-brown-tab a {
+  //   content: '';
+  // }
+
+  // #kate-brown-tab a:after {
+  //   content: 'Kate';
+
+  // }
+
+  // #kathleen-straub-tab a {
+  //   visibility: hidden;
+  // }
+
+  // #kathleen-straub-tab a:after {
+  //   content: 'Kathleen';
+  //   visibility: visible;
+  // }
+
+  // #jules-waring-tab a {
+  //   visibility: hidden;
+  // }
+
+  // #jules-waring-tab a:after {
+  //   content: 'Jules';
+  //   visibility: visible;
+  // }
+
+  // #caroline-dunne-tab a {
+  //   visibility: hidden;
+  // }
+
+  // #caroline-dunne-tab a:after {
+  //   content: 'Caroline';
+
+  //   visibility: visible;
+  // }
+}
+
+
+
+
 
 .video-responsive {
   position: relative;
@@ -176,9 +395,6 @@ body {
   /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
-
-
-/* Then style the iframe to fit in the container div with full height and width */
 .responsive-iframe {
   position: absolute;
   top: 0;
@@ -192,15 +408,7 @@ body {
 
 
 
-@media screen and (min-width: 1024px) {
-  .navbar-item.is-hoverable:hover .navbar-dropdown {
-    display: block !important;
-  }
 
-  .navbar-item.is-hoverable:focus-within .navbar-dropdown {
-    display: none;
-  }
-}
 
 
 
@@ -209,18 +417,16 @@ body {
 // Navbar
 .navbar {
   min-height: 8vh;
+  padding: 5px 0px;
   background-color: $outdoorsgreen;
   color: white;
   font-size: 1.1em;
   display: flex;
-    flex-direction: row;
+  flex-direction: row;
 }
 
 .navbar-menu {
   background-color: $outdoorsgreen;
-height: 45px;
-  padding-top: 9px;
-    
 }
 
 .navbar-menu :hover {
@@ -271,7 +477,7 @@ height: 45px;
 
 #navbar-title {
   display: none;
-  flex-direction: column;
+  // flex-direction: column;
   align-self: center;
   text-align: center;
   color: white;
@@ -298,6 +504,10 @@ span {
   white-space: nowrap;
 }
 
+.navbar-title-text-responsive {
+  padding-right: 1.5vw
+}
+
 #navbar-item:active {
   color: black;
 }
@@ -314,56 +524,70 @@ span {
   background-color: $outdoorsgreen;
   color: black;
   font-size: 1em;
-  top: 35px
 }
 
 #navbar-dropdown-right {
-left: calc(100% + (-135px));
-
+  left: calc(100% + (-135px));
 }
 
 #navbar-dropdown {
   left: calc(100% + (-115px));
-
 }
 
-.navbar-item a{
+.navbar-item a {
   cursor: default
 }
 
-.navbar-dropdown a{
+.navbar-dropdown a {
   cursor: pointer
 }
 
+
+
+
 // Title-hero
 .title-hero {
-  min-height: 7vh;
-  text-align: center;
-  color: white;
-  background-color: $outdoorsgreen;
-  text-transform: uppercase;
-  letter-spacing: 18px;
-  font-weight: 100;
-  font-size: 70px;
-  font-family: rift-soft;
-  margin-top: -20px;
-  padding-top: 3px
+background-color: $outdoorsgreen;
 }
 
 
 // Hero
 
 .logo-home-container {
+  text-align: center;
+    color: white;
+    background-color: $outdoorsgreen;
+    text-transform: uppercase;
+    letter-spacing: 18px;
+    font-weight: 100;
+    // font-size: 70px;
+    font-family: rift-soft;
+    // margin-top: -20px;
+    padding-top: 0px;
+    padding-bottom: 15px;
 display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: center;
+line-height: 1;
+}
+
+.logo-responsive{
+  font-size: 4.5vw;
+  padding-left: 20px;
+    line-height: 1.5;
+}
+
+.logo-responsive-bridge-text {
+  padding-right: 1.9vw;
 }
 
 
-
 .logo-home {
-  height: 70px;
+  height: 6vw;
+  min-height: 40px;
+  max-height: 70px;
+ margin-bottom: 4px;
 }
 
 // to fix hero navbar section
@@ -397,7 +621,7 @@ justify-content: center;
 }
 
 .hero-background {
-  background-image: url(../assets/images/bridge-family-mediation-homepage-background-2.jpeg);
+  background-image: url(../assets/images/general/bridge-family-mediation-homepage-background.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -479,19 +703,19 @@ position: relative
   //   0 0px 0 1px rgba(10, 10, 10, 0.02)
 }
 
-#mediator-card-subtitle {
-// white-space: nowrap;
-}
+
 
 #mediator-card-text {
   padding-bottom: 20px;
-  min-height: 30vh
+  min-height: 30vh;
+  // overflow: hidden;
+   
 }
 
 .mediators-back-button{
   font-size: 1.1em;
   padding-left: 6px;
-  padding-top: 3px;
+  padding-top: 2px;
   border: none;
   background: none;
 }
@@ -532,9 +756,15 @@ position: relative
   font-size: 1.1rem;
 }
 
-#mediator-contact-info:hover {
+#mediator-contact-info a:hover {
   color: #0000EE (blue)
 }
+
+.mediator-contact-info-mobile {
+  text-decoration: none;
+  display: none;
+  text-align: center;
+ }
 
 .mediator-text {
   font-size: 1.1rem;
@@ -572,6 +802,11 @@ position: relative
   }
 }
 
+.mediator-logos-mobile {
+  display: none;
+  
+}
+
 .tabs li.is-active a {
   border-bottom-color: black;
   border-bottom-width: 1px;
@@ -598,16 +833,47 @@ position: relative
   }
 }
 
-#footer-images img {
-padding-top: 5px;
+.footer-images {
+  display: none
+}
+
+.footer-images img {
+padding-top: 10px;
 height: 5em;
   width: auto;
   display: inline-block;
+    object-fit: scale-down;
 } 
+
+.footer-images-mobile {
+  display: none
+}
+
+.footer-images-mobile img {
+padding-top: 10px;
+  height: 5em;
+  width: auto;
+  display: inline-block;
+  object-fit: scale-down;
+}
+
+.footer-images-mobile {
+  display: none
+}
+
+.footer-images-mobile img {
+  padding-top: 10px;
+  height: 5em;
+  width: auto;
+  display: inline-block;
+  object-fit: scale-down;
+}
 
 .footer-image-2 {
   scale: 1.3
 }
+
+
 
 // Contact 
 #message {
@@ -702,7 +968,7 @@ max-height: 500px
 #mediation-breakdown-image-style-2 {
   border-radius: 0.25rem;
   height: auto;
-  max-width: 700px
+  max-height: 300px
 
 }
 
@@ -890,10 +1156,117 @@ a:focus {
  margin-top: -2em;
 }
 
+// Accordian Mobile
+
+.rc-accordion-toggle-mobile {
+  display: block;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  
+  transition: 0.3s;
+  
+}
+
+// .rc-accordion-toggle p {
+//   font-size: .9em;
+// }
+
+
+
+.rc-accordion-toggle-mobile.active {
+  background-color: #567c03;
+  color: $outdoorsgreen
+}
+
+
+.rc-accordion-toggle-mobile.active .rc-accordion-icon  {
+  transform: rotate(180deg);
+  color: $outdoorsgreen
+}
+
+.rc-accordion-toggle.active .rc-accordion-title {
+  color: $outdoorsgreen;
+
+}
+
 
 
 // Modal
 
+
 .modal-content {
 transition: 0.3s ease;
+}
+
+
+.navbar-overlay {
+ display: none
+}
+
+.burger-icon {
+  right: 0px;
+position: absolute;
+top: 0px;
+  font-size: 30px;
+  font-weight: light;
+}
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(133, 158, 100);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  transition: 0.5s;
+  font-size: 1.2em
+}
+
+// .overlay a {
+//   padding: 8px;
+//   text-decoration: none;
+//   font-size: 36px;
+//   color: #818181;
+//   display: block;
+//   transition: 0.3s;
+// }
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  color: $forestgreen;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {
+    overflow-y: auto;
+  }
+
+  .overlay a {
+    font-size: 20px
+  }
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
 }

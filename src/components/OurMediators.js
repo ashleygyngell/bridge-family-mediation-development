@@ -1,19 +1,23 @@
-import React from 'react';
+import { React, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import carolineHeadshot from '../assets/images/mediators/caroline.jpeg';
+
+import carolineHeadshot from '../assets/images/mediators/caroline.webp';
 import julesHeadshot from '../assets/images/mediators/jules.jpeg';
 import kateHeadshot from '../assets/images/mediators/kate.jpg';
 import kathleenHeadshot from '../assets/images/mediators/kathleen.jpg';
 
 const About = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="content ">
         <div className="title is-4 mt-2 mr-6 ml-6">Our mediators</div>
 
-        <div className="columns pt-6 pr-6 pl-6 our-mediators ">
+        <div className="columns is-multiline pt-6 pr-6 pl-6 our-mediators ">
           {/* Mediator 1 */}
-          <div className="column ">
+          <div className="column mb-4 is-3-desktop is-6-tablet is-12-mobile  ">
             <div id="mediator-card" className="card pt-2">
               <div className="card-image pt-5 ">
                 <Link to={'/katebrown'}>
@@ -31,7 +35,9 @@ const About = () => {
                 <Link to={'/katebrown'}>
                   <div className="media">
                     <div className="media-content has-text-centered">
-                      <p className="title is-6">Kate Brown</p>
+                      <p id="mediator-title" className="title is-6">
+                        Kate Brown
+                      </p>
                     </div>
                   </div>
                 </Link>
@@ -41,8 +47,8 @@ const About = () => {
                 >
                   Barnes | Chiswick | Richmond
                 </p>
-                <div id="mediator-card-text">
-                  <p>
+                <div>
+                  <p id="mediator-card-text">
                     I am an experienced Family Mediator, fully accredited by the
                     FMCA, and committed to helping families resolve highly
                     sensitive matters arising from divorce and separation,
@@ -60,7 +66,7 @@ const About = () => {
           </div>
 
           {/* Mediator 2 */}
-          <div className="column">
+          <div className="column mb-4 is-3-desktop is-6-tablet is-12-mobile ">
             <div id="mediator-card" className="card pt-2">
               <div className="card-image pt-5">
                 <Link to={'/kathleenstraub'}>
@@ -77,7 +83,9 @@ const About = () => {
                 <Link to={'/kathleenstraub'}>
                   <div className="media">
                     <div className="media-content has-text-centered">
-                      <p className="title is-6">Kathleen Straub</p>
+                      <p id="mediator-title" className="title is-6">
+                        Kathleen Straub
+                      </p>
                     </div>
                   </div>
                 </Link>
@@ -106,8 +114,8 @@ const About = () => {
           </div>
 
           {/* Mediator 3 */}
-          <div className="column">
-            <div id="mediator-card" className="card pt-2">
+          <div className="column mb-4 is-3-desktop is-6-tablet is-12-mobile ">
+            <div id="mediator-card" className="mediator-card card pt-2">
               <div className="card-image pt-5">
                 <Link to={'/juleswaring'}>
                   <figure className="image is-2by2">
@@ -123,7 +131,9 @@ const About = () => {
                 <Link to={'/juleswaring'}>
                   <div className="media">
                     <div className="media-content has-text-centered">
-                      <p className="title is-6">Jules Waring</p>
+                      <p id="mediator-title" className="title is-6">
+                        Jules Waring
+                      </p>
                     </div>
                   </div>
                 </Link>
@@ -152,7 +162,7 @@ const About = () => {
           </div>
 
           {/* Mediator 4 */}
-          <div className="column">
+          <div className="column mb-4 is-3-desktop is-6-tablet is-12-mobile ">
             <div id="mediator-card" className="card pt-2">
               <div className="card-image pt-5 ">
                 <Link to={'/carolinedunne'}>
@@ -169,7 +179,9 @@ const About = () => {
                 <Link to={'/carolinedunne'}>
                   <div className="media">
                     <div className="media-content has-text-centered">
-                      <p className="title is-6 ">Caroline Dunne</p>
+                      <p id="mediator-title" className="title is-6 ">
+                        Caroline Dunne
+                      </p>
                     </div>
                   </div>
                 </Link>

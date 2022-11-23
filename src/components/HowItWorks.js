@@ -1,7 +1,5 @@
-import React from 'react';
+import { React, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-// import YoutubeEmbed from './YoutubeEmbed.js';
-import { useEffect } from 'react';
 
 const HowItWorks = () => {
   useEffect(() => {
@@ -9,18 +7,10 @@ const HowItWorks = () => {
   }, []);
   return (
     <>
-      {/* <button className="back-button pl-4 pt-1   ">
-        <Link to={'/'}>
-          <span>
-            <i className="fa-solid fa-arrow-left "></i> Home
-          </span>
-        </Link>
-      </button> */}
-
       <div className="content ">
         <div className="title is-4 mt-2 mr-6 ml-6">How it works</div>
-        <div className="columns pt-5 pr-6 pl-4 ">
-          <div className="column pt-5 pl-6 pr-6 is-6-desktop is-12-tablet is-12-mobile mediator-text">
+        <div className="columns is-multiline pt-0 pr-4 pl-4 ">
+          <div className="column mt-5 pl-6 pr-6 is-6-desktop is-12-tablet is-12-mobile mediator-text">
             <strong>
               <u>Call us</u>
             </strong>
@@ -30,7 +20,6 @@ const HowItWorks = () => {
               tell us the issues you&apos;d like to resolve and we can answer
               any questions or concerns you might have.
             </p>
-
             <strong>
               <u>The Intake Meeting</u>
             </strong>
@@ -44,7 +33,7 @@ const HowItWorks = () => {
               right path for you, we will arrange a joint session.
             </p>
           </div>
-          <div className=" column  is-6-desktop is-12-tablet is-12-mobile pt-5 pr-6 pl-6  ">
+          <div className=" column is-6-desktop is-12-tablet is-12-mobile pt-6 pr-6 pl-6">
             <div className="video-responsive">
               <iframe
                 className="responsive-iframe"

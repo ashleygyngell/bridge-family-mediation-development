@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react';
-
+import { React, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import fmcLogo from '../assets/logos/family-mediation-council-accredited-mediator-logo.jpg';
 import fmcLogoChildInclusive from '../assets/logos/family-mediation-council-child-inclusive-mediator-logo.jpg';
@@ -7,6 +6,8 @@ import kateHeadshot from '../assets/images/mediators/kate.jpg';
 
 const Mediator1 = () => {
   useEffect(() => {
+    window.scrollTo(0, 0);
+
     const tabs = document.querySelectorAll('.tabs li');
     const tabContentBoxes = document.querySelectorAll('#tab-content > div');
 
@@ -31,7 +32,7 @@ const Mediator1 = () => {
   return (
     <>
       <Link to={'/ourmediators'}>
-        <button className="mediators-back-button pl-4 pt-1 ">
+        <button className="mediators-back-button pl-4 pt-1 pb-2 ">
           <span>
             <i className="fa-solid fa-arrow-left "></i>
             {''} Our Mediators
@@ -42,18 +43,22 @@ const Mediator1 = () => {
         {' '}
         <div className="tabs is-centered">
           <ul>
-            <li className="is-active subtitle" data-target="kate-brown">
+            <li
+              id="kate-brown-tab"
+              className="is-active subtitle"
+              data-target="kate-brown"
+            >
               <a>Kate Brown</a>
             </li>
 
-            <li className="subtitle">
+            <li id="kathleen-straub-tab" className="subtitle">
               <Link to={'/kathleenstraub'}>Kathleen Straub</Link>
             </li>
 
-            <li className="subtitle">
+            <li id="jules-waring-tab" className="subtitle">
               <Link to={'/juleswaring'}>Jules Waring</Link>
             </li>
-            <li className="subtitle">
+            <li id="caroline-dunne-tab" className="subtitle">
               <Link to={'/carolinedunne'}>Caroline Dunne</Link>
             </li>
           </ul>
@@ -71,11 +76,11 @@ const Mediator1 = () => {
                         className="mediator-image has-text-centered about-image "
                         id="about-image"
                       />
-                      <div className="subtitle">
+                      <div id="mediator-contact-info" className="subtitle">
                         <p id="fontawesome-styling" className=" pt-4  ">
                           <a href="tel:07930366661">
                             {' '}
-                            <span id="mediator-contact-info">07930 366661</span>
+                            <span> 07930 366661</span>
                           </a>
                           <br />
                           <a
@@ -85,13 +90,16 @@ const Mediator1 = () => {
                             target="_blank"
                             rel="noreferrer"
                           >
-                            <span id="mediator-contact-info">
+                            <span>
                               {' '}
                               <a>katebrown@bridgefamilymediation.co.uk</a>
                             </span>
                           </a>
                         </p>
-                        <div className="mediator-logos pt-5 ">
+                        <div
+                          id="mediator-logos"
+                          className="mediator-logos pt-5 "
+                        >
                           <img href="" src={fmcLogo} alt="FMC Logo" />
                           <img
                             src={fmcLogoChildInclusive}
@@ -100,14 +108,33 @@ const Mediator1 = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="column is-8 pr-6 pl-5 ">
+                    <div className="column is-8 pr-5 pl-5 ">
                       <div className="">
-                        <div className="media ">
+                        <div id="media" className="media ">
                           <div className="media-content ">
                             <p className="title is-4 ">Kate Brown</p>
                           </div>
                         </div>
-
+                        <div
+                          id="mediator-contact-info-mobile"
+                          className="subtitle mediator-contact-info-mobile has-text-centered"
+                        >
+                          <p id="fontawesome-styling" className=" pt-4  ">
+                            <a className="pr-2" href="tel:07930 366661">
+                              {' '}
+                              <i className="fa-solid fa-phone "></i>
+                            </a>
+                            <a
+                              id="fontawesome-styling"
+                              className="pl-4"
+                              href="mailto:katebrown@bridgefamilymediation.co.uk"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <i className="fa-solid fa-envelope "></i>
+                            </a>
+                          </p>
+                        </div>
                         <p className="subtitle is-5 pt-5 has-text-centered">
                           Barnes | Chiswick | Richmond
                         </p>
@@ -145,6 +172,17 @@ const Mediator1 = () => {
                           their situation, to resolve matters sensitively,
                           swiftly and affordably.
                         </p>
+                      </div>
+                      <div
+                        id="mediator-logos-mobile"
+                        className="mediator-logos-mobile  "
+                      >
+                        <img href="" src={fmcLogo} alt="FMC Logo" />
+                        <img
+                          href=""
+                          src={fmcLogoChildInclusive}
+                          alt="FMC Child Inclusive Logo"
+                        />
                       </div>
                     </div>
                   </div>

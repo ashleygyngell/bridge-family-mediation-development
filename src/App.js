@@ -2,7 +2,7 @@ import { React } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // General
-import PageNotFound from './components/PageNotFound';
+import NotFound from './components/NotFound';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -36,10 +36,8 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/pagenotfound" component={<PageNotFound />} />
         <Route path="/" element={<Home />} />
         <Route path="/faqs" element={<Faqs />} />
-
         <Route path="/ourmediators" element={<OurMediators />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/katebrown" element={<Mediator1 />} />
@@ -47,7 +45,6 @@ function App() {
         <Route path="/juleswaring" element={<Mediator3 />} />
         <Route path="/carolinedunne" element={<Mediator4 />} />
         <Route path="/usefullinks" element={<UsefulLinks />} />
-        {/* FAQS */}
         <Route path="/whatismediation" element={<WhatIsMediation />} />
         <Route path="/childreninmediation" element={<ChildrenInMediation />} />
         <Route path="/aftermediation" element={<AfterMediation />} />
@@ -62,6 +59,7 @@ function App() {
         <Route path="/complaintsprocedure" element={<ComplaintsProcedure />} />
         <Route path="/Testimonials" element={<Testimonials />} />
         <Route path="/Podcast" element={<Podcast />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
 
       <Footer />

@@ -1,6 +1,5 @@
-import React from 'react';
+import { React, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { useEffect } from 'react';
 import moneyImage from '../assets/images/stock-photo-separate-money-and-assets-during-divorce-dividing-finances-2194799095-transformed.jpeg';
 
 const WhatWeDiscuss = () => {
@@ -9,20 +8,10 @@ const WhatWeDiscuss = () => {
   }, []);
   return (
     <>
-      {/* <button className="back-button pl-4 pt-1 ">
-        <Link to={'/'}>
-          <div>
-            <span>
-              <i className="fa-solid fa-arrow-left "></i> Home
-            </span>
-          </div>{' '}
-        </Link>
-      </button> */}
-
       <div className="content  ">
         <div className="title is-4 mt-2 mr-6 ml-6 ">What we discuss</div>
 
-        <div className="columns pt-0 pr-6 pl-4 ">
+        <div className="columns pt-0 pr-4 pl-4 ">
           <div className="column mt-5 pl-6 pr-6 pb-0 is-12-desktop is-12-tablet is-12-mobile mediator-text">
             <bl>
               <li className="ml-4">

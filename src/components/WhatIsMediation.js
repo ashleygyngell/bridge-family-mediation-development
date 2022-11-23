@@ -1,6 +1,5 @@
-import React from 'react';
+import { React, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { useEffect } from 'react';
 import manAndWomanImage from '../assets/images/stock-photo-psychologist-and-young-marriage-after-successful-marital-therapy-646781635-transformed.jpeg';
 
 const WhatIsMediation = () => {
@@ -9,16 +8,9 @@ const WhatIsMediation = () => {
   }, []);
   return (
     <>
-      {/* <button className="back-button pl-4 pt-1 ">
-        <Link to={'/'}>
-          <span>
-            <i className="fa-solid fa-arrow-left "></i> Home
-          </span>
-        </Link>
-      </button> */}
       <div className="content  ">
         <div className="title is-4 mt-2 mr-6 ml-6">What is mediation?</div>
-        <div className="columns pt-5 pr-6 pl-4 ">
+        <div className="columns pt-5 pr-4 pl-4 ">
           <div className="column pt-5 pl-6 pr-6 pb-0 is-12-desktop is-12-tablet is-12-mobile mediator-text ">
             <strong>
               <u>What is Mediation?</u>
@@ -110,6 +102,7 @@ const WhatIsMediation = () => {
         </div>
 
         <div className="faq-buttons-div columns is-mobile">
+          {/* Do not remove */}
           <button className="faq-button column is-6-mobile ">
             {/* <Link to={'/whatdoesitcost'}>
               <span>

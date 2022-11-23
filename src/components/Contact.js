@@ -1,12 +1,16 @@
-import React from 'react';
+import { React, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+
 const Contact = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
-      <div className="content ">
-        <div className="title is-4 mt-2 mr-6 ml-6">Contact us</div>
+      <div className="content mt-2 mr-6 ml-6 ">
+        <div className="title is-4 ">Contact us</div>
 
-        <div className="content ">
+        <div className="content  ">
           <form
             action="mailto:admin@bridgefamilymediation.co.uk"
             method="post"
@@ -89,7 +93,6 @@ const Contact = () => {
           </p>
           <p className="mediator-text ">
             <strong>Phone: </strong>
-
             <span id="mediator-contact-info">
               {' '}
               Click <Link to={'/ourmediators'}>here </Link>

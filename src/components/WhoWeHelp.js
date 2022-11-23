@@ -1,6 +1,5 @@
-import React from 'react';
+import { React, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { useEffect } from 'react';
 import familyImage from '../assets/images/stock-photo-crop-close-up-of-unhappy-young-couple-sit-separate-have-problems-in-relationship-think-of-breakup-1901549803-transformed.jpeg';
 
 const WhoDoWeHelp = () => {
@@ -9,25 +8,10 @@ const WhoDoWeHelp = () => {
   }, []);
   return (
     <>
-      {/* <button className="back-button pl-4 pt-1 ">
-        <Link to={'/'}>
-          <span>
-            <i className="fa-solid fa-arrow-left "></i> Home
-          </span>
-        </Link>
-      </button> */}
       <div className="content  ">
         <div className="title is-4 mt-2 mr-6 ml-6">Who do we help?</div>
-        <div className="columns pt-5 pr-6 pl-6 ">
-          <div className="column mt-4 pl-6 pr-6 pb-6 is-6-desktop is-12-tablet is-12-mobile has-text-centered">
-            <img
-              id="mediation-breakdown-image"
-              src={familyImage}
-              alt="Family With Daughter"
-              width="auto"
-            />
-          </div>
-          <div className="column mt-5 pl-6 pr-6 pb-6 is-6-desktop is-12-tablet is-12-mobile mediator-text  ">
+        <div className="columns is-multiline pt-5 pr-4 pl-4 ">
+          <div className="column mt-5 pl-6 pr-6 pb-0 is-6-desktop is-12-tablet is-12-mobile mediator-text  ">
             <bl>
               <li className="ml-4">
                 Couples (heterosexual and non-heterosexual) going through
@@ -53,9 +37,17 @@ const WhoDoWeHelp = () => {
               </li>
             </bl>
           </div>
+          <div className="column mt-4 pl-6 pr-6 pb-5 is-6-desktop is-12-tablet is-12-mobile has-text-centered">
+            <img
+              id="mediation-breakdown-image"
+              src={familyImage}
+              alt="Family With Daughter"
+              width="auto"
+            />
+          </div>
         </div>
       </div>
-      <div className="faq-buttons-div columns is-mobile">
+      <div className="faq-buttons-div columns is-mobile pt-5">
         <button className="faq-button column is-6-mobile ">
           <Link to={'/howitworks'}>
             <span>

@@ -14,8 +14,11 @@ const Footer = () => {
       <footer id="footer" className="footer">
         <div className="container footer-inner  ">
           <div className="columns is-multiline is-flex-tablet is-flex-mobile level">
-            <div className="column is-3-desktop is-12-tablet is-12-mobile">
-              <div className="footer-group level-item " id="footer-images">
+            <div
+              className="column is-3-desktop is-3-tablet is-12-mobile footer-images"
+              id="footer-images"
+            >
+              <div className="footer-group level-item ">
                 <div className="footer-image-2 mr-4">
                   <a
                     href="https://www.familymediationcouncil.org.uk/"
@@ -36,14 +39,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="column is-6-desktop is-12-tablet is-12-mobile">
-              {/* <div className="footer-group  level-item has-text-centered">
-                <div className="">
-                  Balham | Barnes | Battersea | Chiswick | Clapham | Kew{' '}
-                  <br></br>
-                  Putney | Richmond | Streatham | Wandsworth | Wimbledon
-                </div>
-              </div> */}
+            <div className="column is-6-desktop is-6-tablet is-12-mobile">
               <div className="footer-group level-item has-text-centered ">
                 <p>
                   Based in South West London <br></br>
@@ -67,8 +63,11 @@ const Footer = () => {
               </div> */}
             </div>
 
-            <div className="column is-3-desktop is-12-tablet is-12-mobile pt-5  ">
-              <div id="footer links" className="footer-group level-item">
+            <div className="column is-3-desktop is-3-tablet is-12-mobile pt-5   ">
+              <div
+                id="footer links"
+                className="footer-group level-item footer-links"
+              >
                 <ul>
                   <li>
                     <Link to={'/faqs'} onClick={topFunction}>
@@ -111,7 +110,33 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-          </div>
+
+            <div
+              className="column is-3-desktop is-6-tablet is-12-mobile footer-images-mobile mb-6"
+              id="footer-images-mobile"
+            >
+              <div className="footer-group level-item ">
+                <div className="footer-image-2 mr-4">
+                  <a
+                    href="https://www.familymediationcouncil.org.uk/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={fmcLogo} alt="FMC Logo" />
+                  </a>
+                </div>
+                <div className="footer-image-1  ">
+                  <a
+                    href="https://thefma.co.uk/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={fmaLogo} alt="FMA Logo" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>{' '}
           <div className="container copyright pt-0 pb-2 ">
             <div className="has-text-centered">
               <p>

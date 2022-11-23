@@ -1,7 +1,7 @@
-import React from 'react';
+import { React, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+
 import childUpset from '../assets/images/stock-photo-upset-lonely-bullied-little-african-american-kid-girl-holding-teddy-bear-looking-away-feels-1319345675-transformed.jpeg';
-import { useEffect } from 'react';
 
 const ChildrenInMediation = () => {
   useEffect(() => {
@@ -9,18 +9,10 @@ const ChildrenInMediation = () => {
   }, []);
   return (
     <>
-      {/* <button className="back-button pl-4 pt-1   ">
-        <Link to={'/'}>
-          <span>
-            <i className="fa-solid fa-arrow-left "></i> Home
-          </span>
-        </Link>
-      </button> */}
-
-      <div className="content  ">
+      <div className="content">
         <div className="title is-4 mt-2 mr-6 ml-6">Children In Mediation</div>
-        <div className="columns pt-5 pr-6 pl-4 ">
-          <div className="column pt-5 pl-6 pr-6 pb-3 is-12-desktop is-12-tablet is-12-mobile mediator-text">
+        <div className="columns pt-0 pr-4 pl-4 ">
+          <div className="column mt-5 pl-6 pr-6 pb-3 is-12-desktop is-12-tablet is-12-mobile mediator-text">
             <strong>
               <u>Child Inclusive Mediation (CIM)</u>
             </strong>
@@ -63,7 +55,7 @@ const ChildrenInMediation = () => {
               have a voice in the decisions being made for them.
             </p>
 
-            <div className=" column pt-2 pl-6 pr-6 pb-2 is-12-desktop is-12-tablet is-12-mobile has-text-centered">
+            <div className=" column pt-2 pl-6 pr-6 pb-3 is-12-desktop is-12-tablet is-12-mobile has-text-centered">
               <img
                 id="mediation-breakdown-image"
                 src={childUpset}
@@ -89,13 +81,13 @@ const ChildrenInMediation = () => {
               feeds back any information the child wishes to be passed onto the
               parents in a separate meeting, without the child being there.
             </p>
-            <p>
+            <p className="pb-2">
               Here&apos;s a film about Child Inclusive Mediation, which might be
               useful:
             </p>
             <div className="columns">
               <div className="column is-2-desktop"></div>
-              <div className=" column  is-8-desktop is-12-tablet is-12-mobile pt-5 pr-6 pl-6   ">
+              <div className=" column  is-8-desktop is-12-tablet is-12-mobile pt-0  pr-6 pl-6   ">
                 <div className="video-responsive ">
                   <iframe
                     className="responsive-iframe"
@@ -108,7 +100,7 @@ const ChildrenInMediation = () => {
                 </div>
               </div>
             </div>
-            <div className=" column  is-12-desktop is-12-tablet is-12-mobile pt-5  ">
+            <div className=" column  is-12-desktop is-12-tablet is-12-mobile pt-2  ">
               <p>
                 <strong>The benefits of Child Inclusive Mediation are:</strong>
               </p>

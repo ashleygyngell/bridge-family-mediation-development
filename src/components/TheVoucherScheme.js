@@ -1,6 +1,5 @@
-import React from 'react';
+import { React, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { useEffect } from 'react';
 import contractImage from '../assets/images/stock-photo-wife-and-husband-signing-divorce-documents-or-premarital-agreement-488122756-transformed.jpeg';
 
 const TheVoucherScheme = () => {
@@ -9,17 +8,9 @@ const TheVoucherScheme = () => {
   }, []);
   return (
     <>
-      {/* <button className="back-button pl-4 pt-1   ">
-        <Link to={'/'}>
-          <span>
-            <i className="fa-solid fa-arrow-left "></i> Home
-          </span>
-        </Link>
-      </button> */}
-
       <div className="content ">
         <div className="title is-4 mt-2 mr-6 ml-6">The Voucher Scheme</div>
-        <div className="columns pt-5 pr-6 pl-4 ">
+        <div className="columns pt-5 pr-4 pl-4 ">
           <div className="column pt-5 pl-6 pr-6 pb-0 is-12-desktop is-12-tablet is-12-mobile mediator-text">
             <p>
               The Mediation Voucher Scheme is a one-off financial contribution
@@ -80,7 +71,7 @@ const TheVoucherScheme = () => {
         </div>
         <div className=" column is-12-desktop is-12-tablet is-12-mobile mt-4 pl-6 pr-6 pb-6 has-text-centered ">
           <img
-            id="mediation-breakdown-image"
+            id="mediation-breakdown-image-style-2"
             src={contractImage}
             alt="Wife and husband signing divorce documents  "
           />{' '}
@@ -96,7 +87,7 @@ const TheVoucherScheme = () => {
             <p className="faq-button-subtitle">What Is Mediation? </p>
           </Link>
         </button>
-
+        {/* Do not remove  */}
         <button className="faq-button column is-6-mobile ">
           {/* <Link to={'/thevoucherscheme'}>
             <span>

@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 
 const faqs = [
   {
@@ -147,8 +147,11 @@ const AccordionItem = (props) => {
           }`}
           onClick={() => handleToggle(id)}
         >
-          <p className="">{header}</p>
-          <i className="fa fa-chevron-down rc-accordion-icon"></i>
+          <p className="pr-2">{header}</p> {''}
+          <i
+            className="fa fa-chevron-down rc-accordion-icon-mobile"
+            id="fa-mobile"
+          ></i>
         </div>
       </div>
       <div
@@ -169,6 +172,9 @@ const AccordionItem = (props) => {
 };
 
 const App = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [active, setActive] = useState(null);
 
   const handleToggle = (index) => {
