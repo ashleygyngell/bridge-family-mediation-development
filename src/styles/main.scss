@@ -996,6 +996,12 @@ max-height: 500px
   animation-duration: .15s;
 }
 
+// Testimonials
+#testimonial-name p {
+  text-align: right;
+  padding-top: .25rem;
+}
+
 @keyframes fadeInOpacity {
   0% {
     opacity: 0;

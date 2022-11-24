@@ -11,56 +11,62 @@ const Testimonials = () => {
         <div className="columns pt-5 pr-4 pl-4 ">
           <div className="column pt-5 pl-6 pr-6 pb-6 is-12-desktop is-12-tablet is-12-mobile mediator-text">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-              delectus possimus quibusdam cupiditate dicta obcaecati placeat
-              maxime molestiae, eligendi amet laudantium temporibus quaerat!
-              Perferendis iste optio quasi, eaque ab maxime!{' '}
+              &apos;Many thanks to you for your time, guidance and support. I
+              greatly appreciate it.&apos; <br />
               <small>
-                <i>Lorem Ipsum</i>
+                <i id="testimonial-name">
+                  <p>Mr W, Hammersmith</p>
+                </i>
               </small>
             </p>
             <br />
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Laboriosam, quaerat?{' '}
+              &apos;After years of playing ping pong with solicitors, we were
+              getting nowhere and I am so relieved that we heard about
+              mediation. Your skill in taking the heat out of our communication
+              was exceptional and we were finally able to focus on what was
+              important &mdash; our children&apos;s future. My ex-wife and I are
+              now both on the same page and the Parenting Plan you helped us
+              build has been invaluable.&apos; <br />
               <small>
-                <i>Lorem Ipsum</i>
+                <i id="testimonial-name">
+                  <p>Mr B, Wimbledon</p>
+                </i>
               </small>
             </p>
             <br />
             <p>
-              Lorem ipsum dolor sit amet.{' '}
+              &apos;I was amazed you persuaded (my ex) to come and I think he
+              was secretly disappointed when it ended!&apos; <br />
               <small>
-                <i>Lorem Ipsum</i>
+                <i id="testimonial-name">
+                  <p>Mrs S, Fulham</p>
+                </i>
               </small>
             </p>
             <br />
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Necessitatibus totam voluptatibus doloribus iste fugit iusto.{' '}
+              &apos;Mediation has given me the confidence and financial
+              stability to focus on setting up my business and moving on with my
+              life. Thank you for your patience and for showing us we could find
+              a way through our financial mess.&apos;
+              <br />
               <small>
-                <i>Lorem Ipsum</i>
+                <i id="testimonial-name">
+                  <p>Ms H, Putney</p>
+                </i>
               </small>
             </p>
             <br />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni
-              ullam architecto recusandae magnam at? Quam, expedita qui sunt
-              distinctio culpa sed dolore odit veniam facilis unde magnam optio
-              dolorum minima?{' '}
+              &apos;I appreciate how sensitively you talked to my children as
+              they felt you really listened to them.&apos; <br />
               <small>
-                <i>Lorem Ipsum</i>
+                <i id="testimonial-name">
+                  <p>Mr P, Clapham</p>
+                </i>
               </small>
             </p>
-            <br />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-              aperiam esse ab!{' '}
-              <small>
-                <i>Lorem Ipsum</i>
-              </small>
-            </p>
-            <br />
           </div>
         </div>
       </div>

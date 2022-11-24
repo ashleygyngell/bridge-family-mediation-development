@@ -1,7 +1,7 @@
 import { React, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import childUpset from '../assets/images/stock-photo-upset-lonely-bullied-little-african-american-kid-girl-holding-teddy-bear-looking-away-feels-1319345675-transformed.jpeg';
+import childUpset from '../assets/images/stock-photo-young-boy-in-counseling-session-at-the-psychologist-or-social-services-professional-laughing-not-1397487092-transformed.jpeg';
 
 const ChildrenInMediation = () => {
   useEffect(() => {
