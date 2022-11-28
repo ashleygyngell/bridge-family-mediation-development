@@ -11,16 +11,6 @@ const Testimonials = () => {
         <div className="columns pt-5 pr-4 pl-4 ">
           <div className="column pt-5 pl-6 pr-6 pb-6 is-12-desktop is-12-tablet is-12-mobile mediator-text">
             <p>
-              &apos;Many thanks to you for your time, guidance and support. I
-              greatly appreciate it.&apos; <br />
-              <small>
-                <i id="testimonial-name">
-                  <p>Mr W, Hammersmith</p>
-                </i>
-              </small>
-            </p>
-            <br />
-            <p>
               &apos;After years of playing ping pong with solicitors, we were
               getting nowhere and I am so relieved that we heard about
               mediation. Your skill in taking the heat out of our communication
@@ -46,6 +36,17 @@ const Testimonials = () => {
             </p>
             <br />
             <p>
+              &apos;I am very grateful for all the efforts and energy that you
+              have invested in our mediation, I greatly appreciate how you tried
+              to find a common ground.&apos; <br />
+              <small>
+                <i id="testimonial-name">
+                  <p>Mr I, Hampton</p>
+                </i>
+              </small>
+            </p>
+            <br />
+            <p>
               &apos;Mediation has given me the confidence and financial
               stability to focus on setting up my business and moving on with my
               life. Thank you for your patience and for showing us we could find
@@ -64,6 +65,18 @@ const Testimonials = () => {
               <small>
                 <i id="testimonial-name">
                   <p>Mr P, Clapham</p>
+                </i>
+              </small>
+            </p>
+            <br />
+            <p>
+              &apos;I wanted to say a big thank you for the meeting on Friday,
+              as you are aware I was really anxious and nervous about doing it
+              but you and Jules both made it very easy for me. So a big thank
+              you again.&apos; <br />
+              <small>
+                <i id="testimonial-name">
+                  <p>Ms S, Tooting</p>
                 </i>
               </small>
             </p>

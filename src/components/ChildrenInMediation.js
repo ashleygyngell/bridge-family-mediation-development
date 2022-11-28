@@ -81,7 +81,7 @@ const ChildrenInMediation = () => {
               feeds back any information the child wishes to be passed onto the
               parents in a separate meeting, without the child being there.
             </p>
-            <p className="pb-2">
+            <p className="pb-4">
               Here&apos;s a film about Child Inclusive Mediation, which might be
               useful:
             </p>

@@ -85,7 +85,7 @@ const Contact = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <span id="mediator-contact-info">
+              <span id="mediator-contact-info-contactpage">
                 {' '}
                 <a>info@bridgefamilymediation.co.uk</a>
               </span>
@@ -93,7 +93,7 @@ const Contact = () => {
           </p>
           <p className="mediator-text ">
             <strong>Phone: </strong>
-            <span id="mediator-contact-info">
+            <span id="mediator-contact-info-contactpage">
               {' '}
               Click <Link to={'/ourmediators'}>here </Link>
               for our mediators
