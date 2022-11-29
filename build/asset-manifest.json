@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.2f92bdae.css",
-    "main.js": "/static/js/main.70955d6a.js",
+    "main.css": "/static/css/main.46eb0815.css",
+    "main.js": "/static/js/main.89f9b141.js",
     "static/media/child-with-father.png": "/static/media/child-with-father.251d9c37db2001dc49f5.png",
     "static/media/bridge-family-mediation-homepage-background.webp": "/static/media/bridge-family-mediation-homepage-background.48d858cad18cd203cb03.webp",
     "static/media/group.webp": "/static/media/group.18e7f71559f741689316.webp",
     "static/media/Effra Regular.ttf": "/static/media/Effra Regular.16903bd59c24db0af49c.ttf",
+    "static/media/stock-photo-unhappy-jealous-mixed-race-wife-talk-to-psychologist-counselor-complain-on-bad-relationship-with-1361068406-transformed.jpg": "/static/media/stock-photo-unhappy-jealous-mixed-race-wife-talk-to-psychologist-counselor-complain-on-bad-relationship-with-1361068406-transformed.3a2ac148d1efe2653075.jpg",
     "static/media/stock-photo-young-boy-in-counseling-session-at-the-psychologist-or-social-services-professional-laughing-not-1397487092-transformed.jpeg": "/static/media/stock-photo-young-boy-in-counseling-session-at-the-psychologist-or-social-services-professional-laughing-not-1397487092-transformed.d6b0646bc29ea67d8a7d.jpeg",
     "static/media/family-mediation-council-child-inclusive-mediator-logo.jpg": "/static/media/family-mediation-council-child-inclusive-mediator-logo.89cfb26f1133959a5f6d.jpg",
     "static/media/stock-photo-crop-close-up-of-unhappy-young-couple-sit-separate-have-problems-in-relationship-think-of-breakup-1901549803-transformed.jpeg": "/static/media/stock-photo-crop-close-up-of-unhappy-young-couple-sit-separate-have-problems-in-relationship-think-of-breakup-1901549803-transformed.859190cdfe938d973bb8.jpeg",
@@ -21,11 +22,11 @@
     "static/media/Rift Soft Light.otf": "/static/media/Rift Soft Light.32772be48cc1d17e2647.otf",
     "static/media/kate.jpg": "/static/media/kate.b2c591cc9effb8d1c7b4.jpg",
     "index.html": "/index.html",
-    "main.2f92bdae.css.map": "/static/css/main.2f92bdae.css.map",
-    "main.70955d6a.js.map": "/static/js/main.70955d6a.js.map"
+    "main.46eb0815.css.map": "/static/css/main.46eb0815.css.map",
+    "main.89f9b141.js.map": "/static/js/main.89f9b141.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f92bdae.css",
-    "static/js/main.70955d6a.js"
+    "static/css/main.46eb0815.css",
+    "static/js/main.89f9b141.js"
   ]
 }

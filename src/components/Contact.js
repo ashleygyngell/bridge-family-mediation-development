@@ -7,10 +7,10 @@ const Contact = () => {
   }, []);
   return (
     <>
-      <div className="content mt-2 mr-6 ml-6 ">
-        <div className="title is-4 ">Contact us</div>
+      <div className="content mt-2   ">
+        <div className="title is-4 mr-6 ml-6 ">Contact us</div>
 
-        <div className="content  ">
+        <div className="content   ">
           <form
             action="mailto:admin@bridgefamilymediation.co.uk"
             method="post"
@@ -85,7 +85,7 @@ const Contact = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <span id="mediator-contact-info-contactpage">
+              <span id="mediator-contact-info-contact">
                 {' '}
                 <a>info@bridgefamilymediation.co.uk</a>
               </span>

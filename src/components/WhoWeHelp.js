@@ -19,9 +19,9 @@ const WhoDoWeHelp = () => {
                 in a civil partnership or unmarried.
               </li>
               <li className="ml-4">
-                Children who are trying to come to terms with their parents
-                &apos; separation and wish to have a say in the decisions that
-                are being made for them.
+                Children who are trying to come to terms with their
+                parents&apos; separation and wish to have a say in the decisions
+                that are being made for them.
               </li>
               <li className="ml-4">
                 Children who may be finding it hard to get on with their parents

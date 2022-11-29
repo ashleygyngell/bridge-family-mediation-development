@@ -1,5 +1,6 @@
 import { React, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+// import manAndWoman from '../assets/images/stock-photo-unhappy-jealous-mixed-race-wife-talk-to-psychologist-counselor-complain-on-bad-relationship-with-1361068406-transformed.jpeg';
 
 const DivorceAndMediation = () => {
   useEffect(() => {
@@ -107,6 +108,7 @@ const DivorceAndMediation = () => {
               </a>{' '}
               (see below) at the same time.{' '}
             </p>
+
             <strong>
               <u>
                 What if there are property or finance issues to be resolved?
@@ -163,6 +165,14 @@ const DivorceAndMediation = () => {
             </p>
           </div>
         </div>
+        {/* <div className=" column pt-2 pl-6 pr-6 pb-4 is-12-desktop is-12-tablet is-12-mobile has-text-centered">
+          <img
+            id="mediation-breakdown-image"
+            src={manAndWoman}
+            alt="Young couple glance at each other during a mediation session. "
+            width="auto"
+          />
+        </div> */}
         <div id="modal-js-example" className="modal">
           <div className="modal-background"></div>
           <div className="modal-content fade-in-modal ">
