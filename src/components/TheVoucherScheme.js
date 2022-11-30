@@ -10,8 +10,8 @@ const TheVoucherScheme = () => {
     <>
       <div className="content ">
         <div className="title is-4 mt-2 mr-6 ml-6">The Voucher Scheme</div>
-        <div className="columns pt-5 pr-4 pl-4 ">
-          <div className="column pt-5 pl-6 pr-6 pb-0 is-12-desktop is-12-tablet is-12-mobile mediator-text">
+        <div className="columns  pr-4 pl-4 ">
+          <div className="column mt-5 pl-6 pr-6 pb-0 is-12-desktop is-12-tablet is-12-mobile mediator-text">
             <p>
               The Mediation Voucher Scheme is a one-off financial contribution
               of up to £500, introduced by the government in March 2021 to help
@@ -26,14 +26,14 @@ const TheVoucherScheme = () => {
               Not all cases are eligible under the scheme. The case has to
               involve issues related to children, ie:
             </p>
-            <bl>
+            <ul>
               <li className="ml-4">a dispute/application regarding a child.</li>
               <li className="ml-4">
                 a dispute/application regarding family financial matters where
                 the parties are also involved in a dispute/application relating
                 to a child.
               </li>
-            </bl>
+            </ul>
             <br />
             <p>
               The money <strong>will not</strong> cover the cost of a MIAM, only
@@ -43,7 +43,7 @@ const TheVoucherScheme = () => {
               The mediator will forward you a consent form and you will be asked
               to confirm that you have:
             </p>
-            <bl>
+            <ul>
               <li className="ml-4">
                 asked the mediator to apply for the voucher.
               </li>
@@ -56,7 +56,7 @@ const TheVoucherScheme = () => {
                 the Family Mediation Council, including your name and some basic
                 information about your case.
               </li>
-            </bl>
+            </ul>
             <br />
             <p>
               The voucher is intended to be a contribution towards mediation,

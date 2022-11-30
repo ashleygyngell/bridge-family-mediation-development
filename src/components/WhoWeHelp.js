@@ -10,9 +10,9 @@ const WhoDoWeHelp = () => {
     <>
       <div className="content  ">
         <div className="title is-4 mt-2 mr-6 ml-6">Who do we help?</div>
-        <div className="columns is-multiline pt-5 pr-4 pl-4 ">
-          <div className="column mt-5 pl-6 pr-6 pb-0 is-6-desktop is-12-tablet is-12-mobile mediator-text  ">
-            <bl>
+        <div className="columns is-multiline is-vcentered pt-0 pr-4 pl-4  ">
+          <div className="column mt-2 pl-6 pr-6 pb-0 is-12-desktop is-12-tablet is-12-mobile mediator-text  ">
+            <ul>
               <li className="ml-4">
                 Couples (heterosexual and non-heterosexual) going through
                 divorce or separation, with or without children &mdash; married,
@@ -35,19 +35,19 @@ const WhoDoWeHelp = () => {
                 Families in a range of disputes: aside from family break-up, we
                 also mediate between siblings and extended family members.
               </li>
-            </bl>
-          </div>
-          <div className="column mt-4 pl-6 pr-6 pb-5 is-6-desktop is-12-tablet is-12-mobile has-text-centered">
-            <img
-              id="mediation-breakdown-image"
-              src={familyImage}
-              alt="Family With Daughter"
-              width="auto"
-            />
+            </ul>
           </div>
         </div>
+        <div className="column pb-6  pl-6 pr-6 is-12-desktop is-12-tablet is-12-mobile has-text-centered">
+          <img
+            id="mediation-breakdown-image-style-3"
+            src={familyImage}
+            alt="Family With Daughter"
+            width="auto"
+          />
+        </div>
       </div>
-      <div className="faq-buttons-div columns is-mobile pt-5">
+      <div className="faq-buttons-div columns is-mobile ">
         <button className="faq-button column is-6-mobile ">
           <Link to={'/howitworks'}>
             <span>

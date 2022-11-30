@@ -11,8 +11,8 @@ const AfterMediation = () => {
     <>
       <div className="content ">
         <div className="title is-4 mt-2 mr-6 ml-6">After Mediation</div>
-        <div className="columns pt-5 pr-4 pl-4 ">
-          <div className="column pt-5 pl-6 pr-6 pb-3 is-12-desktop is-12-tablet is-12-mobile mediator-text">
+        <div className="columns pr-4 pl-4  ">
+          <div className="column mt-5 pl-6 pr-6  is-12-desktop is-12-tablet is-12-mobile mediator-text">
             <p>
               <strong>
                 {' '}
@@ -68,7 +68,6 @@ const AfterMediation = () => {
               parenting agreements and only in exceptional circumstances to seek
               a Court Order regarding child arrangements.
             </p>
-            <br />
             <p>
               <strong>
                 There are additional costs for preparing these documents at the
@@ -78,7 +77,7 @@ const AfterMediation = () => {
             </p>
           </div>
         </div>
-        <div className=" column mt-4 pl-6 pr-6 pb-6 is-12-desktop is-12-tablet is-12-mobile has-text-centered">
+        <div className=" column mt-4 pl-6 pr-6 pb-6  is-12-desktop is-12-tablet is-12-mobile has-text-centered">
           <img
             id="mediation-breakdown-image"
             src={childWithFather}

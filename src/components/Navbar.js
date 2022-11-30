@@ -145,8 +145,7 @@ const AccordionItem = (props) => {
           onClick={() => handleToggle(id)}
         >
           <p className="navbar-item" id="navbar-item">
-            {header}
-            <i className=" fa fa-chevron-down rc-accordion-icon"></i>
+            {header} <i className=" fa fa-chevron-down rc-accordion-icon"></i>
           </p>
         </div>
       </>
@@ -180,6 +179,7 @@ const Navbar = () => {
 
   useEffect(() => {
     setNavbarText(document.getElementById('navbar-title'));
+
     if (
       location.pathname !== '/' &&
       navbarText === document.getElementById('navbar-title')
@@ -191,7 +191,7 @@ const Navbar = () => {
     ) {
       navbarText.style.display = 'none';
     } else {
-      console.log('error');
+      // console.log('error');
     }
   }, [location, navbarText]);
 
@@ -215,6 +215,7 @@ const Navbar = () => {
             id="navbar-text-control-background"
           >
             <img
+              id="navbar-image"
               src={bfmLogo2}
               alt="Bridge Family Mediation Logo"
               width="auto"
@@ -239,7 +240,7 @@ const Navbar = () => {
             <a className="closebtn" onClick={closeNav}>
               &times;
             </a>
-            <div className="overlay-content">
+            <div id="overlay-content" className="overlay-content">
               <div className="">
                 <Link
                   to={'/'}

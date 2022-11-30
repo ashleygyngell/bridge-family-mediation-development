@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.46eb0815.css",
-    "main.js": "/static/js/main.89f9b141.js",
+    "main.css": "/static/css/main.a9d52526.css",
+    "main.js": "/static/js/main.4a9a7ffe.js",
     "static/media/child-with-father.png": "/static/media/child-with-father.251d9c37db2001dc49f5.png",
+    "static/media/mobileBackground.webp": "/static/media/mobileBackground.752aa8b9ca0db4cbb5d2.webp",
     "static/media/bridge-family-mediation-homepage-background.webp": "/static/media/bridge-family-mediation-homepage-background.48d858cad18cd203cb03.webp",
+    "static/media/stock-photo-two-separate-wedding-rings-next-to-the-word-divorce-83077498-transformed.jpeg": "/static/media/stock-photo-two-separate-wedding-rings-next-to-the-word-divorce-83077498-transformed.e2969afc5c5614233b4a.jpeg",
     "static/media/group.webp": "/static/media/group.18e7f71559f741689316.webp",
     "static/media/Effra Regular.ttf": "/static/media/Effra Regular.16903bd59c24db0af49c.ttf",
     "static/media/stock-photo-unhappy-jealous-mixed-race-wife-talk-to-psychologist-counselor-complain-on-bad-relationship-with-1361068406-transformed.jpg": "/static/media/stock-photo-unhappy-jealous-mixed-race-wife-talk-to-psychologist-counselor-complain-on-bad-relationship-with-1361068406-transformed.3a2ac148d1efe2653075.jpg",
@@ -20,13 +22,14 @@
     "static/media/stock-photo-separate-money-and-assets-during-divorce-dividing-finances-2194799095-transformed.jpeg": "/static/media/stock-photo-separate-money-and-assets-during-divorce-dividing-finances-2194799095-transformed.17b9dc2d491c685f2094.jpeg",
     "static/media/family-mediation-accociation-logo.png": "/static/media/family-mediation-accociation-logo.f0fe3b26a72196a7d087.png",
     "static/media/Rift Soft Light.otf": "/static/media/Rift Soft Light.32772be48cc1d17e2647.otf",
-    "static/media/kate.jpg": "/static/media/kate.b2c591cc9effb8d1c7b4.jpg",
+    "static/media/Kate2.jpg": "/static/media/Kate2.7992b8b89df4bfec9abc.jpg",
+    "static/media/Kathleen10.jpg": "/static/media/Kathleen10.f238cfe74028e26300e9.jpg",
     "index.html": "/index.html",
-    "main.46eb0815.css.map": "/static/css/main.46eb0815.css.map",
-    "main.89f9b141.js.map": "/static/js/main.89f9b141.js.map"
+    "main.a9d52526.css.map": "/static/css/main.a9d52526.css.map",
+    "main.4a9a7ffe.js.map": "/static/js/main.4a9a7ffe.js.map"
   },
   "entrypoints": [
-    "static/css/main.46eb0815.css",
-    "static/js/main.89f9b141.js"
+    "static/css/main.a9d52526.css",
+    "static/js/main.4a9a7ffe.js"
   ]
 }

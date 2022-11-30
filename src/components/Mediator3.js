@@ -76,10 +76,7 @@ const Mediator3 = () => {
                       />
                       <div id="mediator-contact-info" className="subtitle">
                         <p id="fontawesome-styling" className=" pt-4  ">
-                          <a href="tel:07880 724658">
-                            {' '}
-                            <span>07880 724658</span>
-                          </a>
+                          <a href="tel:07880 724658"> 07880 724658</a>
                           <br />
                           <a
                             id="fontawesome-styling"

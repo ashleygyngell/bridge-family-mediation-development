@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 import carolineHeadshot from '../assets/images/mediators/caroline.webp';
 import julesHeadshot from '../assets/images/mediators/jules.jpeg';
-import kateHeadshot from '../assets/images/mediators/kate.jpg';
-import kathleenHeadshot from '../assets/images/mediators/kathleen.jpg';
+import kateHeadshot from '../assets/images/mediators/Kate2.jpg';
+import kathleenHeadshot from '../assets/images/mediators/Kathleen10.jpg';
 
 const About = () => {
   useEffect(() => {

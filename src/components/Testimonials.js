@@ -8,8 +8,8 @@ const Testimonials = () => {
     <>
       <div className="content ">
         <div className="title is-4 mt-2 mr-6 ml-6">Testimonials</div>
-        <div className="columns pt-5 pr-4 pl-4 ">
-          <div className="column pt-5 pl-6 pr-6 pb-6 is-12-desktop is-12-tablet is-12-mobile mediator-text">
+        <div className="columns pt-0 pr-4 pl-4 ">
+          <div className="column mt-5 pl-6 pr-6 pb-6 is-12-desktop is-12-tablet is-12-mobile mediator-text">
             <p>
               &apos;After years of playing ping pong with solicitors, we were
               getting nowhere and I am so relieved that we heard about

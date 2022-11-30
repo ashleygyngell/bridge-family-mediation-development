@@ -8,10 +8,10 @@ const ComplaintsProcedure = () => {
     <>
       <div className="content ">
         <div className="title is-4 mt-2 mr-6 ml-6">Complaints Procedure</div>
-        <div className="columns pt-5 pr-4 pl-4 ">
-          <div className="column pt-5 pl-6 pr-6 pb-6 is-12-desktop is-12-tablet is-12-mobile mediator-text">
+        <div className="columns pt-0 pr-4 pl-4 ">
+          <div className="column mt-5 pl-6 pr-6 pb-6 is-12-desktop is-12-tablet is-12-mobile mediator-text">
             <strong>
-              <u>Our Commitment to you</u>
+              <u>Our commitment to you</u>
             </strong>
 
             <p>

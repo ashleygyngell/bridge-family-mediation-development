@@ -193,7 +193,9 @@ const App = () => {
             <div className="card">
               <div className="card-body">
                 <div className="content ">
-                  <div className="title is-4 mt-2 mr-6 ml-6">FAQs</div>
+                  <div id="title-faq" className="title is-4 mt-2 mr-6 ml-6">
+                    FAQs
+                  </div>
                   <div className="column pt-5 pl-6 pr-6 pb-6 mediator-text  ">
                     {faqs.map((faq, index) => {
                       return (

@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="content mt-2   ">
         <div className="title is-4 mr-6 ml-6 ">Contact us</div>
 
-        <div className="content   ">
+        <div className=" pt-5 pl-6 pr-6">
           <form
             action="mailto:admin@bridgefamilymediation.co.uk"
             method="post"
@@ -96,7 +96,7 @@ const Contact = () => {
             <span id="mediator-contact-info-contactpage">
               {' '}
               Click <Link to={'/ourmediators'}>here </Link>
-              for our mediators
+              for our mediators.
             </span>
           </p>
         </div>

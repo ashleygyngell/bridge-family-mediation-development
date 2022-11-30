@@ -12,24 +12,25 @@ const ChildrenInMediation = () => {
       <div className="content">
         <div className="title is-4 mt-2 mr-6 ml-6">Children In Mediation</div>
         <div className="columns pt-0 pr-4 pl-4 ">
-          <div className="column mt-5 pl-6 pr-6 pb-3 is-12-desktop is-12-tablet is-12-mobile mediator-text">
+          <div className="column mt-5 pl-6 pr-6   is-12-desktop is-12-tablet is-12-mobile mediator-text">
             <strong>
               <u>Child Inclusive Mediation (CIM)</u>
             </strong>
             <p>
               Parents come to mediation to talk about what their lives will look
               like now they are separating. We will ensure that all discussions
-              that take place will be child focused. We respect the United
-              Nations Convention on the Rights of the Child and we will
-              endeavour to find out the children&apos;s wishes about their
-              future arrangements.
+              that take place will be child focused.
             </p>
+          </div>
+        </div>
+        <div className="columns is-multiline is-vcentered  pr-4 pl-4">
+          <div className="column pl-6 pr-6   is-6-desktop is-12-tablet is-12-mobile mediator-text">
             <p>
               Children may have so many questions about their future, which can
               cause anxiety:
             </p>
             <p>
-              <bl>
+              <ul>
                 <div className="columns">
                   <div className="column">
                     <li className="ml-4">Where will they live?</li>
@@ -47,22 +48,29 @@ const ChildrenInMediation = () => {
                     </li>
                   </div>
                 </div>
-              </bl>
+              </ul>
             </p>
             <p>
               The government suggests that children over 10 years old should
               have the option of meeting a Family Mediator, so that they can
-              have a voice in the decisions being made for them.
+              have a voice in the decisions being made for them. This approach
+              upholds the United Nations Convention on the Rights of the Child
+              and we are committed to finding out the children&apos;s wishes
+              about their future arrangements.
             </p>
+          </div>
+          <div className="column pl-6 pr-6 is-6-desktop is-12-tablet is-12-mobile has-text-centered  mediator-text">
+            <img
+              id="mediation-breakdown-image"
+              src={childUpset}
+              alt="Young child holding a teddy bear. "
+              width="auto"
+            />
+          </div>
+        </div>
 
-            <div className=" column pt-2 pl-6 pr-6 pb-3 is-12-desktop is-12-tablet is-12-mobile has-text-centered">
-              <img
-                id="mediation-breakdown-image"
-                src={childUpset}
-                alt="Young child holding a teddy bear. "
-                width="auto"
-              />
-            </div>
+        <div className="columns pt-0 pr-4 pl-4">
+          <div className="column pt-2 pl-6 pr-6 is-12-desktop is-12-tablet is-12-mobile mediator-text">
             <strong>
               <u>How it works</u>
             </strong>
@@ -100,11 +108,11 @@ const ChildrenInMediation = () => {
                 </div>
               </div>
             </div>
-            <div className=" column  is-12-desktop is-12-tablet is-12-mobile pt-2  ">
+            <div className=" column is-12-desktop is-12-tablet is-12-mobile pt-2 pb-6  ">
               <p>
                 <strong>The benefits of Child Inclusive Mediation are:</strong>
               </p>
-              <bl>
+              <ul>
                 <li className="ml-4">
                   Children can have a say in arrangements being made for them.
                 </li>
@@ -132,9 +140,10 @@ const ChildrenInMediation = () => {
                   Hearing a child&apos;s views can help them put their child
                   first and act in their best interests.
                 </li>
-              </bl>
+              </ul>
             </div>
-            {/* <div className=" column is-12-desktop is-12-tablet is-12-mobile  pt-6 pl-6 pr-6 pb-6 has-text-centered ">
+          </div>
+          {/* <div className=" column is-12-desktop is-12-tablet is-12-mobile  pt-6 pl-6 pr-6 pb-6 has-text-centered ">
               <img
                 id="mediation-breakdown-image"
                 src={childUpset}
@@ -143,7 +152,6 @@ const ChildrenInMediation = () => {
               />{' '}
               
             </div> */}
-          </div>
         </div>
       </div>
       <div className="faq-buttons-div columns is-mobile">

@@ -10,7 +10,7 @@ const Podcast = () => {
       <div className="content ">
         <div className="title is-4 mt-2 mr-6 ml-6">Podcast</div>
         <div className="columns pt-5 pr-4 pl-4 ">
-          <div className="column pt-0 ml-1 pl-6 pr-6 pb-0 is-12-desktop is-12-tablet is-12-mobile mediator-text">
+          <div className="column pt-0 pl-6 pr-6 pb-0 is-12-desktop is-12-tablet is-12-mobile mediator-text">
             Latest Episode: <br />
             <Spotify
               wide
@@ -19,8 +19,12 @@ const Podcast = () => {
           </div>
         </div>
         <div className="columns pt-2 pr-4 pl-4 ">
-          <div className="column ml-1 pt-0 pl-6 pr-6 pb-6 is-12-desktop is-12-tablet is-12-mobile mediator-text">
+          <div className="column pt-0 pl-6 pr-6 pb-6 is-12-desktop is-12-tablet is-12-mobile mediator-text">
             Previous Episodes: <br />
+            <Spotify
+              wide
+              link="https://open.spotify.com/episode/6Y76IeR2yXzKf7TA3zys99"
+            />
             <Spotify
               wide
               link="https://open.spotify.com/episode/60KMFuixM5tWGcfgvX5Jm0"

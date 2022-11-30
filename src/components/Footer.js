@@ -39,7 +39,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="column is-6-desktop is-6-tablet is-12-mobile">
+            <div className="column is-6-desktop is-6-tablet is-hidden-mobile">
               <div className="footer-group level-item has-text-centered ">
                 <p>
                   Based in South West London <br></br>
@@ -47,23 +47,8 @@ const Footer = () => {
                   <br></br> <br></br> In-person / Online
                 </p>
               </div>
-
-              {/* <div className="has-text-centered">
-                <a
-                  href="mailto:info@bridgefamilymediation.co.uk"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <i className="fa-solid fa-envelope"></i>
-                  <span className="has-text-white">
-                    {' '}
-                    info@bridgefamilymediation.co.uk
-                  </span>
-                </a>
-              </div> */}
             </div>
-
-            <div className="column is-3-desktop is-3-tablet is-12-mobile pt-5   ">
+            <div className="column is-3-desktop is-3-tablet is-hidden-mobile pt-5   ">
               <div
                 id="footer links"
                 className="footer-group level-item footer-links"
@@ -109,6 +94,76 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
+            </div>
+            <div className="column is-hidden-desktop is-hidden-tablet is-12-mobile pt-5   ">
+              <div
+                id="footer links"
+                className="footer-group level-item footer-links"
+              >
+                <ul>
+                  <li>
+                    <Link to={'/faqs'} onClick={topFunction}>
+                      {/* <i className="fa-solid fa-lock"></i> */}
+                      FAQs
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to={'/usefullinks'} onClick={topFunction}>
+                      {/* <i className="fa-solid fa-circle-info"></i> */}
+                      Useful Links
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={'/testimonials'} onClick={topFunction}>
+                      {/* <i className="fa-solid fa-circle-info"></i> */}
+                      Testimonials
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={'/podcast'} onClick={topFunction}>
+                      {/* <i className="fa-solid fa-microphone"></i>  */}
+                      Podcast
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to={'/privacypolicy'} onClick={topFunction}>
+                      {/* <i className="fa-solid fa-lock"></i> */}
+                      Privacy Policy
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={'/complaintsprocedure'} onClick={topFunction}>
+                      {/* <i className="fa-solid fa-lock"></i> */}
+                      Complaints Procedure
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="column is-hidden-desktop is-hidden-tablet is-12-mobile">
+              <div className="footer-group level-item has-text-centered ">
+                <p>
+                  Based in South West London <br></br>
+                  Accepting clients from all geographical areas
+                  <br></br> <br></br> In-person / Online
+                </p>
+              </div>
+
+              {/* <div className="has-text-centered">
+                <a
+                  href="mailto:info@bridgefamilymediation.co.uk"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fa-solid fa-envelope"></i>
+                  <span className="has-text-white">
+                    {' '}
+                    info@bridgefamilymediation.co.uk
+                  </span>
+                </a>
+              </div> */}
             </div>
 
             <div

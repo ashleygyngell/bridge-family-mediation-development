@@ -8,8 +8,8 @@ const PrivacyPolicy = () => {
     <>
       <div className="content ">
         <div className="title is-4 mt-2 mr-6 ml-6">Privacy Policy</div>
-        <div className="columns pt-5 pr-4 pl-4 ">
-          <div className="column pt-5 pl-6 pr-6 pb-6 is-12-desktop is-12-tablet is-12-mobile mediator-text">
+        <div className="columns pt-0 pr-4 pl-4 ">
+          <div className="column mt-5 pl-6 pr-6 pb-6 is-12-desktop is-12-tablet is-12-mobile mediator-text">
             <p>
               This privacy policy relates to Bridge Family Mediation and it
               explains how our mediation service uses (or &apos;processes&apos;)
@@ -20,7 +20,7 @@ const PrivacyPolicy = () => {
               <strong>Who is covered by this policy? </strong>
             </p>
             <p>
-              <bl>
+              <ul>
                 <div className="columns">
                   <div className="column">
                     <li className="ml-4">
@@ -38,7 +38,7 @@ const PrivacyPolicy = () => {
                     </li>
                   </div>
                 </div>
-              </bl>
+              </ul>
             </p>
             <p>
               <strong>What personal data is involved? </strong>

@@ -20,8 +20,13 @@ export default class Home extends Component {
               width="auto"
             />{' '}
             <p id="logo-responsive" className="logo-responsive">
-              <span className="logo-responsive-bridge-text">Bridge</span>Family
-              Mediation
+              <span
+                id="logo-responsive-bridge-text"
+                className="logo-responsive-bridge-text"
+              >
+                Bridge
+              </span>
+              Family Mediation
             </p>
           </div>
         </section>
@@ -31,12 +36,19 @@ export default class Home extends Component {
         >
           <div
             id="has-text-over-photo"
-            className="hero-text-over-photo has-text-centered fadeInOnLoad2 "
+            className="hero-text-over-photo has-text-centered fadeInOnLoad2 is-hidden-mobile "
           >
             <p>Are you going through a divorce or separation? </p>
             <p>We can help.</p>
           </div>
-
+          <div
+            id="has-text-over-photo"
+            className="hero-text-over-photo has-text-centered fadeInOnLoad2 is-hidden-tablet is-hidden-desktop"
+          >
+            <p>Are you going through a divorce or separation?</p>
+            <p className="pb-2"> </p>
+            <p>We can help.</p>
+          </div>
           <div
             className="columns has-text-centered fadeInOnLoad3 "
             id="home-buttons"

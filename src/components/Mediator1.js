@@ -2,7 +2,7 @@ import { React, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import fmcLogo from '../assets/logos/family-mediation-council-accredited-mediator-logo.jpg';
 import fmcLogoChildInclusive from '../assets/logos/family-mediation-council-child-inclusive-mediator-logo.jpg';
-import kateHeadshot from '../assets/images/mediators/kate.jpg';
+import kateHeadshot from '../assets/images/mediators/Kate2.jpg';
 
 const Mediator1 = () => {
   useEffect(() => {
@@ -78,10 +78,7 @@ const Mediator1 = () => {
                       />
                       <div id="mediator-contact-info" className="subtitle">
                         <p id="fontawesome-styling" className=" pt-4  ">
-                          <a href="tel:07930366661">
-                            {' '}
-                            <span> 07930 366661</span>
-                          </a>
+                          <a href="tel:07930366661"> 07930 366661</a>
                           <br />
                           <a
                             id="fontawesome-styling"

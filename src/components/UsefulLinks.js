@@ -8,8 +8,8 @@ const UsefulLinks = () => {
     <>
       <div className="content ">
         <div className="title is-4 mt-2 mr-6 ml-6">Useful Links</div>
-        <div className="columns pt-5 pr-4 pl-4 ">
-          <div className="column pt-5 pl-6 pr-6 pb-6 is-12-desktop is-12-tablet is-12-mobile mediator-text  ">
+        <div className="columns pt-0 pr-4 pl-4 ">
+          <div className="column mt-5 pl-6 pr-6 pb-6 is-12-desktop is-12-tablet is-12-mobile mediator-text  ">
             <div>
               <p className="">
                 <strong>
@@ -30,22 +30,49 @@ const UsefulLinks = () => {
                   <u>Seperating Parents</u>{' '}
                 </strong>
                 <br />
-                Only mums:{' '}
+                Only Mums:{' '}
                 <a
                   href="https://www.onlymums.org"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  https://www.onlymums.org{' '}
+                  www.onlymums.org{' '}
                 </a>
                 <br />
-                Only dads:{' '}
+                Only Dads:{' '}
                 <a
                   href="https://www.onlydads.org"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  https://www.onlydads.org
+                  www.onlydads.org
+                </a>
+                <br />
+                Dads House:{' '}
+                <a
+                  href="https://www.dadshouse.org.uk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  www.dadshouse.org.uk
+                </a>
+                <br />
+                Dads Unlimited:{' '}
+                <a
+                  href="https://www.dadsunltd.org.uk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  www.dadsunltd.org.uk
+                </a>
+                <br />
+                Gingerbread for single parent families:{' '}
+                <a
+                  href="https://www.gingerbread.org.uk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  www.gingerbread.org.uk
                 </a>
               </p>
               <p>
@@ -96,7 +123,7 @@ const UsefulLinks = () => {
                 >
                   www.resolution.org.uk
                 </a>
-                <br />
+                {/* <br />
                 Legal Aid eligibility calculator:{' '}
                 <a
                   href="http://www.civil-eligibility-calculator.justice.gov.uk"
@@ -104,7 +131,7 @@ const UsefulLinks = () => {
                   rel="noopener noreferrer"
                 >
                   <span>www.civil-eligibility-calculator.justice.gov.uk</span>
-                </a>
+                </a> */}
               </p>
               <p>
                 <strong>
@@ -118,16 +145,16 @@ const UsefulLinks = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  https://www.gov.uk/government/publications/form-c100-application
+                  www.gov.uk/government/publications/form-c100-application
                 </a>
                 <br />
                 CAFCASS: Children and Family Court Advisory and Support Service:{' '}
                 <a
-                  href="https://www.cafcass.gov.uk/"
+                  href="https://www.cafcass.gov.uk"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  https://www.cafcass.gov.uk/
+                  www.cafcass.gov.uk
                 </a>
                 <br />
                 Kids in the Middle:{' '}
@@ -145,7 +172,7 @@ const UsefulLinks = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  www.cafcass.gov.uk/grown-ups/parenting-plan.aspx
+                  www.cafcass.gov.uk/grown-ups/parenting-plan
                 </a>
                 <br />
                 Sorting out Separation:{' '}
@@ -154,7 +181,7 @@ const UsefulLinks = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  https://www.gov.uk/separation-divorce
+                  www.gov.uk/separation-divorce
                 </a>
                 <br />A young person&#39;s guide to mediation &#8212; “What
                 About Me?”:{' '}
@@ -173,7 +200,7 @@ const UsefulLinks = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  https://www.thehandoverbook.co.uk/
+                  www.thehandoverbook.co.uk
                 </a>
                 <br />
                 OurFamilyWizard &#8212; co-parenting app:{' '}
@@ -206,16 +233,16 @@ const UsefulLinks = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  https://www.moneyadviceservice.org.uk/en/articles/divorce-and-money-calculator
+                  www.moneyadviceservice.org.uk/en/articles/divorce-and-money-calculator
                 </a>
                 <br />
-                Form A (for an application for a financial order):
+                Form A (for an application for a financial order):{' '}
                 <a
                   href="https://www.gov.uk/government/publications/form-a-notice-of-intention-to-proceed-with-an-application-for-a-financial-order"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  https://www.gov.uk/government/publications/form-a
+                  www.gov.uk/government/publications/form-a
                 </a>
                 <br />
                 Pensions and divorce:{' '}
@@ -224,7 +251,7 @@ const UsefulLinks = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  https://www.pensionwise.gov.uk/en/divorce
+                  www.pensionwise.gov.uk/en/divorce
                 </a>
               </p>
               <p>
@@ -249,13 +276,22 @@ const UsefulLinks = () => {
                 >
                   www.bacp.co.uk
                 </a>
+                <br />
+                Tavistock Relationships:{' '}
+                <a
+                  href="https://tavistockrelationships.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  https://tavistockrelationships.org
+                </a>
               </p>
               <p>
                 <strong>
                   <u>Other support</u>
                 </strong>
                 <br />
-                Citizens Advice Bureau:{' '}
+                Citizens Advice:{' '}
                 <a
                   href="http://www.citizensadvice.org.uk"
                   target="_blank"
@@ -263,6 +299,16 @@ const UsefulLinks = () => {
                 >
                   www.citizensadvice.org.uk
                 </a>
+                <br />
+                Domestic Abuse:{' '}
+                <a
+                  href="http://www.gov.uk/guidance/domestic-abuse-how-to-get-help "
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  www.gov.uk/guidance/domestic-abuse-how-to-get-help
+                </a>
+                <br />
                 <br />
                 National Domestic Violence Helpline:{' '}
                 <a
@@ -281,8 +327,8 @@ const UsefulLinks = () => {
                 >
                   https://divorce.wikivorce.com{' '}
                 </a>{' '}
-                Helpline:<a href="tel:07930366661"> 01202 805 020 </a> Email:{' '}
-                <span id="cloakae37f47913430251ad22290311bc2c01">
+                Helpline:<a href="tel:01202 805 020"> 01202 805 020 </a> Email:{' '}
+                <span>
                   <a href="mailto:support@wikivorce.com">
                     support@wikivorce.com
                   </a>

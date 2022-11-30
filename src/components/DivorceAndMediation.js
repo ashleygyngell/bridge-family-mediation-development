@@ -1,67 +1,68 @@
 import { React, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-// import manAndWoman from '../assets/images/stock-photo-unhappy-jealous-mixed-race-wife-talk-to-psychologist-counselor-complain-on-bad-relationship-with-1361068406-transformed.jpeg';
+
+import ringsImage from '../assets/images/stock-photo-two-separate-wedding-rings-next-to-the-word-divorce-83077498-transformed.jpeg';
 
 const DivorceAndMediation = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
 
-    function openModal($el) {
-      $el.classList.add('is-active');
-    }
+    // function openModal($el) {
+    //   $el.classList.add('is-active');
+    // }
 
-    function closeModal($el) {
-      $el.classList.remove('is-active');
-    }
+    // function closeModal($el) {
+    //   $el.classList.remove('is-active');
+    // }
 
-    function closeAllModals() {
-      (document.querySelectorAll('.modal') || []).forEach(($modal) => {
-        closeModal($modal);
-      });
-    }
+    // function closeAllModals() {
+    //   (document.querySelectorAll('.modal') || []).forEach(($modal) => {
+    //     closeModal($modal);
+    //   });
+    // }
 
-    // To open modals
-    (document.querySelectorAll('.js-modal-trigger') || []).forEach(
-      ($trigger) => {
-        const modal = $trigger.dataset.target;
-        const $target = document.getElementById(modal);
+    // // To open modals
+    // (document.querySelectorAll('.js-modal-trigger') || []).forEach(
+    //   ($trigger) => {
+    //     const modal = $trigger.dataset.target;
+    //     const $target = document.getElementById(modal);
 
-        $trigger.addEventListener('click', () => {
-          openModal($target);
-        });
-      }
-    );
+    //     $trigger.addEventListener('click', () => {
+    //       openModal($target);
+    //     });
+    //   }
+    // );
 
-    // To close modals
-    (
-      document.querySelectorAll(
-        '.modal-background, .modal-close, .modal-card-head .delete, .modal-card-foot .button'
-      ) || []
-    ).forEach(($close) => {
-      const $target = $close.closest('.modal');
+    // // To close modals
+    // (
+    //   document.querySelectorAll(
+    //     '.modal-background, .modal-close, .modal-card-head .delete, .modal-card-foot .button'
+    //   ) || []
+    // ).forEach(($close) => {
+    //   const $target = $close.closest('.modal');
 
-      $close.addEventListener('click', () => {
-        closeModal($target);
-      });
-    });
+    //   $close.addEventListener('click', () => {
+    //     closeModal($target);
+    //   });
+    // });
 
-    // Keyboard event
-    document.addEventListener('keydown', (event) => {
-      const e = event || window.event;
+    // // Keyboard event
+    // document.addEventListener('keydown', (event) => {
+    //   const e = event || window.event;
 
-      if (e.keyCode === 27) {
-        // Escape key
-        closeAllModals();
-      }
-    });
+    //   if (e.keyCode === 27) {
+    //     // Escape key
+    //     closeAllModals();
+    //   }
+    // });
   }, []);
 
   return (
     <>
-      <div className="content">
+      <div className="content pb-6">
         <div className="title is-4 mt-2 mr-6 ml-6">Divorce &amp; Mediation</div>
-        <div className="columns pt-5 pr-4 pl-4 ">
-          <div className="column pt-5 pl-6 pr-6 is-12-desktop is-12-tablet is-12-mobile mediator-text">
+        <div className="columns  pt-0 pr-4 pl-4  ">
+          <div className="column mt-5 pl-6 pr-6 is-12-desktop is-12-tablet is-12-mobile mediator-text">
             <strong>
               <u>How does Mediation work alongside the divorce process?</u>
             </strong>
@@ -89,26 +90,23 @@ const DivorceAndMediation = () => {
             </p>
             <p>
               After a period of 20 weeks from the date of the application, the{' '}
-              <a className="js-modal-trigger" data-target="modal-js-example">
+              {/* <a className="js-modal-trigger" data-target="modal-js-example">
                 <strong>Conditional Order</strong>
-              </a>{' '}
-              is made.
+              </a>{' '} */}
+              <strong>Conditional Order</strong> is made.
             </p>
             <p>
-              The{' '}
-              <a className="js-modal-trigger" data-target="modal-js-example">
-                <strong>Final Order</strong>
-              </a>{' '}
-              can be applied for a minimum of 6 weeks after the date of the
-              Conditional Order. If discussions are still ongoing in relation to
-              property or finance, some people agree to wait before applying for
-              the Final Order, so that they can apply to the court for a{' '}
-              <a className="js-modal-trigger" data-target="modal-js-example">
-                <strong>Consent Order</strong>
-              </a>{' '}
+              The <strong>Final Order</strong> can be applied for a minimum of 6
+              weeks after the date of the Conditional Order. If discussions are
+              still ongoing in relation to property or finance, some people
+              agree to wait before applying for the Final Order, so that they
+              can apply to the court for a <strong>Consent Order</strong>
               (see below) at the same time.{' '}
             </p>
-
+          </div>
+        </div>
+        <div className="columns is-vcentered is-multiline pr-4 pl-4 ">
+          <div className="column  pl-6 pr-6 is-6-desktop is-12-tablet is-12-mobile mediator-text">
             <strong>
               <u>
                 What if there are property or finance issues to be resolved?
@@ -124,14 +122,8 @@ const DivorceAndMediation = () => {
             </p>
             <p>
               If you reach an agreement in mediation, the mediator will prepare
-              a{' '}
-              <a className="js-modal-trigger" data-target="modal-js-example">
-                <strong>Memorandum of Understanding</strong>
-              </a>{' '}
-              setting out the terms agreed, and an{' '}
-              <a className="js-modal-trigger" data-target="modal-js-example">
-                <strong>Open Financial Statement</strong>
-              </a>{' '}
+              a <strong>Memorandum of Understanding</strong> setting out the
+              terms agreed, and an <strong>Open Financial Statement</strong>{' '}
               setting out the financial disclosure. You can then instruct a
               solicitor to convert the Memorandum into a Consent Order. This can
               be sent to the Court for the Judge&apos;s approval, without you
@@ -143,7 +135,18 @@ const DivorceAndMediation = () => {
               Conditional Order has been made. It cannot be submitted before
               then.{' '}
             </p>
-
+          </div>
+          <div className="column pl-6 pr-6 is-6-desktop is-12-tablet is-12-mobile has-text-centered">
+            <img
+              id="mediation-breakdown-image"
+              src={ringsImage}
+              alt="Young couple glance at each other during a mediation session. "
+              width="auto"
+            />
+          </div>
+        </div>
+        <div className="columns  pt-0 pr-4 pl-4  ">
+          <div className="column pl-6 pr-6 pb-6 is-12-desktop is-12-tablet is-12-mobile mediator-text">
             <strong>
               <u>Children</u>
             </strong>
@@ -165,15 +168,8 @@ const DivorceAndMediation = () => {
             </p>
           </div>
         </div>
-        {/* <div className=" column pt-2 pl-6 pr-6 pb-4 is-12-desktop is-12-tablet is-12-mobile has-text-centered">
-          <img
-            id="mediation-breakdown-image"
-            src={manAndWoman}
-            alt="Young couple glance at each other during a mediation session. "
-            width="auto"
-          />
-        </div> */}
-        <div id="modal-js-example" className="modal">
+
+        {/* <div id="modal-js-example" className="modal">
           <div className="modal-background"></div>
           <div className="modal-content fade-in-modal ">
             <div className="box">
@@ -185,8 +181,9 @@ const DivorceAndMediation = () => {
           </div>
 
           <button className="modal-close is-large" aria-label="close"></button>
-        </div>
+        </div> */}
       </div>
+
       <div className="faq-buttons-div columns is-mobile">
         <button className="faq-button column is-6-mobile ">
           <Link to={'/childreninmediation'}>

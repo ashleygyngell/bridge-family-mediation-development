@@ -23,7 +23,7 @@ const OurFees = () => {
           <strong>
             <u>Fees</u>{' '}
           </strong>
-          <bl>
+          <ul>
             <li className="ml-4">
               MIAM/Intake Meeting (60 minutes): £120 per person.
             </li>
@@ -38,14 +38,14 @@ const OurFees = () => {
               Financial Statement: £120 per hour per person (normally in the
               region of 1.5 hours work).
             </li>
-          </bl>
+          </ul>
           <br />
 
           <strong>
             <u>Offered free of charge</u>{' '}
           </strong>
 
-          <bl>
+          <ul>
             <li className="ml-4">
               Introductory phone call (20 minutes) to discuss your case and
               suitablity for mediation.
@@ -54,7 +54,7 @@ const OurFees = () => {
               Letters, emails, telephone calls, where kept to a minimum.
             </li>
             <li className="ml-4">Meeting preparation and session summaries.</li>
-          </bl>
+          </ul>
 
           <br />
           <strong>

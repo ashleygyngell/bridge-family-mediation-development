@@ -10,8 +10,8 @@ const HowItWorks = () => {
     <>
       <div className="content ">
         <div className="title is-4 mt-2 mr-6 ml-6">How it works</div>
-        <div className="columns is-multiline pt-0 pr-4 pl-4 ">
-          <div className="column mt-5 pl-6 pr-6 is-6-desktop is-12-tablet is-12-mobile mediator-text">
+        <div className="columns is-multiline is-vcentered pt-0 pr-4 pl-4 ">
+          <div className="column mt-5 pl-6 pr-6  is-12-desktop is-12-tablet is-12-mobile mediator-text">
             <strong>
               <u>Call us</u>
             </strong>
@@ -21,10 +21,12 @@ const HowItWorks = () => {
               tell us the issues you&apos;d like to resolve and we can answer
               any questions or concerns you might have.
             </p>
+          </div>
+          <div className="column pl-6 pr-6 is-6-desktop is-12-tablet is-12-mobile mediator-text">
             <strong>
-              <u>The Intake Meeting</u>
+              <u>The Intake Meeting (also known as a MIAM)</u>
             </strong>
-            <p className="pb-2">
+            <p>
               Each party is then invited to attend a 60-minute{' '}
               <strong>one to one</strong> Intake Meeting, a{' '}
               <strong>get to know you</strong> session, where you are able to
@@ -33,8 +35,21 @@ const HowItWorks = () => {
               reaching a settlement. Then, if you both decide mediation is the
               right path for you, we will arrange a joint session.
             </p>
+            <p>
+              In law, this meeting is known as a MIAM - a Mediation Information
+              and Assessment Meeting - and anyone who wishes to take a child or
+              finance matter to court is required to attend a MIAM to consider
+              whether the matter may be suitable for mediation.
+            </p>
+            <p>
+              After this meeting, and where agreed, the mediator will then
+              contact the other party to invite them to attend. We will always
+              do our best to bring about mediation but if unsuccessful, having
+              completed a MIAM, the mediator can sign the form required for you
+              to proceed to court.
+            </p>
           </div>
-          <div className=" column is-6-desktop is-12-tablet is-12-mobile pt-6 pr-6 pl-6">
+          <div className=" column is-6-desktop is-12-tablet is-12-mobile pr-6 pl-6 ">
             <div className="video-responsive">
               <iframe
                 className="responsive-iframe"
@@ -47,26 +62,9 @@ const HowItWorks = () => {
             </div>
           </div>
         </div>
-        <div className="columns  pr-6 pl-4 ">
-          <div className="column pt-0 pl-6 pr-6 is-12-desktop is-12-tablet is-12-mobile mediator-text">
+        <div className="columns  pr-6 pl-4 pb-6 ">
+          <div className="column pt-0 pl-6 pr-6  is-12-desktop is-12-tablet is-12-mobile mediator-text">
             <div className="mediator-text pb-4">
-              <strong>
-                <u>MIAMS</u>
-              </strong>
-              <p>
-                A MIAM is a more formal Intake Meeting. The law now requires
-                everyone who wishes to take a child or finance matter to court
-                to attend a Mediation Information and Assessment Meeting (MIAM),
-                to consider whether the matter may be suitable for mediation.
-              </p>
-              <p>
-                A mediator will take you individually through the MIAM and,
-                where agreed, will then contact the other party to invite them
-                to attend. We will always do our best to bring about mediation
-                but if the MIAM is unsuccessful, the mediator can sign the form
-                required if you need to proceed to court.
-              </p>
-
               <strong>
                 <u>Joint Mediation</u>
               </strong>
@@ -92,7 +90,7 @@ const HowItWorks = () => {
               </p>
               <div className=" column pt-2 pl-6 pr-6 pb-4 is-12-desktop is-12-tablet is-12-mobile has-text-centered">
                 <img
-                  id="mediation-breakdown-image"
+                  id="mediation-breakdown-image-style-3"
                   src={manAndWoman}
                   alt="Young couple glance at each other during a mediation session. "
                   width="auto"
