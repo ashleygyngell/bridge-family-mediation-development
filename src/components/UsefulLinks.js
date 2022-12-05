@@ -48,7 +48,7 @@ const UsefulLinks = () => {
                   www.onlydads.org
                 </a>
                 <br />
-                Dads House:{' '}
+                Dads House, based in West London:{' '}
                 <a
                   href="https://www.dadshouse.org.uk"
                   target="_blank"
@@ -212,7 +212,7 @@ const UsefulLinks = () => {
                   www.ourfamilywizard.co.uk
                 </a>
                 <br />
-                Children&#39; s Wellness Centre, Chiswick:{' '}
+                Children&#39;s Wellness Centre, Chiswick:{' '}
                 <a
                   href="http://www.childrenswellnesscentre.co.uk"
                   target="_blank"
@@ -308,7 +308,6 @@ const UsefulLinks = () => {
                 >
                   www.gov.uk/guidance/domestic-abuse-how-to-get-help
                 </a>
-                <br />
                 <br />
                 National Domestic Violence Helpline:{' '}
                 <a

@@ -82,6 +82,7 @@ const AfterMediation = () => {
             id="mediation-breakdown-image"
             src={childWithFather}
             alt="Child with father on bridge"
+            width="auto"
           />
         </div>
       </div>

@@ -36,9 +36,9 @@ const Testimonials = () => {
             </p>
             <br />
             <p>
-              &apos;I am very grateful for all the efforts and energy that you
-              have invested in our mediation, I greatly appreciate how you tried
-              to find a common ground.&apos; <br />
+              &apos;Kate, I am very grateful for all the efforts and energy that
+              you have invested in our mediation, I greatly appreciate how you
+              tried to find a common ground.&apos; <br />
               <small>
                 <i id="testimonial-name">
                   <p>Mr I, Hampton</p>
@@ -61,7 +61,8 @@ const Testimonials = () => {
             <br />
             <p>
               &apos;I appreciate how sensitively you talked to my children as
-              they felt you really listened to them.&apos; <br />
+              they felt you really listened to them. Thank-you Kate.&apos;{' '}
+              <br />
               <small>
                 <i id="testimonial-name">
                   <p>Mr P, Clapham</p>
@@ -77,6 +78,74 @@ const Testimonials = () => {
               <small>
                 <i id="testimonial-name">
                   <p>Ms S, Tooting</p>
+                </i>
+              </small>
+            </p>
+            <br />
+            <p>
+              &apos;I am very grateful to you for getting us this far and
+              supporting us through the legal complexities of the divorce
+              process; without the support of mediation, I don&apos;t think
+              coming to an agreement would have been so straightforward - thank
+              you&apos; <br />
+              <small>
+                <i id="testimonial-name">
+                  <p>Mrs H, Kent</p>
+                </i>
+              </small>
+            </p>
+            <br />
+            <p>
+              &apos;Many thanks Kathleen once again for all your help and
+              guidance with mediating between us.&apos;
+              <br />
+              <small>
+                <i id="testimonial-name">
+                  <p>Mr C, Fulham</p>
+                </i>
+              </small>
+            </p>
+            <br />
+            <p>
+              &apos;Thank you again for your assistance during our difficult
+              situation at present&apos;
+              <br />
+              <small>
+                <i id="testimonial-name">
+                  <p>Ms T, Harrow</p>
+                </i>
+              </small>
+            </p>
+            <br />
+            <p>
+              &apos;Thank you so much Kathleen for all your help.&apos;
+              <br />
+              <small>
+                <i id="testimonial-name">
+                  <p>Mr P, Hammersmith</p>
+                </i>
+              </small>
+            </p>
+            <br />
+            <p>
+              &apos;I really do want to thank you all for everything you have
+              done and if it is possible to pass on a message to Kathleen of
+              thanks, then please do so, she was excellent.&apos;
+              <br />
+              <small>
+                <i id="testimonial-name">
+                  <p>Ms C, Putney</p>
+                </i>
+              </small>
+            </p>
+            <br />
+            <p>
+              &apos;Dear Kathleen, Thank you for your support throughout this
+              process.&apos;
+              <br />
+              <small>
+                <i id="testimonial-name">
+                  <p>Mr J, Ealing</p>
                 </i>
               </small>
             </p>
