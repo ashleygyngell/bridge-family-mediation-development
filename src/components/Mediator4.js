@@ -174,7 +174,7 @@ const Mediator4 = () => {
                         id="mediator-logos-mobile"
                         className="mediator-logos-mobile  "
                       >
-                        <img href="" src={fmcLogo} alt="FMC Logo" /> */
+                        <img href="" src={fmcLogo} alt="FMC Logo" />
                         {/* <img
                           href=""
                           src={fmcGenericLogo}
