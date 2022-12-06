@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import carolineHeadshot from '../assets/images/mediators/caroline.webp';
 import julesHeadshot from '../assets/images/mediators/jules.jpeg';
-import kateHeadshot from '../assets/images/mediators/Kate.jpg';
+import kateHeadshot from '../assets/images/mediators/kate.jpg';
 import kathleenHeadshot from '../assets/images/mediators/Kathleen.jpg';
 
 const About = () => {
