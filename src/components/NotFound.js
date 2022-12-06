@@ -1,6 +1,6 @@
 import { React, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import childWithFather from '../assets/images/child-with-father.png';
+import childWithFather from '../assets/images/general/father_son.webp';
 
 export default function NotFound() {
   useEffect(() => {

@@ -1,6 +1,6 @@
 import { React, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import manAndWomanImage from '../assets/images/stock-photo-psychologist-and-young-marriage-after-successful-marital-therapy-646781635-transformed.jpeg';
+import manAndWomanImage from '../assets/images/general/divorce_meeting.webp';
 
 const WhatIsMediation = () => {
   useEffect(() => {
@@ -57,7 +57,7 @@ const WhatIsMediation = () => {
           <img
             id="mediation-breakdown-image"
             src={manAndWomanImage}
-            alt="Young couple glance at each other during a mediation session. "
+            alt="Young couple glance at each other during a mediation session."
             width="auto"
           />
         </div>

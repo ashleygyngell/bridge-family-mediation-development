@@ -1,6 +1,6 @@
 import { React, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import moneyImage from '../assets/images/stock-photo-separate-money-and-assets-during-divorce-dividing-finances-2194799095-transformed.jpeg';
+import moneyImage from '../assets/images/general/money_discussion.webp';
 
 const WhatWeDiscuss = () => {
   useEffect(() => {
@@ -51,11 +51,11 @@ const WhatWeDiscuss = () => {
           </div>
         </div>
         <div className="column pl-6 pr-6">
-          <div className=" column pt-0 pl-6 pr-6 pb-6  is-12-desktop is-12-tablet is-12-mobile has-text-centered">
+          <div className=" column pt-0  pb-6  is-12-desktop is-12-tablet is-12-mobile has-text-centered">
             <img
               id="mediation-breakdown-image-style-2"
               src={moneyImage}
-              alt="Money being divided"
+              alt="Dividing money"
               width="auto"
             />
           </div>

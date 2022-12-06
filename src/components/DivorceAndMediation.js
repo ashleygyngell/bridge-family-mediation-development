@@ -1,7 +1,7 @@
 import { React, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import ringsImage from '../assets/images/stock-photo-two-separate-wedding-rings-next-to-the-word-divorce-83077498-transformed.jpeg';
+import ringsImage from '../assets/images/general/divorce_rings.webp';
 
 const DivorceAndMediation = () => {
   useEffect(() => {
@@ -140,7 +140,7 @@ const DivorceAndMediation = () => {
             <img
               id="mediation-breakdown-image"
               src={ringsImage}
-              alt="Young couple glance at each other during a mediation session. "
+              alt="Two rings"
               width="auto"
             />
           </div>

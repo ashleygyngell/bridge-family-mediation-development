@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 import carolineHeadshot from '../assets/images/mediators/caroline.webp';
 import julesHeadshot from '../assets/images/mediators/jules.jpeg';
-import kateHeadshot from '../assets/images/mediators/Kate2.jpg';
-import kathleenHeadshot from '../assets/images/mediators/Kathleen10.jpg';
+import kateHeadshot from '../assets/images/mediators/Kate.jpg';
+import kathleenHeadshot from '../assets/images/mediators/Kathleen.jpg';
 
 const About = () => {
   useEffect(() => {
@@ -22,11 +22,7 @@ const About = () => {
               <div className="card-image pt-5 ">
                 <Link to={'/katebrown'}>
                   <figure className="image is-2by2 ">
-                    <img
-                      id="about-image"
-                      src={kateHeadshot}
-                      alt="Kate Brown Headshot"
-                    />
+                    <img id="about-image" src={kateHeadshot} alt="Kate Brown" />
                   </figure>
                 </Link>
               </div>
@@ -74,7 +70,7 @@ const About = () => {
                     <img
                       id="about-image"
                       src={kathleenHeadshot}
-                      alt="Kathleen Straub Headshot"
+                      alt="Kathleen Straub "
                     />
                   </figure>
                 </Link>
@@ -122,7 +118,7 @@ const About = () => {
                     <img
                       id="about-image"
                       src={julesHeadshot}
-                      alt="Jules Waring Headshot"
+                      alt="Jules Waring "
                     />
                   </figure>
                 </Link>
@@ -170,7 +166,7 @@ const About = () => {
                     <img
                       id="about-image"
                       src={carolineHeadshot}
-                      alt="Caroline Dunne Headshot"
+                      alt="Caroline Dunne "
                     />
                   </figure>
                 </Link>

@@ -3,7 +3,7 @@ import { React, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import fmcLogo from '../assets/logos/family-mediation-council-accredited-mediator-logo.jpg';
 import fmcLogoChildInclusive from '../assets/logos/family-mediation-council-child-inclusive-mediator-logo.jpg';
-import kathleenHeadshot from '../assets/images/mediators/Kathleen10.jpg';
+import kathleenHeadshot from '../assets/images/mediators/Kathleen.jpg';
 
 const Mediator2 = () => {
   useEffect(() => {
@@ -70,7 +70,7 @@ const Mediator2 = () => {
                       <img
                         src={kathleenHeadshot}
                         id="about-image"
-                        alt="Kathleen Straub Headshot"
+                        alt="Kathleen Straub "
                         className="mediator-image has-text-centered about-image "
                       />
                       <div id="mediator-contact-info" className="subtitle">

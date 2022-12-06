@@ -70,7 +70,7 @@ const Mediator3 = () => {
                     <div className="column is-4  has-text-centered   ">
                       <img
                         src={julesHeadshot}
-                        alt="Jules Waring Headshot"
+                        alt="Jules Waring"
                         id="about-image"
                         className="mediator-image has-text-centered about-image "
                       />

@@ -1,6 +1,6 @@
 import { React, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import contractImage from '../assets/images/stock-photo-wife-and-husband-signing-divorce-documents-or-premarital-agreement-488122756-transformed.jpeg';
+import contractImage from '../assets/images/general/document_and_ring.webp';
 
 const TheVoucherScheme = () => {
   useEffect(() => {
@@ -73,7 +73,7 @@ const TheVoucherScheme = () => {
           <img
             id="mediation-breakdown-image-style-2"
             src={contractImage}
-            alt="Wife and husband signing divorce documents  "
+            alt="Divorce document signing "
           />{' '}
         </div>
       </div>

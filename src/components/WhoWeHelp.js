@@ -1,6 +1,6 @@
 import { React, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import familyImage from '../assets/images/stock-photo-crop-close-up-of-unhappy-young-couple-sit-separate-have-problems-in-relationship-think-of-breakup-1901549803-transformed.jpeg';
+import coupleInMeeting from '../assets/images/general/couple_in_meeting.webp';
 
 const WhoDoWeHelp = () => {
   useEffect(() => {
@@ -41,8 +41,8 @@ const WhoDoWeHelp = () => {
         <div className="column pb-6  pl-6 pr-6 is-12-desktop is-12-tablet is-12-mobile has-text-centered">
           <img
             id="mediation-breakdown-image-style-3"
-            src={familyImage}
-            alt="Family With Daughter"
+            src={coupleInMeeting}
+            alt="Couple in Meeting"
             width="auto"
           />
         </div>

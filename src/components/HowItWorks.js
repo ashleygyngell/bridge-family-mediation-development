@@ -1,6 +1,6 @@
 import { React, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import manAndWoman from '../assets/images/stock-photo-unhappy-jealous-mixed-race-wife-talk-to-psychologist-counselor-complain-on-bad-relationship-with-1361068406-transformed.jpg';
+import manAndWoman from '../assets/images/general/couple_with_mediator.webp';
 
 const HowItWorks = () => {
   useEffect(() => {
@@ -11,7 +11,7 @@ const HowItWorks = () => {
       <div className="content ">
         <div className="title is-4 mt-2 mr-6 ml-6">How it works</div>
         <div className="columns is-multiline is-vcentered pt-0 pr-4 pl-4 ">
-          <div className="column mt-5 pl-6 pr-6  is-12-desktop is-12-tablet is-12-mobile mediator-text">
+          <div className="column mt-5 pl-6 pr-6 is-12-desktop is-12-tablet is-12-mobile mediator-text">
             <strong>
               <u>Call us</u>
             </strong>
@@ -62,8 +62,8 @@ const HowItWorks = () => {
             </div>
           </div>
         </div>
-        <div className="columns  pr-6 pl-4 pb-6 ">
-          <div className="column pt-0 pl-6 pr-6  is-12-desktop is-12-tablet is-12-mobile mediator-text">
+        <div className="columns  pr-6 pl-6 pb-6 ">
+          <div className="column pt-0  is-12-desktop is-12-tablet is-12-mobile mediator-text">
             <div className="mediator-text pb-4">
               <strong>
                 <u>Joint Mediation</u>
@@ -88,11 +88,11 @@ const HowItWorks = () => {
                 but every case is different - it all depends on the complexity
                 of the issues being discussed.
               </p>
-              <div className=" column pt-2 pl-6 pr-6 pb-4 is-12-desktop is-12-tablet is-12-mobile has-text-centered">
+              <div className=" column pt-2 pb-4 is-12-desktop is-12-tablet is-12-mobile has-text-centered">
                 <img
                   id="mediation-breakdown-image-style-3"
                   src={manAndWoman}
-                  alt="Young couple glance at each other during a mediation session. "
+                  alt="Young couple in meeting "
                   width="auto"
                 />
               </div>

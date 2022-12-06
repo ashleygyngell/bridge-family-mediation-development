@@ -1,7 +1,7 @@
 import { React, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import childUpset from '../assets/images/stock-photo-young-boy-in-counseling-session-at-the-psychologist-or-social-services-professional-laughing-not-1397487092-transformed.jpeg';
+import childInMediation from '../assets/images/general/child_in_mediation.webp';
 
 const ChildrenInMediation = () => {
   useEffect(() => {
@@ -62,8 +62,8 @@ const ChildrenInMediation = () => {
           <div className="column pl-6 pr-6 is-6-desktop is-12-tablet is-12-mobile has-text-centered  mediator-text">
             <img
               id="mediation-breakdown-image"
-              src={childUpset}
-              alt="Young child holding a teddy bear. "
+              src={childInMediation}
+              alt="Teenager smiling"
               width="auto"
             />
           </div>
