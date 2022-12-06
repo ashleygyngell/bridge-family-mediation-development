@@ -135,7 +135,7 @@ body {
       display: flex
     }
         .footer-links {
-          text-align: start;
+          text-align: flex-start;
         }
                 .tabs {
                   padding-top: 10px;
@@ -248,7 +248,7 @@ body {
                 }
 
                                 .footer-links {
-                                  text-align: start;
+                                  text-align: flex-start;
                                 }
 
 #mediator-card {
@@ -787,7 +787,7 @@ line-height: 1;
   display: flex;
   position: absolute;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   height: 84vh;
 }
 
