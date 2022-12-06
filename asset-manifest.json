@@ -1,35 +1,35 @@
 {
   "files": {
     "main.css": "/static/css/main.ec2aef77.css",
-    "main.js": "/static/js/main.2004f511.js",
-    "static/media/child-with-father.png": "/static/media/child-with-father.251d9c37db2001dc49f5.png",
+    "main.js": "/static/js/main.b974d0d2.js",
     "static/media/mobileBackground.webp": "/static/media/mobileBackground.752aa8b9ca0db4cbb5d2.webp",
     "static/media/bridge-family-mediation-homepage-background.webp": "/static/media/bridge-family-mediation-homepage-background.48d858cad18cd203cb03.webp",
-    "static/media/stock-photo-two-separate-wedding-rings-next-to-the-word-divorce-83077498-transformed.jpeg": "/static/media/stock-photo-two-separate-wedding-rings-next-to-the-word-divorce-83077498-transformed.e2969afc5c5614233b4a.jpeg",
     "static/media/group.webp": "/static/media/group.18e7f71559f741689316.webp",
     "static/media/Effra Regular.ttf": "/static/media/Effra Regular.16903bd59c24db0af49c.ttf",
-    "static/media/stock-photo-unhappy-jealous-mixed-race-wife-talk-to-psychologist-counselor-complain-on-bad-relationship-with-1361068406-transformed.jpg": "/static/media/stock-photo-unhappy-jealous-mixed-race-wife-talk-to-psychologist-counselor-complain-on-bad-relationship-with-1361068406-transformed.3a2ac148d1efe2653075.jpg",
-    "static/media/stock-photo-young-boy-in-counseling-session-at-the-psychologist-or-social-services-professional-laughing-not-1397487092-transformed.jpeg": "/static/media/stock-photo-young-boy-in-counseling-session-at-the-psychologist-or-social-services-professional-laughing-not-1397487092-transformed.d6b0646bc29ea67d8a7d.jpeg",
     "static/media/family-mediation-council-child-inclusive-mediator-logo.jpg": "/static/media/family-mediation-council-child-inclusive-mediator-logo.89cfb26f1133959a5f6d.jpg",
-    "static/media/stock-photo-crop-close-up-of-unhappy-young-couple-sit-separate-have-problems-in-relationship-think-of-breakup-1901549803-transformed.jpeg": "/static/media/stock-photo-crop-close-up-of-unhappy-young-couple-sit-separate-have-problems-in-relationship-think-of-breakup-1901549803-transformed.859190cdfe938d973bb8.jpeg",
+    "static/media/father_son.webp": "/static/media/father_son.9c2186c91d1548d4900f.webp",
     "static/media/family-mediation-council-logo.png": "/static/media/family-mediation-council-logo.6ec4ebb41fba9ffa1518.png",
     "static/media/bridge-family-mediation-logo.png": "/static/media/bridge-family-mediation-logo.7677d7aec2a40dfbfe7d.png",
-    "static/media/stock-photo-wife-and-husband-signing-divorce-documents-or-premarital-agreement-488122756-transformed.jpeg": "/static/media/stock-photo-wife-and-husband-signing-divorce-documents-or-premarital-agreement-488122756-transformed.8c907882adcca49322bc.jpeg",
+    "static/media/couple_in_meeting.webp": "/static/media/couple_in_meeting.b331d7e57166e13e3239.webp",
+    "static/media/divorce_meeting.webp": "/static/media/divorce_meeting.281859e86f1f08148df4.webp",
+    "static/media/document_and_ring.webp": "/static/media/document_and_ring.4e4536be9e438f12d737.webp",
+    "static/media/child_in_mediation.webp": "/static/media/child_in_mediation.e727e5d79606a71bcd65.webp",
     "static/media/jules.jpeg": "/static/media/jules.059f8dc63cbd4d18801e.jpeg",
     "static/media/caroline.webp": "/static/media/caroline.09a1887dee6e01282954.webp",
-    "static/media/stock-photo-psychologist-and-young-marriage-after-successful-marital-therapy-646781635-transformed.jpeg": "/static/media/stock-photo-psychologist-and-young-marriage-after-successful-marital-therapy-646781635-transformed.14b468e52f04fc9ad4f7.jpeg",
+    "static/media/couple_with_mediator.webp": "/static/media/couple_with_mediator.098a325151555885767b.webp",
+    "static/media/divorce_rings.webp": "/static/media/divorce_rings.6cdf9130aacbff3f7cd5.webp",
     "static/media/family-mediation-council-accredited-mediator-logo.jpg": "/static/media/family-mediation-council-accredited-mediator-logo.afd418db86847881850b.jpg",
-    "static/media/stock-photo-separate-money-and-assets-during-divorce-dividing-finances-2194799095-transformed.jpeg": "/static/media/stock-photo-separate-money-and-assets-during-divorce-dividing-finances-2194799095-transformed.17b9dc2d491c685f2094.jpeg",
+    "static/media/money_discussion.webp": "/static/media/money_discussion.2be457898ab75d14b81a.webp",
     "static/media/family-mediation-accociation-logo.png": "/static/media/family-mediation-accociation-logo.f0fe3b26a72196a7d087.png",
     "static/media/Rift Soft Light.otf": "/static/media/Rift Soft Light.32772be48cc1d17e2647.otf",
-    "static/media/Kate2.jpg": "/static/media/Kate2.7992b8b89df4bfec9abc.jpg",
-    "static/media/Kathleen10.jpg": "/static/media/Kathleen10.f238cfe74028e26300e9.jpg",
+    "static/media/kate.jpg": "/static/media/kate.7992b8b89df4bfec9abc.jpg",
+    "static/media/kathleen.jpg": "/static/media/kathleen.f238cfe74028e26300e9.jpg",
     "index.html": "/index.html",
     "main.ec2aef77.css.map": "/static/css/main.ec2aef77.css.map",
-    "main.2004f511.js.map": "/static/js/main.2004f511.js.map"
+    "main.b974d0d2.js.map": "/static/js/main.b974d0d2.js.map"
   },
   "entrypoints": [
     "static/css/main.ec2aef77.css",
-    "static/js/main.2004f511.js"
+    "static/js/main.b974d0d2.js"
   ]
 }
