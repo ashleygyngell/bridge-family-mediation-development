@@ -1,7 +1,7 @@
 import { React, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import fmcLogo from '../assets/logos/family-mediation-council-accredited-mediator-logo.jpg';
-import fmcGenericLogo from '../assets/logos/family-mediation-council-logo.png';
+// import fmcGenericLogo from '../assets/logos/family-mediation-council-logo.png';
 // import fmcLogoChildInclusive from '../assets/logos/family-mediation-council-accredited-mediator-logo.jpg';
 import carolineHeadshot from '../assets/images/mediators/caroline.webp';
 
