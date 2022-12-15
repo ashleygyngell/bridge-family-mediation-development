@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ec2aef77.css",
-    "main.js": "/static/js/main.b1c4b130.js",
+    "main.js": "/static/js/main.886458d2.js",
     "static/media/mobileBackground.webp": "/static/media/mobileBackground.752aa8b9ca0db4cbb5d2.webp",
     "static/media/bridge-family-mediation-homepage-background.webp": "/static/media/bridge-family-mediation-homepage-background.48d858cad18cd203cb03.webp",
     "static/media/group.webp": "/static/media/group.18e7f71559f741689316.webp",
@@ -26,10 +26,10 @@
     "static/media/kathleen.jpg": "/static/media/kathleen.f238cfe74028e26300e9.jpg",
     "index.html": "/index.html",
     "main.ec2aef77.css.map": "/static/css/main.ec2aef77.css.map",
-    "main.b1c4b130.js.map": "/static/js/main.b1c4b130.js.map"
+    "main.886458d2.js.map": "/static/js/main.886458d2.js.map"
   },
   "entrypoints": [
     "static/css/main.ec2aef77.css",
-    "static/js/main.b1c4b130.js"
+    "static/js/main.886458d2.js"
   ]
 }
