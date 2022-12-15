@@ -12,7 +12,7 @@ const Contact = () => {
 
         <div className=" pt-5 pl-6 pr-6">
           <form
-            action="mailto:admin@bridgefamilymediation.co.uk"
+            action="mailto:info@bridgefamilymediation.co.uk"
             method="post"
             name="EmailForm"
             className=""
