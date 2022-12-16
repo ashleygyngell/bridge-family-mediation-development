@@ -102,7 +102,7 @@ const Mediator2 = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="column is-8 pr-5s pl-5  ">
+                    <div className="column is-8 pr-5 pl-5  ">
                       <div className="">
                         <div id="media" className="media ">
                           <div className="media-content ">
