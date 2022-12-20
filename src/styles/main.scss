@@ -978,6 +978,8 @@ position: relative
     color: black;
 }
 
+
+
 // Footer
 
 .footer {
@@ -1043,6 +1045,15 @@ padding-top: 10px;
 // Contact 
 #message {
   font-size: 1.1em;
+}
+
+.swal-button {
+  background-color: $forestgreen;
+}
+
+.swal-button :active {
+  background-color: $outdoorsgreen;
+  color: black
 }
 
 
