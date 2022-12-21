@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://bridgefamilymediation.co.uk/static/css/main.52399ad1.css",
-    "main.js": "https://bridgefamilymediation.co.uk/static/js/main.8dd895a6.js",
+    "main.js": "https://bridgefamilymediation.co.uk/static/js/main.7bc515f1.js",
     "static/media/mobileBackground.webp": "https://bridgefamilymediation.co.uk/static/media/mobileBackground.752aa8b9ca0db4cbb5d2.webp",
     "static/media/bridge-family-mediation-homepage-background.webp": "https://bridgefamilymediation.co.uk/static/media/bridge-family-mediation-homepage-background.48d858cad18cd203cb03.webp",
     "static/media/group.webp": "https://bridgefamilymediation.co.uk/static/media/group.18e7f71559f741689316.webp",
@@ -26,10 +26,10 @@
     "static/media/kathleen.jpg": "https://bridgefamilymediation.co.uk/static/media/kathleen.f238cfe74028e26300e9.jpg",
     "index.html": "https://bridgefamilymediation.co.uk/index.html",
     "main.52399ad1.css.map": "https://bridgefamilymediation.co.uk/static/css/main.52399ad1.css.map",
-    "main.8dd895a6.js.map": "https://bridgefamilymediation.co.uk/static/js/main.8dd895a6.js.map"
+    "main.7bc515f1.js.map": "https://bridgefamilymediation.co.uk/static/js/main.7bc515f1.js.map"
   },
   "entrypoints": [
     "static/css/main.52399ad1.css",
-    "static/js/main.8dd895a6.js"
+    "static/js/main.7bc515f1.js"
   ]
 }

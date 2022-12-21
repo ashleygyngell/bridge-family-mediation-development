@@ -16,7 +16,7 @@ const Contact = () => {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    send('service_z6diadp', 'template_mwatvbp', toSend, 'EDa-3yOSvDtlcxcpr')
+    send('service_rnr5nk8', 'template_mwatvbp', toSend, 'EDa-3yOSvDtlcxcpr')
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
         e.target.elements[0].value = '';
