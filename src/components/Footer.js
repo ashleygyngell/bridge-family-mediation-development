@@ -195,8 +195,9 @@ const Footer = () => {
           <div className="container copyright pt-0 pb-2 ">
             <div className="has-text-centered">
               <p>
-                © 2022 Bridge Family Mediation | Registered Office: 85 Great
-                Portland Street, London, W1W 7LT | All Rights Reserved
+                © {new Date().getFullYear()} Bridge Family Mediation |
+                Registered Office: 85 Great Portland Street, London, W1W 7LT |
+                All Rights Reserved
               </p>
             </div>
           </div>
