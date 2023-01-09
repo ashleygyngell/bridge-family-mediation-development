@@ -1,5 +1,9 @@
-import { React } from 'react';
+import React, { useEffect } from 'react';
+import ReactGA from 'react-ga';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+const TRACKING_ID = 'G-RQ7BPYS5F6';
+
+ReactGA.initialize(TRACKING_ID);
 
 // General
 import NotFound from './components/NotFound';
@@ -32,6 +36,10 @@ import OurFees from './components/OurFees';
 import ChildrenInMediation from './components/ChildrenInMediation';
 
 function App() {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
+
   return (
     <BrowserRouter>
       <Navbar />
