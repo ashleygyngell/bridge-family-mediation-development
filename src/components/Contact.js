@@ -14,27 +14,6 @@ const Contact = () => {
     reply_to: ''
   });
 
-  const onSubmit = (e) => {
-    e.preventDefault();
-    send('service_rnr5nk8', 'template_mwatvbp', toSend, 'EDa-3yOSvDtlcxcpr')
-      .then((response) => {
-        console.log('SUCCESS!', response.status, response.text);
-        e.target.elements[0].value = '';
-        e.target.elements[1].value = '';
-        e.target.elements[2].value = '';
-        swal(
-          `Hi ${toSend.from_name}.`,
-          'Thank you for your email, we will get back to you as soon as possible'
-        );
-      })
-      .catch((err) => {
-        console.log('FAILED...', err);
-      });
-  };
-
-  const handleChange = (e) => {
-    setToSend({ ...toSend, [e.target.name]: e.target.value });
-  };
   return (
     <>
       <div className="content mt-2   ">
