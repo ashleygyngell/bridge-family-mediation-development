@@ -1,18 +1,10 @@
 import { React, useEffect, useState } from 'react';
-import swal from 'sweetalert';
 import { Link } from 'react-router-dom';
-import { send } from 'emailjs-com';
 
 const Contact = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  const [toSend, setToSend] = useState({
-    from_name: '',
-    to_name: 'info@bridgefamilymediation.co.uk',
-    message: '',
-    reply_to: ''
-  });
 
   return (
     <>
